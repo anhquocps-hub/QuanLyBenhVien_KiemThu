@@ -1,0 +1,78 @@
+package com.pulseclinic.pulse_server.security.service;
+
+import jakarta.mail.MessagingException;
+import jakarta.mail.internet.MimeMessage;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.mail.javamail.JavaMailSender;
+import org.springframework.mail.javamail.MimeMessageHelper;
+import org.springframework.scheduling.annotation.Async;
+import org.springframework.stereotype.Service;
+
+@Service
+@Slf4j
+public class EmailService {
+    private final JavaMailSender mailSender;
+
+    @Value("${spring.mail.username}")
+    private String from;
+
+    public EmailService(JavaMailSender mailSender) {
+        this.mailSender = mailSender;
+    }
+
+    @Async
+    public void sendPasswordResetOtp(String to, String otp) {
+        String subject = "Password Reset OTP";
+        String html = buildOtpHtml(otp);
+
+        sendHtml(to, subject, html);
+    }
+
+    @Async
+    public void sendNotification(String to, String title, String content) {
+        String html = buildNotificationHtml(title, content);
+        sendHtml(to, title, html);
+    }
+
+    private void sendHtml(String to, String subject, String html) {
+        try {
+            MimeMessage message = mailSender.createMimeMessage();
+
+            MimeMessageHelper helper = new MimeMessageHelper(message, true, "UTF-8");
+
+            helper.setFrom(from);
+            helper.setTo(to);
+            helper.setSubject(subject);
+
+            helper.setText(html, true);
+            mailSender.send(message);
+            log.info("Email sent successfully to {}", to);
+        } catch (MessagingException e) {
+            log.error("Failed to send email to {}: {}", to, e.getMessage());
+        }
+    }
+
+    private String buildOtpHtml(String otp) {
+        return """
+            <div style="font-family:Arial,sans-serif;line-height:1.6">
+              <h2>Password reset OTP</h2>
+              <p>Your OTP:</p>
+              <p style="font-size:24px;font-weight:bold;letter-spacing:2px">%s</p>
+              <p>This code will expire in <b>10 minutes</b>.</p>
+              <p>If you did not request this, you can ignore this email.</p>
+            </div>
+            """.formatted(otp);
+    }
+
+    private String buildNotificationHtml(String title, String content) {
+        return """
+            <div style="font-family:Arial,sans-serif;line-height:1.6">
+              <h2>%s</h2>
+              <p>%s</p>
+              <hr style="border:none;border-top:1px solid #ddd;margin:20px 0">
+              <p style="color:#666;font-size:12px">This is an automated notification from Pulse Clinic.</p>
+            </div>
+            """.formatted(title, content);
+    }
+}

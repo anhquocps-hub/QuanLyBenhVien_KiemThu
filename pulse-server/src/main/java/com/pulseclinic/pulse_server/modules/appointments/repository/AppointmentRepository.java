@@ -1,0 +1,112 @@
+package com.pulseclinic.pulse_server.modules.appointments.repository;
+
+import java.time.LocalDateTime;
+import java.util.List;
+import java.util.UUID;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
+import org.springframework.stereotype.Repository;
+
+import com.pulseclinic.pulse_server.enums.AppointmentStatus;
+import com.pulseclinic.pulse_server.enums.AppointmentType;
+import com.pulseclinic.pulse_server.modules.appointments.entity.Appointment;
+import com.pulseclinic.pulse_server.modules.staff.entity.Department;
+
+@Repository
+public interface AppointmentRepository extends JpaRepository<Appointment, UUID> {
+    List<Appointment> findByPatientIdAndStatusAndDeletedAtIsNull(UUID patientId, AppointmentStatus status);
+
+    List<Appointment> findByDoctorIdAndStartsAtBetweenAndDeletedAtIsNull(UUID doctorId, LocalDateTime start, LocalDateTime end);
+
+    @Query("""
+            SELECT a FROM Appointment a
+            WHERE a.doctor.id = :doctorId
+              AND a.patient.id = :patientId
+              AND a.startsAt = :startTime
+              AND a.status <> 'CANCELLED'
+              AND a.deletedAt IS NULL
+            """)
+    List<Appointment> findConflicts(@Param("doctorId") UUID doctorId, @Param("patientId") UUID patientId, @Param("startTime") LocalDateTime startTime);
+
+    List<Appointment> findByPatientIdAndDeletedAtIsNullOrderByStartsAtDesc(UUID patientId);
+
+    @Query("""
+            SELECT a FROM Appointment a
+            WHERE a.patient.id = :patientId
+              AND a.startsAt > :now
+              AND a.deletedAt IS NULL
+            ORDER BY a.startsAt ASC
+            """)
+    List<Appointment> findUpcomingByPatient(@Param("patientId") UUID patientId, @Param("now") LocalDateTime now);
+
+    @Query("SELECT COUNT(a) FROM Appointment a WHERE a.doctor.staff.department = :department AND a.deletedAt IS NULL")
+    Integer countByDoctorDepartment(@Param("department") Department department);
+
+    // Report query methods
+    Long countByStartsAtBetween(LocalDateTime start, LocalDateTime end);
+
+    Long countByStatusAndStartsAtBetween(AppointmentStatus status, LocalDateTime start, LocalDateTime end);
+
+    Long countByTypeAndStartsAtBetween(AppointmentType type, LocalDateTime start, LocalDateTime end);
+
+    Long countByDoctorIdAndStartsAtBetween(UUID doctorId, LocalDateTime start, LocalDateTime end);
+
+    Long countByDoctorIdAndStatusAndStartsAtBetween(UUID doctorId, AppointmentStatus status, LocalDateTime start, LocalDateTime end);
+
+    @Query("SELECT COUNT(a) FROM Appointment a WHERE a.doctor.staff.department.id = :departmentId AND a.startsAt BETWEEN :start AND :end AND a.deletedAt IS NULL")
+    Long countByDoctorDepartmentIdAndStartsAtBetween(@Param("departmentId") UUID departmentId, @Param("start") LocalDateTime start, @Param("end") LocalDateTime end);
+
+    @Query("SELECT COUNT(a) FROM Appointment a WHERE a.doctor.staff.department.id = :departmentId AND a.status = :status AND a.startsAt BETWEEN :start AND :end AND a.deletedAt IS NULL")
+    Long countByDoctorDepartmentIdAndStatusAndStartsAtBetween(@Param("departmentId") UUID departmentId, @Param("status") AppointmentStatus status, @Param("start") LocalDateTime start, @Param("end") LocalDateTime end);
+
+    // New query methods for appointment management
+    List<Appointment> findByDeletedAtIsNullOrderByStartsAtDesc();
+
+    List<Appointment> findByStatusAndDeletedAtIsNullOrderByStartsAtAsc(AppointmentStatus status);
+
+    List<Appointment> findByDoctorIdAndDeletedAtIsNullOrderByStartsAtDesc(UUID doctorId);
+
+    @Query("""
+            SELECT a FROM Appointment a
+            WHERE a.startsAt BETWEEN :startDate AND :endDate
+              AND a.deletedAt IS NULL
+            ORDER BY a.startsAt ASC
+            """)
+    List<Appointment> findByDateRange(@Param("startDate") LocalDateTime startDate, @Param("endDate") LocalDateTime endDate);
+
+    @Query("""
+            SELECT a FROM Appointment a
+            WHERE FUNCTION('DATE', a.startsAt) = CURRENT_DATE
+              AND a.deletedAt IS NULL
+            ORDER BY a.startsAt ASC
+            """)
+    List<Appointment> findTodayAppointments();
+
+    @Query("""
+                SELECT COUNT(a) FROM Appointment a
+                WHERE a.startsAt < :endsAt
+                  AND a.endsAt   > :startsAt
+                  AND a.deletedAt IS NULL
+                  AND a.shiftAssignment.shift.id = :shiftId
+                  AND a.status NOT IN ('DONE', 'CANCELLED')
+            """)
+    long countOccupiedSlots(
+            @Param("shiftId") UUID shiftId,
+            @Param("startsAt") LocalDateTime startsAt,
+            @Param("endsAt") LocalDateTime endsAt
+    );
+    
+    // Follow-up plan related queries
+    boolean existsByFollowUpPlanAndStartsAt(
+        com.pulseclinic.pulse_server.modules.encounters.entity.FollowUpPlan followUpPlan, 
+        LocalDateTime startsAt
+    );
+    
+    List<Appointment> findByPatientIdAndStatusAndStartsAtAfter(
+        UUID patientId, 
+        AppointmentStatus status, 
+        LocalDateTime startsAt
+    );
+}
