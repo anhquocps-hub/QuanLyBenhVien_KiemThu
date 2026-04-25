@@ -35,7 +35,10 @@ export default function FilterPatientModal({
     };
 
     return (
-        <div className={`modal ${isOpen ? "modal-open" : ""}`}>
+        <div
+            className={`modal ${isOpen ? "modal-open" : ""}`}
+            data-testid="patient-filter-modal"
+        >
             <div className="modal-box">
                 <h3 className="font-bold text-xl mb-4">Filter Patients</h3>
 
@@ -47,6 +50,7 @@ export default function FilterPatientModal({
                         <select
                             className="select select-bordered w-full"
                             value={filters.gender}
+                            data-testid="patient-filter-gender"
                             onChange={(e) =>
                                 onFilterChange("gender", e.target.value)
                             }
@@ -88,6 +92,7 @@ export default function FilterPatientModal({
                         <select
                             className="select select-bordered w-full"
                             value={filters.hasInsurance}
+                            data-testid="patient-filter-insurance"
                             onChange={(e) =>
                                 onFilterChange("hasInsurance", e.target.value)
                             }
@@ -123,7 +128,11 @@ export default function FilterPatientModal({
                     <button onClick={onClose} className="btn">
                         Cancel
                     </button>
-                    <button onClick={handleApply} className="btn btn-primary">
+                    <button
+                        onClick={handleApply}
+                        className="btn btn-primary"
+                        data-testid="patient-filter-apply"
+                    >
                         Apply Filters
                     </button>
                 </div>

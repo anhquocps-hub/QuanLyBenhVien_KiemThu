@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><TestCaseEntity><description>Invoice billing search with a term that matches nothing - table must show empty state gracefully.</description><name>TC-030-Invoice-search-no-results</name><tag>baseline</tag><comment></comment><testCaseGuid>00000000-0000-0000-0000-000000000230</testCaseGuid></TestCaseEntity>

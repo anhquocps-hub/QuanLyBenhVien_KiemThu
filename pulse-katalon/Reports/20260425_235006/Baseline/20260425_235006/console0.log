@@ -1,0 +1,252 @@
+2026-04-25 23:50:10.619 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\ACER\.katalon\packages\KS-11.0.1\configuration\org.eclipse.osgi\148\0\.cp\resources\logback\logback-execution.xml
+2026-04-25 23:50:10.622 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized
+2026-04-25 23:50:11.302 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Baseline
+2026-04-25 23:50:11.398 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Anh Quốc Huỳnh
+2026-04-25 23:50:11.400 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = PulseClinicKatalon
+2026-04-25 23:50:11.401 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = ACER - Aspire-A715
+2026-04-25 23:50:11.402 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-04-25 23:50:11.404 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.9
+2026-04-25 23:50:11.405 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.0.1.0
+2026-04-25 23:50:11.513 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-25 23:50:11.514 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Authentication/TC-001-Open-HMS-role-selection
+2026-04-25 23:50:11.534 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Authentication/TC-001-Open-HMS-role-selection has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script32359615735100.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+
+2026-04-25 23:50:11.538 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Authentication/TC-001-Open-HMS-role-selection
+2026-04-25 23:50:11.543 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-25 23:50:11.543 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Authentication/TC-002-Open-staff-login
+2026-04-25 23:50:11.547 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Authentication/TC-002-Open-staff-login has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script32359643308000.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+
+2026-04-25 23:50:11.549 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Authentication/TC-002-Open-staff-login
+2026-04-25 23:50:11.552 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-25 23:50:11.552 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Authentication/TC-003-Staff-login-required-fields
+2026-04-25 23:50:11.557 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Authentication/TC-003-Staff-login-required-fields has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script32359652532500.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+
+2026-04-25 23:50:11.558 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Authentication/TC-003-Staff-login-required-fields
+2026-04-25 23:50:11.561 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-25 23:50:11.561 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Authentication/TC-004-Staff-login-invalid-credentials
+2026-04-25 23:50:11.566 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Authentication/TC-004-Staff-login-invalid-credentials has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script32359662242800.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+
+2026-04-25 23:50:11.568 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Authentication/TC-004-Staff-login-invalid-credentials
+2026-04-25 23:50:11.572 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-25 23:50:11.572 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Authentication/TC-005-Staff-login-success-dashboard
+2026-04-25 23:50:11.576 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Authentication/TC-005-Staff-login-success-dashboard has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script32359672298200.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+
+2026-04-25 23:50:11.578 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Authentication/TC-005-Staff-login-success-dashboard
+2026-04-25 23:50:11.581 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-25 23:50:11.581 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Authentication/TC-006-Doctor-login-success-schedule
+2026-04-25 23:50:11.586 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Authentication/TC-006-Doctor-login-success-schedule has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script32359681275100.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+
+2026-04-25 23:50:11.587 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Authentication/TC-006-Doctor-login-success-schedule
+2026-04-25 23:50:11.591 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-25 23:50:11.591 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Authentication/TC-007-Patient-login-success-dashboard
+2026-04-25 23:50:11.595 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Authentication/TC-007-Patient-login-success-dashboard has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script32359691539200.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+
+2026-04-25 23:50:11.596 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Authentication/TC-007-Patient-login-success-dashboard
+2026-04-25 23:50:11.600 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-25 23:50:11.600 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/StaffTables/TC-008-Patient-profile-table
+2026-04-25 23:50:11.604 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/StaffTables/TC-008-Patient-profile-table has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script32359700136800.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+
+2026-04-25 23:50:11.606 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/StaffTables/TC-008-Patient-profile-table
+2026-04-25 23:50:11.608 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-25 23:50:11.608 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/StaffTables/TC-009-Patient-search
+2026-04-25 23:50:11.612 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/StaffTables/TC-009-Patient-search has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script32359707870100.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+
+2026-04-25 23:50:11.613 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/StaffTables/TC-009-Patient-search
+2026-04-25 23:50:11.616 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-25 23:50:11.617 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/StaffTables/TC-010-Patient-filter-gender
+2026-04-25 23:50:11.621 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/StaffTables/TC-010-Patient-filter-gender has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script32359717704800.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+
+2026-04-25 23:50:11.623 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/StaffTables/TC-010-Patient-filter-gender
+2026-04-25 23:50:11.626 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-25 23:50:11.626 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/StaffTables/TC-011-Patient-filter-insurance
+2026-04-25 23:50:11.630 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/StaffTables/TC-011-Patient-filter-insurance has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script32359725874600.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+
+2026-04-25 23:50:11.631 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/StaffTables/TC-011-Patient-filter-insurance
+2026-04-25 23:50:11.634 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-25 23:50:11.634 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/StaffTables/TC-012-Drug-catalog-table
+2026-04-25 23:50:11.639 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/StaffTables/TC-012-Drug-catalog-table has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script32359734470700.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+
+2026-04-25 23:50:11.640 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/StaffTables/TC-012-Drug-catalog-table
+2026-04-25 23:50:11.643 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-25 23:50:11.643 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/StaffTables/TC-013-Drug-search
+2026-04-25 23:50:11.648 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/StaffTables/TC-013-Drug-search has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script32359742979100.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+
+2026-04-25 23:50:11.649 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/StaffTables/TC-013-Drug-search
+2026-04-25 23:50:11.651 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-25 23:50:11.651 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/StaffTables/TC-014-Drug-filter-dosage-unit
+2026-04-25 23:50:11.655 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/StaffTables/TC-014-Drug-filter-dosage-unit has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script32359752003000.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+
+2026-04-25 23:50:11.656 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/StaffTables/TC-014-Drug-filter-dosage-unit
+2026-04-25 23:50:11.659 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-25 23:50:11.659 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/StaffTables/TC-015-Room-search
+2026-04-25 23:50:11.663 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/StaffTables/TC-015-Room-search has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script32359759679400.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+
+2026-04-25 23:50:11.664 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/StaffTables/TC-015-Room-search
+2026-04-25 23:50:11.667 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-25 23:50:11.667 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/StaffTables/TC-016-Room-filter-status
+2026-04-25 23:50:11.670 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/StaffTables/TC-016-Room-filter-status has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script32359767112300.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+
+2026-04-25 23:50:11.671 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/StaffTables/TC-016-Room-filter-status
+2026-04-25 23:50:11.674 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-25 23:50:11.674 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/StaffTables/TC-017-Waitlist-priority-order
+2026-04-25 23:50:11.678 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/StaffTables/TC-017-Waitlist-priority-order has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script32359774809400.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+
+2026-04-25 23:50:11.680 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/StaffTables/TC-017-Waitlist-priority-order
+2026-04-25 23:50:11.682 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-25 23:50:11.683 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/StaffTables/TC-018-Waitlist-filter-priority
+2026-04-25 23:50:11.686 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/StaffTables/TC-018-Waitlist-filter-priority has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script32359782265400.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+
+2026-04-25 23:50:11.687 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/StaffTables/TC-018-Waitlist-filter-priority
+2026-04-25 23:50:11.690 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-25 23:50:11.690 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/StaffTables/TC-019-Appointment-status-tabs
+2026-04-25 23:50:11.693 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/StaffTables/TC-019-Appointment-status-tabs has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script32359790208300.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+
+2026-04-25 23:50:11.695 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/StaffTables/TC-019-Appointment-status-tabs
+2026-04-25 23:50:11.698 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-25 23:50:11.698 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/StaffTables/TC-020-Invoice-patient-search
+2026-04-25 23:50:11.702 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/StaffTables/TC-020-Invoice-patient-search has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script32359797909000.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+
+2026-04-25 23:50:11.703 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/StaffTables/TC-020-Invoice-patient-search
+2026-04-25 23:50:11.730 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-04-25 23:50:11.730 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Baseline
+2026-04-25 23:50:11.730 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

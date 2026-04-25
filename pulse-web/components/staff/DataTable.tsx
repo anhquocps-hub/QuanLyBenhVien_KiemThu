@@ -16,7 +16,11 @@ interface DataTableProps<T> {
 
 const DataTable = <T,>({ data, columns }: DataTableProps<T>) => {
     return (
-        <div className="bg-white rounded-lg shadow-sm border border-base-200 overflow-hidden w-full">
+        <div
+            className="bg-white rounded-lg shadow-sm border border-base-200 overflow-hidden w-full"
+            data-testid="data-table"
+            data-row-count={data.length}
+        >
             <div className="overflow-x-auto">
                 <table className="table w-full">
                     <thead className="bg-base-200/50 text-base-content/70">
@@ -40,6 +44,7 @@ const DataTable = <T,>({ data, columns }: DataTableProps<T>) => {
                                 <tr
                                     key={rowIndex}
                                     className="border-b border-base-100 last:border-none hover:bg-base-50"
+                                    data-testid="data-table-row"
                                 >
                                     {columns.map((col, colIndex) => (
                                         <td

@@ -36,6 +36,7 @@ export default function HMSHomePage() {
                     <div
                         onClick={() => handleNavigation("staff")}
                         className="group relative bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-100 cursor-pointer transform hover:-translate-y-1"
+                        data-testid="role-card-staff"
                     >
                         <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-blue-600/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
@@ -76,6 +77,7 @@ export default function HMSHomePage() {
                     <div
                         onClick={() => handleNavigation("doctor")}
                         className="group relative bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-100 cursor-pointer transform hover:-translate-y-1"
+                        data-testid="role-card-doctor"
                     >
                         <div className="absolute inset-0 bg-gradient-to-br from-green-500/5 to-green-600/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 

@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Baseline,,Baseline suite for Pulse Clinic web. Expected result before fault injection: 100% PASS.,,25-04-2026 23:28:52,25-04-2026 23:28:52,0.567s,ERROR
+,,,,,,,
+Test Cases/Authentication/TC-001-Open-HMS-role-selection,,Open HMS role selection page.,baseline,25-04-2026 23:28:52,25-04-2026 23:28:52,0.032s,ERROR
+,,,,,,,
+Test Cases/Authentication/TC-002-Open-staff-login,,Open staff login from HMS role selection.,baseline,25-04-2026 23:28:52,25-04-2026 23:28:52,0.010s,ERROR
+,,,,,,,
+Test Cases/Authentication/TC-003-Staff-login-required-fields,,Verify staff login required field controls.,baseline,25-04-2026 23:28:52,25-04-2026 23:28:52,0.010s,ERROR
+,,,,,,,
+Test Cases/Authentication/TC-004-Staff-login-invalid-credentials,,Verify invalid staff login shows an error.,baseline,25-04-2026 23:28:52,25-04-2026 23:28:52,0.011s,ERROR
+,,,,,,,
+Test Cases/Authentication/TC-005-Staff-login-success-dashboard,,Verify staff can log in and reach dashboard.,baseline,25-04-2026 23:28:52,25-04-2026 23:28:52,0.009s,ERROR
+,,,,,,,
+Test Cases/Authentication/TC-006-Doctor-login-success-schedule,,Verify doctor can log in and reach schedule.,baseline,25-04-2026 23:28:52,25-04-2026 23:28:52,0.009s,ERROR
+,,,,,,,
+Test Cases/Authentication/TC-007-Patient-login-success-dashboard,,Verify patient can log in and reach dashboard.,baseline,25-04-2026 23:28:52,25-04-2026 23:28:52,0.009s,ERROR
+,,,,,,,
+Test Cases/StaffTables/TC-008-Patient-profile-table,,Open patient profile table.,baseline,25-04-2026 23:28:52,25-04-2026 23:28:52,0.010s,ERROR
+,,,,,,,
+Test Cases/StaffTables/TC-009-Patient-search,,Search patient by seeded name.,baseline,25-04-2026 23:28:52,25-04-2026 23:28:52,0.007s,ERROR
+,,,,,,,
+Test Cases/StaffTables/TC-010-Patient-filter-gender,,Filter patients by gender.,baseline,25-04-2026 23:28:52,25-04-2026 23:28:52,0.008s,ERROR
+,,,,,,,
+Test Cases/StaffTables/TC-011-Patient-filter-insurance,,Filter patients by insurance.,baseline,25-04-2026 23:28:52,25-04-2026 23:28:52,0.006s,ERROR
+,,,,,,,
+Test Cases/StaffTables/TC-012-Drug-catalog-table,,Open drug catalog table.,baseline,25-04-2026 23:28:52,25-04-2026 23:28:52,0.008s,ERROR
+,,,,,,,
+Test Cases/StaffTables/TC-013-Drug-search,,Search drug by seeded name.,baseline,25-04-2026 23:28:52,25-04-2026 23:28:52,0.011s,ERROR
+,,,,,,,
+Test Cases/StaffTables/TC-014-Drug-filter-dosage-unit,,Filter drugs by dosage form and unit.,baseline,25-04-2026 23:28:52,25-04-2026 23:28:52,0.009s,ERROR
+,,,,,,,
+Test Cases/StaffTables/TC-015-Room-search,,Search room by seeded room number.,baseline,25-04-2026 23:28:52,25-04-2026 23:28:52,0.008s,ERROR
+,,,,,,,
+Test Cases/StaffTables/TC-016-Room-filter-status,,Filter rooms by available status.,baseline,25-04-2026 23:28:52,25-04-2026 23:28:52,0.009s,ERROR
+,,,,,,,
+Test Cases/StaffTables/TC-017-Waitlist-priority-order,,Open waitlist and validate priority order when data exists.,baseline,25-04-2026 23:28:52,25-04-2026 23:28:52,0.007s,ERROR
+,,,,,,,
+Test Cases/StaffTables/TC-018-Waitlist-filter-priority,,Filter waitlist by priority.,baseline,25-04-2026 23:28:52,25-04-2026 23:28:52,0.009s,ERROR
+,,,,,,,
+Test Cases/StaffTables/TC-019-Appointment-status-tabs,,Open appointment page and switch status tabs.,baseline,25-04-2026 23:28:52,25-04-2026 23:28:52,0.008s,ERROR
+,,,,,,,
+Test Cases/StaffTables/TC-020-Invoice-patient-search,,Search patient on invoice page.,baseline,25-04-2026 23:28:52,25-04-2026 23:28:52,0.007s,ERROR

@@ -92,9 +92,12 @@ const LoginForm = () => {
                             Login to your account
                         </h2>
 
-                        <form onSubmit={handleSubmit}>
+                        <form onSubmit={handleSubmit} data-testid="patient-login-form">
                             {error && (
-                                <div className="alert alert-error mb-4 py-2 rounded-xl">
+                                <div
+                                    className="alert alert-error mb-4 py-2 rounded-xl"
+                                    data-testid="login-error"
+                                >
                                     <span className="text-sm">{error}</span>
                                 </div>
                             )}
@@ -113,6 +116,7 @@ const LoginForm = () => {
                                     placeholder="example@gmail.com"
                                     className="input input-bordered w-full bg-gray-50 border-gray-200 focus:border-purple-500 focus:ring-1 focus:ring-purple-500 rounded-xl"
                                     required
+                                    data-testid="login-email-input"
                                 />
                             </div>
                             <div className="form-control mb-6">
@@ -138,6 +142,7 @@ const LoginForm = () => {
                                         placeholder="Enter your password"
                                         className="input input-bordered w-full pr-12 bg-gray-50 border-gray-200 focus:border-purple-500 focus:ring-1 focus:ring-purple-500 rounded-xl"
                                         required
+                                        data-testid="login-password-input"
                                     />
                                     <button
                                         type="button"
@@ -159,6 +164,7 @@ const LoginForm = () => {
                                     type="submit"
                                     disabled={loading}
                                     className="btn border-none bg-purple-600 hover:bg-purple-700 text-white normal-case text-lg font-semibold rounded-xl h-12 shadow-md hover:shadow-lg transition-all w-full disabled:bg-purple-400"
+                                    data-testid="login-submit-button"
                                 >
                                     {loading ? "Logging in..." : "Login now"}
                                 </button>

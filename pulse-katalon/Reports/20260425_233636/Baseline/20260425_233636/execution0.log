@@ -1,0 +1,2099 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-04-25T16:36:41.009053300Z</date>
+  <millis>1777135001009</millis>
+  <nanos>53300</nanos>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Baseline</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="rerunTestFailImmediately">false</property>
+  <property name="retryCount">0</property>
+  <property name="name">Baseline</property>
+  <property name="description">Baseline suite for Pulse Clinic web. Expected result before fault injection: 100% PASS.</property>
+  <property name="id">Test Suites/Baseline</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.029223500Z</date>
+  <millis>1777135001029</millis>
+  <nanos>223500</nanos>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>userFullName = Anh Quốc Huỳnh</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="userFullName">Anh Quốc Huỳnh</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.030684900Z</date>
+  <millis>1777135001030</millis>
+  <nanos>684900</nanos>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>projectName = PulseClinicKatalon</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="projectName">PulseClinicKatalon</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.032096400Z</date>
+  <millis>1777135001032</millis>
+  <nanos>96400</nanos>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = ACER - Aspire-A715</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">ACER - Aspire-A715</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.032096400Z</date>
+  <millis>1777135001032</millis>
+  <nanos>96400</nanos>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 11 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Windows 11 64bit</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.033107700Z</date>
+  <millis>1777135001033</millis>
+  <nanos>107700</nanos>
+  <sequence>5</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.1.9</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">192.168.1.9</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.034485500Z</date>
+  <millis>1777135001034</millis>
+  <nanos>485500</nanos>
+  <sequence>6</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 11.0.1.0</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">11.0.1.0</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.161936500Z</date>
+  <millis>1777135001161</millis>
+  <nanos>936500</nanos>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Authentication/TC-001-Open-HMS-role-selection</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/Authentication/TC-001-Open-HMS-role-selection</property>
+  <property name="description">Open HMS role selection page.</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Authentication/TC-001-Open-HMS-role-selection</property>
+  <property name="source">D:\UNI_DOCS\HK6\KCPM\QuanLyBenhVien_KiemThu\pulse-katalon\Test Cases\Authentication\TC-001-Open-HMS-role-selection.tc</property>
+  <property name="tag">baseline</property>
+  <property name="isOptional">false</property>
+  <property name="uuid">d38c6091-40bf-4d69-85e7-3dc053c7f8be</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.185211600Z</date>
+  <millis>1777135001185</millis>
+  <nanos>211600</nanos>
+  <sequence>9</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Authentication/TC-001-Open-HMS-role-selection has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31549264463800.groovy: 1: Unexpected character: &amp;apos;﻿&amp;apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31549264463800.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4260)
+	at org.apache.groovy.parser.antlr4.AstBuilder.createParsingFailedException(AstBuilder.java:4243)
+	at org.apache.groovy.parser.antlr4.AstBuilder.convertException(AstBuilder.java:242)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:216)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:225)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:
+Script31549264463800.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.188724100Z</date>
+  <millis>1777135001188</millis>
+  <nanos>724100</nanos>
+  <sequence>10</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Authentication/TC-001-Open-HMS-role-selection</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.192734900Z</date>
+  <millis>1777135001192</millis>
+  <nanos>734900</nanos>
+  <sequence>11</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Authentication/TC-002-Open-staff-login</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/Authentication/TC-002-Open-staff-login</property>
+  <property name="description">Open staff login from HMS role selection.</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Authentication/TC-002-Open-staff-login</property>
+  <property name="source">D:\UNI_DOCS\HK6\KCPM\QuanLyBenhVien_KiemThu\pulse-katalon\Test Cases\Authentication\TC-002-Open-staff-login.tc</property>
+  <property name="tag">baseline</property>
+  <property name="isOptional">false</property>
+  <property name="uuid">03dc785e-e4fd-4b3a-98c1-fbbf457dc31d</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.198238100Z</date>
+  <millis>1777135001198</millis>
+  <nanos>238100</nanos>
+  <sequence>13</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Authentication/TC-002-Open-staff-login has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31549293560300.groovy: 1: Unexpected character: &amp;apos;﻿&amp;apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31549293560300.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4260)
+	at org.apache.groovy.parser.antlr4.AstBuilder.createParsingFailedException(AstBuilder.java:4243)
+	at org.apache.groovy.parser.antlr4.AstBuilder.convertException(AstBuilder.java:242)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:216)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:225)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:
+Script31549293560300.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.200246900Z</date>
+  <millis>1777135001200</millis>
+  <nanos>246900</nanos>
+  <sequence>14</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Authentication/TC-002-Open-staff-login</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.204248100Z</date>
+  <millis>1777135001204</millis>
+  <nanos>248100</nanos>
+  <sequence>15</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Authentication/TC-003-Staff-login-required-fields</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/Authentication/TC-003-Staff-login-required-fields</property>
+  <property name="description">Verify staff login required field controls.</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Authentication/TC-003-Staff-login-required-fields</property>
+  <property name="source">D:\UNI_DOCS\HK6\KCPM\QuanLyBenhVien_KiemThu\pulse-katalon\Test Cases\Authentication\TC-003-Staff-login-required-fields.tc</property>
+  <property name="tag">baseline</property>
+  <property name="isOptional">false</property>
+  <property name="uuid">69092479-4d6a-4b41-b5b7-228f10a518c5</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.210370900Z</date>
+  <millis>1777135001210</millis>
+  <nanos>370900</nanos>
+  <sequence>17</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Authentication/TC-003-Staff-login-required-fields has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31549303741400.groovy: 1: Unexpected character: &amp;apos;﻿&amp;apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31549303741400.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4260)
+	at org.apache.groovy.parser.antlr4.AstBuilder.createParsingFailedException(AstBuilder.java:4243)
+	at org.apache.groovy.parser.antlr4.AstBuilder.convertException(AstBuilder.java:242)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:216)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:225)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:
+Script31549303741400.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.212369600Z</date>
+  <millis>1777135001212</millis>
+  <nanos>369600</nanos>
+  <sequence>18</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Authentication/TC-003-Staff-login-required-fields</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.215373200Z</date>
+  <millis>1777135001215</millis>
+  <nanos>373200</nanos>
+  <sequence>19</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Authentication/TC-004-Staff-login-invalid-credentials</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/Authentication/TC-004-Staff-login-invalid-credentials</property>
+  <property name="description">Verify invalid staff login shows an error.</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Authentication/TC-004-Staff-login-invalid-credentials</property>
+  <property name="source">D:\UNI_DOCS\HK6\KCPM\QuanLyBenhVien_KiemThu\pulse-katalon\Test Cases\Authentication\TC-004-Staff-login-invalid-credentials.tc</property>
+  <property name="tag">baseline</property>
+  <property name="isOptional">false</property>
+  <property name="uuid">85befdbc-7483-4262-b608-1309af084329</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.219894200Z</date>
+  <millis>1777135001219</millis>
+  <nanos>894200</nanos>
+  <sequence>21</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Authentication/TC-004-Staff-login-invalid-credentials has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31549315420900.groovy: 1: Unexpected character: &amp;apos;﻿&amp;apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31549315420900.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4260)
+	at org.apache.groovy.parser.antlr4.AstBuilder.createParsingFailedException(AstBuilder.java:4243)
+	at org.apache.groovy.parser.antlr4.AstBuilder.convertException(AstBuilder.java:242)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:216)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:225)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:
+Script31549315420900.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.222895900Z</date>
+  <millis>1777135001222</millis>
+  <nanos>895900</nanos>
+  <sequence>22</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Authentication/TC-004-Staff-login-invalid-credentials</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.226892800Z</date>
+  <millis>1777135001226</millis>
+  <nanos>892800</nanos>
+  <sequence>23</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Authentication/TC-005-Staff-login-success-dashboard</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/Authentication/TC-005-Staff-login-success-dashboard</property>
+  <property name="description">Verify staff can log in and reach dashboard.</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Authentication/TC-005-Staff-login-success-dashboard</property>
+  <property name="source">D:\UNI_DOCS\HK6\KCPM\QuanLyBenhVien_KiemThu\pulse-katalon\Test Cases\Authentication\TC-005-Staff-login-success-dashboard.tc</property>
+  <property name="tag">baseline</property>
+  <property name="isOptional">false</property>
+  <property name="uuid">7a86fc6d-38ce-4501-b4fa-255f89003641</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.232322800Z</date>
+  <millis>1777135001232</millis>
+  <nanos>322800</nanos>
+  <sequence>25</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Authentication/TC-005-Staff-login-success-dashboard has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31549327364800.groovy: 1: Unexpected character: &amp;apos;﻿&amp;apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31549327364800.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4260)
+	at org.apache.groovy.parser.antlr4.AstBuilder.createParsingFailedException(AstBuilder.java:4243)
+	at org.apache.groovy.parser.antlr4.AstBuilder.convertException(AstBuilder.java:242)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:216)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:225)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:
+Script31549327364800.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.233325500Z</date>
+  <millis>1777135001233</millis>
+  <nanos>325500</nanos>
+  <sequence>26</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Authentication/TC-005-Staff-login-success-dashboard</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.236327500Z</date>
+  <millis>1777135001236</millis>
+  <nanos>327500</nanos>
+  <sequence>27</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Authentication/TC-006-Doctor-login-success-schedule</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/Authentication/TC-006-Doctor-login-success-schedule</property>
+  <property name="description">Verify doctor can log in and reach schedule.</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Authentication/TC-006-Doctor-login-success-schedule</property>
+  <property name="source">D:\UNI_DOCS\HK6\KCPM\QuanLyBenhVien_KiemThu\pulse-katalon\Test Cases\Authentication\TC-006-Doctor-login-success-schedule.tc</property>
+  <property name="tag">baseline</property>
+  <property name="isOptional">false</property>
+  <property name="uuid">ccf1fe4c-efed-406b-b998-1c42d247681d</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.240851200Z</date>
+  <millis>1777135001240</millis>
+  <nanos>851200</nanos>
+  <sequence>29</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Authentication/TC-006-Doctor-login-success-schedule has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31549336085300.groovy: 1: Unexpected character: &amp;apos;﻿&amp;apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31549336085300.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4260)
+	at org.apache.groovy.parser.antlr4.AstBuilder.createParsingFailedException(AstBuilder.java:4243)
+	at org.apache.groovy.parser.antlr4.AstBuilder.convertException(AstBuilder.java:242)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:216)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:225)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:
+Script31549336085300.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.243366500Z</date>
+  <millis>1777135001243</millis>
+  <nanos>366500</nanos>
+  <sequence>30</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Authentication/TC-006-Doctor-login-success-schedule</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.246950800Z</date>
+  <millis>1777135001246</millis>
+  <nanos>950800</nanos>
+  <sequence>31</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Authentication/TC-007-Patient-login-success-dashboard</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/Authentication/TC-007-Patient-login-success-dashboard</property>
+  <property name="description">Verify patient can log in and reach dashboard.</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Authentication/TC-007-Patient-login-success-dashboard</property>
+  <property name="source">D:\UNI_DOCS\HK6\KCPM\QuanLyBenhVien_KiemThu\pulse-katalon\Test Cases\Authentication\TC-007-Patient-login-success-dashboard.tc</property>
+  <property name="tag">baseline</property>
+  <property name="isOptional">false</property>
+  <property name="uuid">97bf5060-c328-40f1-b858-d4f83563ce1c</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.252885300Z</date>
+  <millis>1777135001252</millis>
+  <nanos>885300</nanos>
+  <sequence>33</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Authentication/TC-007-Patient-login-success-dashboard has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31549346964800.groovy: 1: Unexpected character: &amp;apos;﻿&amp;apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31549346964800.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4260)
+	at org.apache.groovy.parser.antlr4.AstBuilder.createParsingFailedException(AstBuilder.java:4243)
+	at org.apache.groovy.parser.antlr4.AstBuilder.convertException(AstBuilder.java:242)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:216)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:225)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:
+Script31549346964800.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.253488900Z</date>
+  <millis>1777135001253</millis>
+  <nanos>488900</nanos>
+  <sequence>34</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Authentication/TC-007-Patient-login-success-dashboard</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.258911700Z</date>
+  <millis>1777135001258</millis>
+  <nanos>911700</nanos>
+  <sequence>35</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/StaffTables/TC-008-Patient-profile-table</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/StaffTables/TC-008-Patient-profile-table</property>
+  <property name="description">Open patient profile table.</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/StaffTables/TC-008-Patient-profile-table</property>
+  <property name="source">D:\UNI_DOCS\HK6\KCPM\QuanLyBenhVien_KiemThu\pulse-katalon\Test Cases\StaffTables\TC-008-Patient-profile-table.tc</property>
+  <property name="tag">baseline</property>
+  <property name="isOptional">false</property>
+  <property name="uuid">41ea2222-b593-4902-b8e4-6ee4e97fefd0</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.264400300Z</date>
+  <millis>1777135001264</millis>
+  <nanos>400300</nanos>
+  <sequence>37</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/StaffTables/TC-008-Patient-profile-table has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31549358516000.groovy: 1: Unexpected character: &amp;apos;﻿&amp;apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31549358516000.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4260)
+	at org.apache.groovy.parser.antlr4.AstBuilder.createParsingFailedException(AstBuilder.java:4243)
+	at org.apache.groovy.parser.antlr4.AstBuilder.convertException(AstBuilder.java:242)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:216)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:225)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:
+Script31549358516000.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.265397800Z</date>
+  <millis>1777135001265</millis>
+  <nanos>397800</nanos>
+  <sequence>38</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/StaffTables/TC-008-Patient-profile-table</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.269197Z</date>
+  <millis>1777135001269</millis>
+  <nanos>197000</nanos>
+  <sequence>39</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/StaffTables/TC-009-Patient-search</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/StaffTables/TC-009-Patient-search</property>
+  <property name="description">Search patient by seeded name.</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/StaffTables/TC-009-Patient-search</property>
+  <property name="source">D:\UNI_DOCS\HK6\KCPM\QuanLyBenhVien_KiemThu\pulse-katalon\Test Cases\StaffTables\TC-009-Patient-search.tc</property>
+  <property name="tag">baseline</property>
+  <property name="isOptional">false</property>
+  <property name="uuid">5379dd57-a9de-4e8f-a433-24b815928d23</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.274224900Z</date>
+  <millis>1777135001274</millis>
+  <nanos>224900</nanos>
+  <sequence>41</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/StaffTables/TC-009-Patient-search has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31549370251200.groovy: 1: Unexpected character: &amp;apos;﻿&amp;apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31549370251200.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4260)
+	at org.apache.groovy.parser.antlr4.AstBuilder.createParsingFailedException(AstBuilder.java:4243)
+	at org.apache.groovy.parser.antlr4.AstBuilder.convertException(AstBuilder.java:242)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:216)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:225)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:
+Script31549370251200.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.276228700Z</date>
+  <millis>1777135001276</millis>
+  <nanos>228700</nanos>
+  <sequence>42</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/StaffTables/TC-009-Patient-search</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.280316100Z</date>
+  <millis>1777135001280</millis>
+  <nanos>316100</nanos>
+  <sequence>43</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/StaffTables/TC-010-Patient-filter-gender</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/StaffTables/TC-010-Patient-filter-gender</property>
+  <property name="description">Filter patients by gender.</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/StaffTables/TC-010-Patient-filter-gender</property>
+  <property name="source">D:\UNI_DOCS\HK6\KCPM\QuanLyBenhVien_KiemThu\pulse-katalon\Test Cases\StaffTables\TC-010-Patient-filter-gender.tc</property>
+  <property name="tag">baseline</property>
+  <property name="isOptional">false</property>
+  <property name="uuid">fe034a66-f4f4-4d5d-b0e0-14b9e5e69cfe</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.284842500Z</date>
+  <millis>1777135001284</millis>
+  <nanos>842500</nanos>
+  <sequence>45</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/StaffTables/TC-010-Patient-filter-gender has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31549379170000.groovy: 1: Unexpected character: &amp;apos;﻿&amp;apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31549379170000.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4260)
+	at org.apache.groovy.parser.antlr4.AstBuilder.createParsingFailedException(AstBuilder.java:4243)
+	at org.apache.groovy.parser.antlr4.AstBuilder.convertException(AstBuilder.java:242)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:216)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:225)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:
+Script31549379170000.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.286087400Z</date>
+  <millis>1777135001286</millis>
+  <nanos>87400</nanos>
+  <sequence>46</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/StaffTables/TC-010-Patient-filter-gender</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.289141Z</date>
+  <millis>1777135001289</millis>
+  <nanos>141000</nanos>
+  <sequence>47</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/StaffTables/TC-011-Patient-filter-insurance</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/StaffTables/TC-011-Patient-filter-insurance</property>
+  <property name="description">Filter patients by insurance.</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/StaffTables/TC-011-Patient-filter-insurance</property>
+  <property name="source">D:\UNI_DOCS\HK6\KCPM\QuanLyBenhVien_KiemThu\pulse-katalon\Test Cases\StaffTables\TC-011-Patient-filter-insurance.tc</property>
+  <property name="tag">baseline</property>
+  <property name="isOptional">false</property>
+  <property name="uuid">326a3fac-1e7b-4c42-b768-8021f67bfc87</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.293761700Z</date>
+  <millis>1777135001293</millis>
+  <nanos>761700</nanos>
+  <sequence>49</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/StaffTables/TC-011-Patient-filter-insurance has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31549389744100.groovy: 1: Unexpected character: &amp;apos;﻿&amp;apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31549389744100.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4260)
+	at org.apache.groovy.parser.antlr4.AstBuilder.createParsingFailedException(AstBuilder.java:4243)
+	at org.apache.groovy.parser.antlr4.AstBuilder.convertException(AstBuilder.java:242)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:216)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:225)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:
+Script31549389744100.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.294758800Z</date>
+  <millis>1777135001294</millis>
+  <nanos>758800</nanos>
+  <sequence>50</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/StaffTables/TC-011-Patient-filter-insurance</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.299458Z</date>
+  <millis>1777135001299</millis>
+  <nanos>458000</nanos>
+  <sequence>51</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/StaffTables/TC-012-Drug-catalog-table</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/StaffTables/TC-012-Drug-catalog-table</property>
+  <property name="description">Open drug catalog table.</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/StaffTables/TC-012-Drug-catalog-table</property>
+  <property name="source">D:\UNI_DOCS\HK6\KCPM\QuanLyBenhVien_KiemThu\pulse-katalon\Test Cases\StaffTables\TC-012-Drug-catalog-table.tc</property>
+  <property name="tag">baseline</property>
+  <property name="isOptional">false</property>
+  <property name="uuid">23e5f624-bce8-4cab-9d9b-2500dcd4c911</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.303951700Z</date>
+  <millis>1777135001303</millis>
+  <nanos>951700</nanos>
+  <sequence>53</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/StaffTables/TC-012-Drug-catalog-table has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31549399318900.groovy: 1: Unexpected character: &amp;apos;﻿&amp;apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31549399318900.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4260)
+	at org.apache.groovy.parser.antlr4.AstBuilder.createParsingFailedException(AstBuilder.java:4243)
+	at org.apache.groovy.parser.antlr4.AstBuilder.convertException(AstBuilder.java:242)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:216)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:225)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:
+Script31549399318900.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.306502100Z</date>
+  <millis>1777135001306</millis>
+  <nanos>502100</nanos>
+  <sequence>54</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/StaffTables/TC-012-Drug-catalog-table</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.308898100Z</date>
+  <millis>1777135001308</millis>
+  <nanos>898100</nanos>
+  <sequence>55</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/StaffTables/TC-013-Drug-search</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/StaffTables/TC-013-Drug-search</property>
+  <property name="description">Search drug by seeded name.</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/StaffTables/TC-013-Drug-search</property>
+  <property name="source">D:\UNI_DOCS\HK6\KCPM\QuanLyBenhVien_KiemThu\pulse-katalon\Test Cases\StaffTables\TC-013-Drug-search.tc</property>
+  <property name="tag">baseline</property>
+  <property name="isOptional">false</property>
+  <property name="uuid">04781f0f-afc2-4662-9e72-82afd36ab68a</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.314541Z</date>
+  <millis>1777135001314</millis>
+  <nanos>541000</nanos>
+  <sequence>57</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/StaffTables/TC-013-Drug-search has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31549409149000.groovy: 1: Unexpected character: &amp;apos;﻿&amp;apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31549409149000.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4260)
+	at org.apache.groovy.parser.antlr4.AstBuilder.createParsingFailedException(AstBuilder.java:4243)
+	at org.apache.groovy.parser.antlr4.AstBuilder.convertException(AstBuilder.java:242)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:216)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:225)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:
+Script31549409149000.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.315541900Z</date>
+  <millis>1777135001315</millis>
+  <nanos>541900</nanos>
+  <sequence>58</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/StaffTables/TC-013-Drug-search</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.318053900Z</date>
+  <millis>1777135001318</millis>
+  <nanos>53900</nanos>
+  <sequence>59</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/StaffTables/TC-014-Drug-filter-dosage-unit</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/StaffTables/TC-014-Drug-filter-dosage-unit</property>
+  <property name="description">Filter drugs by dosage form and unit.</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/StaffTables/TC-014-Drug-filter-dosage-unit</property>
+  <property name="source">D:\UNI_DOCS\HK6\KCPM\QuanLyBenhVien_KiemThu\pulse-katalon\Test Cases\StaffTables\TC-014-Drug-filter-dosage-unit.tc</property>
+  <property name="tag">baseline</property>
+  <property name="isOptional">false</property>
+  <property name="uuid">638b7f46-1981-474a-a612-6960b229c391</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.322800Z</date>
+  <millis>1777135001322</millis>
+  <nanos>800000</nanos>
+  <sequence>61</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/StaffTables/TC-014-Drug-filter-dosage-unit has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31549418664700.groovy: 1: Unexpected character: &amp;apos;﻿&amp;apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31549418664700.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4260)
+	at org.apache.groovy.parser.antlr4.AstBuilder.createParsingFailedException(AstBuilder.java:4243)
+	at org.apache.groovy.parser.antlr4.AstBuilder.convertException(AstBuilder.java:242)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:216)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:225)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:
+Script31549418664700.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.324215700Z</date>
+  <millis>1777135001324</millis>
+  <nanos>215700</nanos>
+  <sequence>62</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/StaffTables/TC-014-Drug-filter-dosage-unit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.327999300Z</date>
+  <millis>1777135001327</millis>
+  <nanos>999300</nanos>
+  <sequence>63</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/StaffTables/TC-015-Room-search</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/StaffTables/TC-015-Room-search</property>
+  <property name="description">Search room by seeded room number.</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/StaffTables/TC-015-Room-search</property>
+  <property name="source">D:\UNI_DOCS\HK6\KCPM\QuanLyBenhVien_KiemThu\pulse-katalon\Test Cases\StaffTables\TC-015-Room-search.tc</property>
+  <property name="tag">baseline</property>
+  <property name="isOptional">false</property>
+  <property name="uuid">b08b43ec-1d4c-4da8-befa-dc4b016c0bb9</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.331429500Z</date>
+  <millis>1777135001331</millis>
+  <nanos>429500</nanos>
+  <sequence>65</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/StaffTables/TC-015-Room-search has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31549427246100.groovy: 1: Unexpected character: &amp;apos;﻿&amp;apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31549427246100.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4260)
+	at org.apache.groovy.parser.antlr4.AstBuilder.createParsingFailedException(AstBuilder.java:4243)
+	at org.apache.groovy.parser.antlr4.AstBuilder.convertException(AstBuilder.java:242)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:216)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:225)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:
+Script31549427246100.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.333758900Z</date>
+  <millis>1777135001333</millis>
+  <nanos>758900</nanos>
+  <sequence>66</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/StaffTables/TC-015-Room-search</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.336771Z</date>
+  <millis>1777135001336</millis>
+  <nanos>771000</nanos>
+  <sequence>67</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/StaffTables/TC-016-Room-filter-status</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/StaffTables/TC-016-Room-filter-status</property>
+  <property name="description">Filter rooms by available status.</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/StaffTables/TC-016-Room-filter-status</property>
+  <property name="source">D:\UNI_DOCS\HK6\KCPM\QuanLyBenhVien_KiemThu\pulse-katalon\Test Cases\StaffTables\TC-016-Room-filter-status.tc</property>
+  <property name="tag">baseline</property>
+  <property name="isOptional">false</property>
+  <property name="uuid">4b02ffb8-7963-44c1-8313-1fc77f1560ba</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.341793200Z</date>
+  <millis>1777135001341</millis>
+  <nanos>793200</nanos>
+  <sequence>69</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/StaffTables/TC-016-Room-filter-status has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31549436099800.groovy: 1: Unexpected character: &amp;apos;﻿&amp;apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31549436099800.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4260)
+	at org.apache.groovy.parser.antlr4.AstBuilder.createParsingFailedException(AstBuilder.java:4243)
+	at org.apache.groovy.parser.antlr4.AstBuilder.convertException(AstBuilder.java:242)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:216)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:225)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:
+Script31549436099800.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.342789900Z</date>
+  <millis>1777135001342</millis>
+  <nanos>789900</nanos>
+  <sequence>70</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/StaffTables/TC-016-Room-filter-status</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.344791800Z</date>
+  <millis>1777135001344</millis>
+  <nanos>791800</nanos>
+  <sequence>71</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/StaffTables/TC-017-Waitlist-priority-order</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/StaffTables/TC-017-Waitlist-priority-order</property>
+  <property name="description">Open waitlist and validate priority order when data exists.</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/StaffTables/TC-017-Waitlist-priority-order</property>
+  <property name="source">D:\UNI_DOCS\HK6\KCPM\QuanLyBenhVien_KiemThu\pulse-katalon\Test Cases\StaffTables\TC-017-Waitlist-priority-order.tc</property>
+  <property name="tag">baseline</property>
+  <property name="isOptional">false</property>
+  <property name="uuid">11491a7a-a5eb-4094-be6d-50a5d6c130e1</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.349272300Z</date>
+  <millis>1777135001349</millis>
+  <nanos>272300</nanos>
+  <sequence>73</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/StaffTables/TC-017-Waitlist-priority-order has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31549445293900.groovy: 1: Unexpected character: &amp;apos;﻿&amp;apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31549445293900.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4260)
+	at org.apache.groovy.parser.antlr4.AstBuilder.createParsingFailedException(AstBuilder.java:4243)
+	at org.apache.groovy.parser.antlr4.AstBuilder.convertException(AstBuilder.java:242)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:216)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:225)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:
+Script31549445293900.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.350279700Z</date>
+  <millis>1777135001350</millis>
+  <nanos>279700</nanos>
+  <sequence>74</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/StaffTables/TC-017-Waitlist-priority-order</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.354633Z</date>
+  <millis>1777135001354</millis>
+  <nanos>633000</nanos>
+  <sequence>75</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/StaffTables/TC-018-Waitlist-filter-priority</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/StaffTables/TC-018-Waitlist-filter-priority</property>
+  <property name="description">Filter waitlist by priority.</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/StaffTables/TC-018-Waitlist-filter-priority</property>
+  <property name="source">D:\UNI_DOCS\HK6\KCPM\QuanLyBenhVien_KiemThu\pulse-katalon\Test Cases\StaffTables\TC-018-Waitlist-filter-priority.tc</property>
+  <property name="tag">baseline</property>
+  <property name="isOptional">false</property>
+  <property name="uuid">8da02043-ff95-487a-a7a5-a8a247b61639</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.358114500Z</date>
+  <millis>1777135001358</millis>
+  <nanos>114500</nanos>
+  <sequence>77</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/StaffTables/TC-018-Waitlist-filter-priority has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31549453855200.groovy: 1: Unexpected character: &amp;apos;﻿&amp;apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31549453855200.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4260)
+	at org.apache.groovy.parser.antlr4.AstBuilder.createParsingFailedException(AstBuilder.java:4243)
+	at org.apache.groovy.parser.antlr4.AstBuilder.convertException(AstBuilder.java:242)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:216)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:225)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:
+Script31549453855200.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.359209Z</date>
+  <millis>1777135001359</millis>
+  <nanos>209000</nanos>
+  <sequence>78</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/StaffTables/TC-018-Waitlist-filter-priority</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.362736200Z</date>
+  <millis>1777135001362</millis>
+  <nanos>736200</nanos>
+  <sequence>79</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/StaffTables/TC-019-Appointment-status-tabs</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/StaffTables/TC-019-Appointment-status-tabs</property>
+  <property name="description">Open appointment page and switch status tabs.</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/StaffTables/TC-019-Appointment-status-tabs</property>
+  <property name="source">D:\UNI_DOCS\HK6\KCPM\QuanLyBenhVien_KiemThu\pulse-katalon\Test Cases\StaffTables\TC-019-Appointment-status-tabs.tc</property>
+  <property name="tag">baseline</property>
+  <property name="isOptional">false</property>
+  <property name="uuid">b2acd3f9-beb7-4816-bd55-dc59f6ecbde2</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.366409500Z</date>
+  <millis>1777135001366</millis>
+  <nanos>409500</nanos>
+  <sequence>81</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/StaffTables/TC-019-Appointment-status-tabs has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31549461865200.groovy: 1: Unexpected character: &amp;apos;﻿&amp;apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31549461865200.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4260)
+	at org.apache.groovy.parser.antlr4.AstBuilder.createParsingFailedException(AstBuilder.java:4243)
+	at org.apache.groovy.parser.antlr4.AstBuilder.convertException(AstBuilder.java:242)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:216)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:225)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:
+Script31549461865200.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.368145800Z</date>
+  <millis>1777135001368</millis>
+  <nanos>145800</nanos>
+  <sequence>82</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/StaffTables/TC-019-Appointment-status-tabs</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.371158300Z</date>
+  <millis>1777135001371</millis>
+  <nanos>158300</nanos>
+  <sequence>83</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/StaffTables/TC-020-Invoice-patient-search</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/StaffTables/TC-020-Invoice-patient-search</property>
+  <property name="description">Search patient on invoice page.</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/StaffTables/TC-020-Invoice-patient-search</property>
+  <property name="source">D:\UNI_DOCS\HK6\KCPM\QuanLyBenhVien_KiemThu\pulse-katalon\Test Cases\StaffTables\TC-020-Invoice-patient-search.tc</property>
+  <property name="tag">baseline</property>
+  <property name="isOptional">false</property>
+  <property name="uuid">73f3e12b-9ffe-4db9-84d5-9f4e686ce902</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.374939800Z</date>
+  <millis>1777135001374</millis>
+  <nanos>939800</nanos>
+  <sequence>85</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/StaffTables/TC-020-Invoice-patient-search has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31549470427900.groovy: 1: Unexpected character: &amp;apos;﻿&amp;apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31549470427900.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4260)
+	at org.apache.groovy.parser.antlr4.AstBuilder.createParsingFailedException(AstBuilder.java:4243)
+	at org.apache.groovy.parser.antlr4.AstBuilder.convertException(AstBuilder.java:242)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:216)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:225)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:
+Script31549470427900.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.376434500Z</date>
+  <millis>1777135001376</millis>
+  <nanos>434500</nanos>
+  <sequence>86</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/StaffTables/TC-020-Invoice-patient-search</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-04-25T16:36:41.405817600Z</date>
+  <millis>1777135001405</millis>
+  <nanos>817600</nanos>
+  <sequence>87</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Baseline</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+</log>

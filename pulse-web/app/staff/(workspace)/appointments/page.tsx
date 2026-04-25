@@ -543,6 +543,7 @@ export default function AppointmentsPage() {
                                 ? "text-purple-600 border-b-2 border-purple-600"
                                 : "text-gray-600 hover:text-gray-900"
                         }`}
+                        data-testid={`appointment-tab-${tab.value.toLowerCase()}`}
                     >
                         {tab.label}
                         <span

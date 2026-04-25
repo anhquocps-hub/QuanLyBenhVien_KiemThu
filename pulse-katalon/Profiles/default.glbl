@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+  <description>Default local environment for Pulse Clinic Katalon tests.</description>
+  <name>default</name>
+  <tag></tag>
+  <defaultProfile>true</defaultProfile>
+  <GlobalVariableEntity><description></description><initValue>"http://localhost:3000"</initValue><name>patientBaseUrl</name></GlobalVariableEntity>
+  <GlobalVariableEntity><description></description><initValue>"http://hms.localhost:3000"</initValue><name>hmsBaseUrl</name></GlobalVariableEntity>
+  <GlobalVariableEntity><description></description><initValue>"http://staff.localhost:3000"</initValue><name>staffBaseUrl</name></GlobalVariableEntity>
+  <GlobalVariableEntity><description></description><initValue>"http://doctor.localhost:3000"</initValue><name>doctorBaseUrl</name></GlobalVariableEntity>
+  <GlobalVariableEntity><description></description><initValue>"pharmacist1@hospital.com"</initValue><name>staffEmail</name></GlobalVariableEntity>
+  <GlobalVariableEntity><description></description><initValue>"admin.doctor@hospital.com"</initValue><name>doctorEmail</name></GlobalVariableEntity>
+  <GlobalVariableEntity><description></description><initValue>"patient1@example.com"</initValue><name>patientEmail</name></GlobalVariableEntity>
+  <GlobalVariableEntity><description></description><initValue>"password123"</initValue><name>staffPassword</name></GlobalVariableEntity>
+  <GlobalVariableEntity><description></description><initValue>"password123"</initValue><name>doctorPassword</name></GlobalVariableEntity>
+  <GlobalVariableEntity><description></description><initValue>"password123"</initValue><name>patientPassword</name></GlobalVariableEntity>
+  <GlobalVariableEntity><description></description><initValue>"John Patient"</initValue><name>patientSearchTerm</name></GlobalVariableEntity>
+  <GlobalVariableEntity><description></description><initValue>"Paracetamol"</initValue><name>drugSearchTerm</name></GlobalVariableEntity>
+  <GlobalVariableEntity><description></description><initValue>"101"</initValue><name>roomSearchTerm</name></GlobalVariableEntity>
+  <GlobalVariableEntity><description></description><initValue>"10"</initValue><name>defaultTimeout</name></GlobalVariableEntity>
+</GlobalVariableEntities>

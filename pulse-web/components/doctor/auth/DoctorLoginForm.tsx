@@ -123,9 +123,12 @@ const DoctorLoginForm = () => {
                             </p>
                         </div>
 
-                        <form onSubmit={handleSubmit}>
+                        <form onSubmit={handleSubmit} data-testid="doctor-login-form">
                             {error && (
-                                <div className="alert alert-error mb-4 py-2 rounded-xl">
+                                <div
+                                    className="alert alert-error mb-4 py-2 rounded-xl"
+                                    data-testid="login-error"
+                                >
                                     <span className="text-sm">{error}</span>
                                 </div>
                             )}
@@ -144,6 +147,7 @@ const DoctorLoginForm = () => {
                                     placeholder="doctor@hospital.com"
                                     className="input input-bordered w-full bg-gray-50 border-gray-200 focus:border-primary focus:ring-1 focus:ring-primary rounded-xl"
                                     required
+                                    data-testid="login-email-input"
                                 />
                             </div>
 
@@ -164,6 +168,7 @@ const DoctorLoginForm = () => {
                                         placeholder="Enter your password"
                                         className="input input-bordered w-full pr-12 bg-gray-50 border-gray-200 focus:border-primary focus:ring-1 focus:ring-primary rounded-xl"
                                         required
+                                        data-testid="login-password-input"
                                     />
                                     <button
                                         type="button"
@@ -186,6 +191,7 @@ const DoctorLoginForm = () => {
                                     type="submit"
                                     disabled={loading}
                                     className="btn btn-primary text-white normal-case text-lg font-semibold rounded-xl h-12 shadow-md hover:shadow-lg transition-all w-full"
+                                    data-testid="login-submit-button"
                                 >
                                     {loading ? "Logging in..." : "Login now"}
                                 </button>

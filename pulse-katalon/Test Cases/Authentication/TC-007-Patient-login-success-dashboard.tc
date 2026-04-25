@@ -1,0 +1,1 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><TestCaseEntity><description>Verify patient can log in and reach dashboard.</description><name>TC-007-Patient-login-success-dashboard</name><tag>baseline</tag><comment></comment><testCaseGuid>00000000-0000-0000-0000-000000000207</testCaseGuid></TestCaseEntity>

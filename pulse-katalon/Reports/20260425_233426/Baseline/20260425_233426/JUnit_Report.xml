@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Baseline" time="0.497" tests="20" failures="0" errors="20">
+   <testsuite name="Baseline" tests="20" failures="0" errors="20" time="0.497" skipped="0" timestamp="2026-04-25T16:34:33.370Z" hostname="ACER - Aspire-A715" id="Test Suites/Baseline">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\UNI_DOCS\\HK6\\KCPM\\QuanLyBenhVien_KiemThu\\pulse-katalon\\Reports\\20260425_233426\\Baseline\\20260425_233426"/>
+         <property name="logFiles" value="D:\\UNI_DOCS\\HK6\\KCPM\\QuanLyBenhVien_KiemThu\\pulse-katalon\\Reports\\20260425_233426\\Baseline\\20260425_233426\\console0.log, D:\\UNI_DOCS\\HK6\\KCPM\\QuanLyBenhVien_KiemThu\\pulse-katalon\\Reports\\20260425_233426\\Baseline\\20260425_233426\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="userFullName" value="Anh Quốc Huỳnh"/>
+         <property name="hostName" value="ACER - Aspire-A715"/>
+         <property name="hostAddress" value="192.168.1.9"/>
+         <property name="projectName" value="PulseClinicKatalon"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.0.1.0"/>
+      </properties>
+      <testcase name="Test Cases/Authentication/TC-001-Open-HMS-role-selection" time="0.033" classname="Test Cases/Authentication/TC-001-Open-HMS-role-selection" status="ERROR">
+         <error type="ERROR" message="Test Cases/Authentication/TC-001-Open-HMS-role-selection has ERROR(s).&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;Script31421685152700.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.&#xa;   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI&#xa;   ^&#xa;&#xa;1 error&#xa;"/>
+         <system-out><![CDATA[25-04-2026T23:34:33 - [TEST_CASE][ERROR] - Test Cases/Authentication/TC-001-Open-HMS-role-selection: Test Cases/Authentication/TC-001-Open-HMS-role-selection has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31421685152700.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[25-04-2026T23:34:33 - [TEST_CASE][ERROR] - Test Cases/Authentication/TC-001-Open-HMS-role-selection: Test Cases/Authentication/TC-001-Open-HMS-role-selection has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31421685152700.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentication/TC-002-Open-staff-login" time="0.012" classname="Test Cases/Authentication/TC-002-Open-staff-login" status="ERROR">
+         <error type="ERROR" message="Test Cases/Authentication/TC-002-Open-staff-login has ERROR(s).&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;Script31421721599300.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.&#xa;   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI&#xa;   ^&#xa;&#xa;1 error&#xa;"/>
+         <system-out><![CDATA[25-04-2026T23:34:33 - [TEST_CASE][ERROR] - Test Cases/Authentication/TC-002-Open-staff-login: Test Cases/Authentication/TC-002-Open-staff-login has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31421721599300.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[25-04-2026T23:34:33 - [TEST_CASE][ERROR] - Test Cases/Authentication/TC-002-Open-staff-login: Test Cases/Authentication/TC-002-Open-staff-login has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31421721599300.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentication/TC-003-Staff-login-required-fields" time="0.012" classname="Test Cases/Authentication/TC-003-Staff-login-required-fields" status="ERROR">
+         <error type="ERROR" message="Test Cases/Authentication/TC-003-Staff-login-required-fields has ERROR(s).&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;Script31421738763100.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.&#xa;   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI&#xa;   ^&#xa;&#xa;1 error&#xa;"/>
+         <system-out><![CDATA[25-04-2026T23:34:33 - [TEST_CASE][ERROR] - Test Cases/Authentication/TC-003-Staff-login-required-fields: Test Cases/Authentication/TC-003-Staff-login-required-fields has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31421738763100.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[25-04-2026T23:34:33 - [TEST_CASE][ERROR] - Test Cases/Authentication/TC-003-Staff-login-required-fields: Test Cases/Authentication/TC-003-Staff-login-required-fields has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31421738763100.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentication/TC-004-Staff-login-invalid-credentials" time="0.011" classname="Test Cases/Authentication/TC-004-Staff-login-invalid-credentials" status="ERROR">
+         <error type="ERROR" message="Test Cases/Authentication/TC-004-Staff-login-invalid-credentials has ERROR(s).&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;Script31421754749200.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.&#xa;   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI&#xa;   ^&#xa;&#xa;1 error&#xa;"/>
+         <system-out><![CDATA[25-04-2026T23:34:33 - [TEST_CASE][ERROR] - Test Cases/Authentication/TC-004-Staff-login-invalid-credentials: Test Cases/Authentication/TC-004-Staff-login-invalid-credentials has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31421754749200.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[25-04-2026T23:34:33 - [TEST_CASE][ERROR] - Test Cases/Authentication/TC-004-Staff-login-invalid-credentials: Test Cases/Authentication/TC-004-Staff-login-invalid-credentials has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31421754749200.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentication/TC-005-Staff-login-success-dashboard" time="0.009" classname="Test Cases/Authentication/TC-005-Staff-login-success-dashboard" status="ERROR">
+         <error type="ERROR" message="Test Cases/Authentication/TC-005-Staff-login-success-dashboard has ERROR(s).&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;Script31421768100900.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.&#xa;   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI&#xa;   ^&#xa;&#xa;1 error&#xa;"/>
+         <system-out><![CDATA[25-04-2026T23:34:33 - [TEST_CASE][ERROR] - Test Cases/Authentication/TC-005-Staff-login-success-dashboard: Test Cases/Authentication/TC-005-Staff-login-success-dashboard has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31421768100900.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[25-04-2026T23:34:33 - [TEST_CASE][ERROR] - Test Cases/Authentication/TC-005-Staff-login-success-dashboard: Test Cases/Authentication/TC-005-Staff-login-success-dashboard has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31421768100900.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentication/TC-006-Doctor-login-success-schedule" time="0.007" classname="Test Cases/Authentication/TC-006-Doctor-login-success-schedule" status="ERROR">
+         <error type="ERROR" message="Test Cases/Authentication/TC-006-Doctor-login-success-schedule has ERROR(s).&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;Script31421781310600.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.&#xa;   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI&#xa;   ^&#xa;&#xa;1 error&#xa;"/>
+         <system-out><![CDATA[25-04-2026T23:34:33 - [TEST_CASE][ERROR] - Test Cases/Authentication/TC-006-Doctor-login-success-schedule: Test Cases/Authentication/TC-006-Doctor-login-success-schedule has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31421781310600.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[25-04-2026T23:34:33 - [TEST_CASE][ERROR] - Test Cases/Authentication/TC-006-Doctor-login-success-schedule: Test Cases/Authentication/TC-006-Doctor-login-success-schedule has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31421781310600.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentication/TC-007-Patient-login-success-dashboard" time="0.009" classname="Test Cases/Authentication/TC-007-Patient-login-success-dashboard" status="ERROR">
+         <error type="ERROR" message="Test Cases/Authentication/TC-007-Patient-login-success-dashboard has ERROR(s).&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;Script31421793688700.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.&#xa;   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI&#xa;   ^&#xa;&#xa;1 error&#xa;"/>
+         <system-out><![CDATA[25-04-2026T23:34:33 - [TEST_CASE][ERROR] - Test Cases/Authentication/TC-007-Patient-login-success-dashboard: Test Cases/Authentication/TC-007-Patient-login-success-dashboard has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31421793688700.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[25-04-2026T23:34:33 - [TEST_CASE][ERROR] - Test Cases/Authentication/TC-007-Patient-login-success-dashboard: Test Cases/Authentication/TC-007-Patient-login-success-dashboard has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31421793688700.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StaffTables/TC-008-Patient-profile-table" time="0.009" classname="Test Cases/StaffTables/TC-008-Patient-profile-table" status="ERROR">
+         <error type="ERROR" message="Test Cases/StaffTables/TC-008-Patient-profile-table has ERROR(s).&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;Script31421808438200.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.&#xa;   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI&#xa;   ^&#xa;&#xa;1 error&#xa;"/>
+         <system-out><![CDATA[25-04-2026T23:34:33 - [TEST_CASE][ERROR] - Test Cases/StaffTables/TC-008-Patient-profile-table: Test Cases/StaffTables/TC-008-Patient-profile-table has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31421808438200.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[25-04-2026T23:34:33 - [TEST_CASE][ERROR] - Test Cases/StaffTables/TC-008-Patient-profile-table: Test Cases/StaffTables/TC-008-Patient-profile-table has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31421808438200.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StaffTables/TC-009-Patient-search" time="0.009" classname="Test Cases/StaffTables/TC-009-Patient-search" status="ERROR">
+         <error type="ERROR" message="Test Cases/StaffTables/TC-009-Patient-search has ERROR(s).&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;Script31421819883400.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.&#xa;   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI&#xa;   ^&#xa;&#xa;1 error&#xa;"/>
+         <system-out><![CDATA[25-04-2026T23:34:33 - [TEST_CASE][ERROR] - Test Cases/StaffTables/TC-009-Patient-search: Test Cases/StaffTables/TC-009-Patient-search has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31421819883400.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[25-04-2026T23:34:33 - [TEST_CASE][ERROR] - Test Cases/StaffTables/TC-009-Patient-search: Test Cases/StaffTables/TC-009-Patient-search has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31421819883400.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StaffTables/TC-010-Patient-filter-gender" time="0.008" classname="Test Cases/StaffTables/TC-010-Patient-filter-gender" status="ERROR">
+         <error type="ERROR" message="Test Cases/StaffTables/TC-010-Patient-filter-gender has ERROR(s).&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;Script31421833311600.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.&#xa;   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI&#xa;   ^&#xa;&#xa;1 error&#xa;"/>
+         <system-out><![CDATA[25-04-2026T23:34:33 - [TEST_CASE][ERROR] - Test Cases/StaffTables/TC-010-Patient-filter-gender: Test Cases/StaffTables/TC-010-Patient-filter-gender has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31421833311600.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[25-04-2026T23:34:33 - [TEST_CASE][ERROR] - Test Cases/StaffTables/TC-010-Patient-filter-gender: Test Cases/StaffTables/TC-010-Patient-filter-gender has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31421833311600.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StaffTables/TC-011-Patient-filter-insurance" time="0.009" classname="Test Cases/StaffTables/TC-011-Patient-filter-insurance" status="ERROR">
+         <error type="ERROR" message="Test Cases/StaffTables/TC-011-Patient-filter-insurance has ERROR(s).&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;Script31421845223300.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.&#xa;   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI&#xa;   ^&#xa;&#xa;1 error&#xa;"/>
+         <system-out><![CDATA[25-04-2026T23:34:33 - [TEST_CASE][ERROR] - Test Cases/StaffTables/TC-011-Patient-filter-insurance: Test Cases/StaffTables/TC-011-Patient-filter-insurance has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31421845223300.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[25-04-2026T23:34:33 - [TEST_CASE][ERROR] - Test Cases/StaffTables/TC-011-Patient-filter-insurance: Test Cases/StaffTables/TC-011-Patient-filter-insurance has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31421845223300.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StaffTables/TC-012-Drug-catalog-table" time="0.01" classname="Test Cases/StaffTables/TC-012-Drug-catalog-table" status="ERROR">
+         <error type="ERROR" message="Test Cases/StaffTables/TC-012-Drug-catalog-table has ERROR(s).&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;Script31421858860300.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.&#xa;   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI&#xa;   ^&#xa;&#xa;1 error&#xa;"/>
+         <system-out><![CDATA[25-04-2026T23:34:33 - [TEST_CASE][ERROR] - Test Cases/StaffTables/TC-012-Drug-catalog-table: Test Cases/StaffTables/TC-012-Drug-catalog-table has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31421858860300.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[25-04-2026T23:34:33 - [TEST_CASE][ERROR] - Test Cases/StaffTables/TC-012-Drug-catalog-table: Test Cases/StaffTables/TC-012-Drug-catalog-table has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31421858860300.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StaffTables/TC-013-Drug-search" time="0.008" classname="Test Cases/StaffTables/TC-013-Drug-search" status="ERROR">
+         <error type="ERROR" message="Test Cases/StaffTables/TC-013-Drug-search has ERROR(s).&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;Script31421871747700.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.&#xa;   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI&#xa;   ^&#xa;&#xa;1 error&#xa;"/>
+         <system-out><![CDATA[25-04-2026T23:34:33 - [TEST_CASE][ERROR] - Test Cases/StaffTables/TC-013-Drug-search: Test Cases/StaffTables/TC-013-Drug-search has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31421871747700.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[25-04-2026T23:34:33 - [TEST_CASE][ERROR] - Test Cases/StaffTables/TC-013-Drug-search: Test Cases/StaffTables/TC-013-Drug-search has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31421871747700.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StaffTables/TC-014-Drug-filter-dosage-unit" time="0.01" classname="Test Cases/StaffTables/TC-014-Drug-filter-dosage-unit" status="ERROR">
+         <error type="ERROR" message="Test Cases/StaffTables/TC-014-Drug-filter-dosage-unit has ERROR(s).&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;Script31421886631400.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.&#xa;   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI&#xa;   ^&#xa;&#xa;1 error&#xa;"/>
+         <system-out><![CDATA[25-04-2026T23:34:33 - [TEST_CASE][ERROR] - Test Cases/StaffTables/TC-014-Drug-filter-dosage-unit: Test Cases/StaffTables/TC-014-Drug-filter-dosage-unit has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31421886631400.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[25-04-2026T23:34:33 - [TEST_CASE][ERROR] - Test Cases/StaffTables/TC-014-Drug-filter-dosage-unit: Test Cases/StaffTables/TC-014-Drug-filter-dosage-unit has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31421886631400.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StaffTables/TC-015-Room-search" time="0.008" classname="Test Cases/StaffTables/TC-015-Room-search" status="ERROR">
+         <error type="ERROR" message="Test Cases/StaffTables/TC-015-Room-search has ERROR(s).&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;Script31421899446300.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.&#xa;   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI&#xa;   ^&#xa;&#xa;1 error&#xa;"/>
+         <system-out><![CDATA[25-04-2026T23:34:33 - [TEST_CASE][ERROR] - Test Cases/StaffTables/TC-015-Room-search: Test Cases/StaffTables/TC-015-Room-search has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31421899446300.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[25-04-2026T23:34:33 - [TEST_CASE][ERROR] - Test Cases/StaffTables/TC-015-Room-search: Test Cases/StaffTables/TC-015-Room-search has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31421899446300.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StaffTables/TC-016-Room-filter-status" time="0.009" classname="Test Cases/StaffTables/TC-016-Room-filter-status" status="ERROR">
+         <error type="ERROR" message="Test Cases/StaffTables/TC-016-Room-filter-status has ERROR(s).&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;Script31421911006200.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.&#xa;   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI&#xa;   ^&#xa;&#xa;1 error&#xa;"/>
+         <system-out><![CDATA[25-04-2026T23:34:33 - [TEST_CASE][ERROR] - Test Cases/StaffTables/TC-016-Room-filter-status: Test Cases/StaffTables/TC-016-Room-filter-status has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31421911006200.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[25-04-2026T23:34:33 - [TEST_CASE][ERROR] - Test Cases/StaffTables/TC-016-Room-filter-status: Test Cases/StaffTables/TC-016-Room-filter-status has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31421911006200.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StaffTables/TC-017-Waitlist-priority-order" time="0.008" classname="Test Cases/StaffTables/TC-017-Waitlist-priority-order" status="ERROR">
+         <error type="ERROR" message="Test Cases/StaffTables/TC-017-Waitlist-priority-order has ERROR(s).&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;Script31421924221800.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.&#xa;   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI&#xa;   ^&#xa;&#xa;1 error&#xa;"/>
+         <system-out><![CDATA[25-04-2026T23:34:33 - [TEST_CASE][ERROR] - Test Cases/StaffTables/TC-017-Waitlist-priority-order: Test Cases/StaffTables/TC-017-Waitlist-priority-order has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31421924221800.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[25-04-2026T23:34:33 - [TEST_CASE][ERROR] - Test Cases/StaffTables/TC-017-Waitlist-priority-order: Test Cases/StaffTables/TC-017-Waitlist-priority-order has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31421924221800.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StaffTables/TC-018-Waitlist-filter-priority" time="0.008" classname="Test Cases/StaffTables/TC-018-Waitlist-filter-priority" status="ERROR">
+         <error type="ERROR" message="Test Cases/StaffTables/TC-018-Waitlist-filter-priority has ERROR(s).&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;Script31421936891200.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.&#xa;   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI&#xa;   ^&#xa;&#xa;1 error&#xa;"/>
+         <system-out><![CDATA[25-04-2026T23:34:33 - [TEST_CASE][ERROR] - Test Cases/StaffTables/TC-018-Waitlist-filter-priority: Test Cases/StaffTables/TC-018-Waitlist-filter-priority has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31421936891200.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[25-04-2026T23:34:33 - [TEST_CASE][ERROR] - Test Cases/StaffTables/TC-018-Waitlist-filter-priority: Test Cases/StaffTables/TC-018-Waitlist-filter-priority has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31421936891200.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StaffTables/TC-019-Appointment-status-tabs" time="0.008" classname="Test Cases/StaffTables/TC-019-Appointment-status-tabs" status="ERROR">
+         <error type="ERROR" message="Test Cases/StaffTables/TC-019-Appointment-status-tabs has ERROR(s).&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;Script31421948760900.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.&#xa;   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI&#xa;   ^&#xa;&#xa;1 error&#xa;"/>
+         <system-out><![CDATA[25-04-2026T23:34:33 - [TEST_CASE][ERROR] - Test Cases/StaffTables/TC-019-Appointment-status-tabs: Test Cases/StaffTables/TC-019-Appointment-status-tabs has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31421948760900.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[25-04-2026T23:34:33 - [TEST_CASE][ERROR] - Test Cases/StaffTables/TC-019-Appointment-status-tabs: Test Cases/StaffTables/TC-019-Appointment-status-tabs has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31421948760900.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StaffTables/TC-020-Invoice-patient-search" time="0.008" classname="Test Cases/StaffTables/TC-020-Invoice-patient-search" status="ERROR">
+         <error type="ERROR" message="Test Cases/StaffTables/TC-020-Invoice-patient-search has ERROR(s).&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;Script31421959577000.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.&#xa;   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI&#xa;   ^&#xa;&#xa;1 error&#xa;"/>
+         <system-out><![CDATA[25-04-2026T23:34:33 - [TEST_CASE][ERROR] - Test Cases/StaffTables/TC-020-Invoice-patient-search: Test Cases/StaffTables/TC-020-Invoice-patient-search has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31421959577000.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[25-04-2026T23:34:33 - [TEST_CASE][ERROR] - Test Cases/StaffTables/TC-020-Invoice-patient-search: Test Cases/StaffTables/TC-020-Invoice-patient-search has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script31421959577000.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <system-out><![CDATA[25-04-2026T23:34:33 - [TEST_SUITE][ERROR] - Baseline: null]]></system-out>
+      <system-err><![CDATA[25-04-2026T23:34:33 - [TEST_SUITE][ERROR] - Baseline: null]]></system-err>
+   </testsuite>
+</testsuites>

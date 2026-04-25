@@ -683,7 +683,7 @@ export default function WaitListPage() {
 
             {/* Filter Modal */}
             {isFilterModalOpen && (
-                <div className="modal modal-open">
+                <div className="modal modal-open" data-testid="waitlist-filter-modal">
                     <div className="modal-box max-w-lg">
                         <h3 className="font-bold text-xl mb-6">
                             Filter Wait List
@@ -700,6 +700,7 @@ export default function WaitListPage() {
                                 <select
                                     className="select select-bordered w-full"
                                     value={filters.priority}
+                                    data-testid="waitlist-filter-priority"
                                     onChange={(e) =>
                                         setFilters({
                                             ...filters,
@@ -794,6 +795,7 @@ export default function WaitListPage() {
                                 type="button"
                                 className="btn btn-primary"
                                 onClick={handleApplyFilters}
+                                data-testid="waitlist-filter-apply"
                             >
                                 Apply Filters
                             </button>

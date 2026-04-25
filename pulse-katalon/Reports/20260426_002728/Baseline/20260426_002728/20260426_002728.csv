@@ -1,0 +1,82 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Baseline,Edge Chromium 147.0.3912.72,Baseline suite for Pulse Clinic web. Expected result before fault injection: 100% PASS.,,26-04-2026 00:27:33,26-04-2026 00:30:11,2m - 38.336s,PASSED
+,,,,,,,
+Test Cases/Authentication/TC-001-Open-HMS-role-selection,Edge Chromium 147.0.3912.72,Open HMS role selection page.,baseline,26-04-2026 00:27:33,26-04-2026 00:27:38,5.649s,PASSED
+try,Edge Chromium 147.0.3912.72,,,26-04-2026 00:27:33,26-04-2026 00:27:38,5.141s,PASSED
+Finally,Edge Chromium 147.0.3912.72,,,26-04-2026 00:27:38,26-04-2026 00:27:38,0.250s,PASSED
+,,,,,,,
+Test Cases/Authentication/TC-002-Open-staff-login,Edge Chromium 147.0.3912.72,Open staff login from HMS role selection.,baseline,26-04-2026 00:27:38,26-04-2026 00:27:42,4.115s,PASSED
+try,Edge Chromium 147.0.3912.72,,,26-04-2026 00:27:38,26-04-2026 00:27:42,3.767s,PASSED
+Finally,Edge Chromium 147.0.3912.72,,,26-04-2026 00:27:42,26-04-2026 00:27:42,0.295s,PASSED
+,,,,,,,
+Test Cases/Authentication/TC-003-Staff-login-required-fields,Edge Chromium 147.0.3912.72,Verify staff login required field controls.,baseline,26-04-2026 00:27:42,26-04-2026 00:27:46,3.846s,PASSED
+try,Edge Chromium 147.0.3912.72,,,26-04-2026 00:27:43,26-04-2026 00:27:46,3.491s,PASSED
+Finally,Edge Chromium 147.0.3912.72,,,26-04-2026 00:27:46,26-04-2026 00:27:46,0.271s,PASSED
+,,,,,,,
+Test Cases/Authentication/TC-004-Staff-login-invalid-credentials,Edge Chromium 147.0.3912.72,Verify invalid staff login shows an error.,baseline,26-04-2026 00:27:46,26-04-2026 00:27:52,5.687s,PASSED
+try,Edge Chromium 147.0.3912.72,,,26-04-2026 00:27:46,26-04-2026 00:27:52,5.252s,PASSED
+Finally,Edge Chromium 147.0.3912.72,,,26-04-2026 00:27:52,26-04-2026 00:27:52,0.364s,PASSED
+,,,,,,,
+Test Cases/Authentication/TC-005-Staff-login-success-dashboard,Edge Chromium 147.0.3912.72,Verify staff can log in and reach dashboard.,baseline,26-04-2026 00:27:52,26-04-2026 00:27:58,5.918s,PASSED
+try,Edge Chromium 147.0.3912.72,,,26-04-2026 00:27:52,26-04-2026 00:27:58,5.615s,PASSED
+Finally,Edge Chromium 147.0.3912.72,,,26-04-2026 00:27:58,26-04-2026 00:27:58,0.253s,PASSED
+,,,,,,,
+Test Cases/Authentication/TC-006-Doctor-login-success-schedule,Edge Chromium 147.0.3912.72,Verify doctor can log in and reach schedule.,baseline,26-04-2026 00:27:58,26-04-2026 00:28:08,9.786s,PASSED
+try,Edge Chromium 147.0.3912.72,,,26-04-2026 00:27:58,26-04-2026 00:28:07,9.395s,PASSED
+Finally,Edge Chromium 147.0.3912.72,,,26-04-2026 00:28:07,26-04-2026 00:28:08,0.349s,PASSED
+,,,,,,,
+Test Cases/Authentication/TC-007-Patient-login-success-dashboard,Edge Chromium 147.0.3912.72,Verify patient can log in and reach dashboard.,baseline,26-04-2026 00:28:08,26-04-2026 00:28:15,7.692s,PASSED
+try,Edge Chromium 147.0.3912.72,,,26-04-2026 00:28:08,26-04-2026 00:28:15,7.084s,PASSED
+Finally,Edge Chromium 147.0.3912.72,,,26-04-2026 00:28:15,26-04-2026 00:28:15,0.562s,PASSED
+,,,,,,,
+Test Cases/StaffTables/TC-008-Patient-profile-table,Edge Chromium 147.0.3912.72,Open patient profile table.,baseline,26-04-2026 00:28:15,26-04-2026 00:28:23,7.690s,PASSED
+try,Edge Chromium 147.0.3912.72,,,26-04-2026 00:28:15,26-04-2026 00:28:23,7.323s,PASSED
+Finally,Edge Chromium 147.0.3912.72,,,26-04-2026 00:28:23,26-04-2026 00:28:23,0.294s,PASSED
+,,,,,,,
+Test Cases/StaffTables/TC-009-Patient-search,Edge Chromium 147.0.3912.72,Search patient by seeded name.,baseline,26-04-2026 00:28:23,26-04-2026 00:28:32,8.495s,PASSED
+try,Edge Chromium 147.0.3912.72,,,26-04-2026 00:28:23,26-04-2026 00:28:31,8.224s,PASSED
+Finally,Edge Chromium 147.0.3912.72,,,26-04-2026 00:28:31,26-04-2026 00:28:32,0.213s,PASSED
+,,,,,,,
+Test Cases/StaffTables/TC-010-Patient-filter-gender,Edge Chromium 147.0.3912.72,Filter patients by gender.,baseline,26-04-2026 00:28:32,26-04-2026 00:28:41,9.374s,PASSED
+try,Edge Chromium 147.0.3912.72,,,26-04-2026 00:28:32,26-04-2026 00:28:41,9.077s,PASSED
+Finally,Edge Chromium 147.0.3912.72,,,26-04-2026 00:28:41,26-04-2026 00:28:41,0.264s,PASSED
+,,,,,,,
+Test Cases/StaffTables/TC-011-Patient-filter-insurance,Edge Chromium 147.0.3912.72,Filter patients by insurance.,baseline,26-04-2026 00:28:41,26-04-2026 00:28:50,9.247s,PASSED
+try,Edge Chromium 147.0.3912.72,,,26-04-2026 00:28:41,26-04-2026 00:28:50,8.920s,PASSED
+Finally,Edge Chromium 147.0.3912.72,,,26-04-2026 00:28:50,26-04-2026 00:28:50,0.267s,PASSED
+,,,,,,,
+Test Cases/StaffTables/TC-012-Drug-catalog-table,Edge Chromium 147.0.3912.72,Open drug catalog table.,baseline,26-04-2026 00:28:50,26-04-2026 00:28:58,7.794s,PASSED
+try,Edge Chromium 147.0.3912.72,,,26-04-2026 00:28:50,26-04-2026 00:28:58,7.529s,PASSED
+Finally,Edge Chromium 147.0.3912.72,,,26-04-2026 00:28:58,26-04-2026 00:28:58,0.210s,PASSED
+,,,,,,,
+Test Cases/StaffTables/TC-013-Drug-search,Edge Chromium 147.0.3912.72,Search drug by seeded name.,baseline,26-04-2026 00:28:58,26-04-2026 00:29:07,8.700s,PASSED
+try,Edge Chromium 147.0.3912.72,,,26-04-2026 00:28:58,26-04-2026 00:29:06,8.344s,PASSED
+Finally,Edge Chromium 147.0.3912.72,,,26-04-2026 00:29:06,26-04-2026 00:29:07,0.302s,PASSED
+,,,,,,,
+Test Cases/StaffTables/TC-014-Drug-filter-dosage-unit,Edge Chromium 147.0.3912.72,Filter drugs by dosage form and unit.,baseline,26-04-2026 00:29:07,26-04-2026 00:29:17,9.969s,PASSED
+try,Edge Chromium 147.0.3912.72,,,26-04-2026 00:29:07,26-04-2026 00:29:16,9.662s,PASSED
+Finally,Edge Chromium 147.0.3912.72,,,26-04-2026 00:29:16,26-04-2026 00:29:17,0.251s,PASSED
+,,,,,,,
+Test Cases/StaffTables/TC-015-Room-search,Edge Chromium 147.0.3912.72,Search room by seeded room number.,baseline,26-04-2026 00:29:17,26-04-2026 00:29:26,9.658s,PASSED
+try,Edge Chromium 147.0.3912.72,,,26-04-2026 00:29:17,26-04-2026 00:29:26,9.141s,PASSED
+Finally,Edge Chromium 147.0.3912.72,,,26-04-2026 00:29:26,26-04-2026 00:29:26,0.457s,PASSED
+,,,,,,,
+Test Cases/StaffTables/TC-016-Room-filter-status,Edge Chromium 147.0.3912.72,Filter rooms by available status.,baseline,26-04-2026 00:29:26,26-04-2026 00:29:36,9.539s,PASSED
+try,Edge Chromium 147.0.3912.72,,,26-04-2026 00:29:26,26-04-2026 00:29:36,9.162s,PASSED
+Finally,Edge Chromium 147.0.3912.72,,,26-04-2026 00:29:36,26-04-2026 00:29:36,0.327s,PASSED
+,,,,,,,
+Test Cases/StaffTables/TC-017-Waitlist-priority-order,Edge Chromium 147.0.3912.72,Open waitlist and validate priority order when data exists.,baseline,26-04-2026 00:29:36,26-04-2026 00:29:43,7.221s,PASSED
+try,Edge Chromium 147.0.3912.72,,,26-04-2026 00:29:36,26-04-2026 00:29:43,6.977s,PASSED
+Finally,Edge Chromium 147.0.3912.72,,,26-04-2026 00:29:43,26-04-2026 00:29:43,0.211s,PASSED
+,,,,,,,
+Test Cases/StaffTables/TC-018-Waitlist-filter-priority,Edge Chromium 147.0.3912.72,Filter waitlist by priority.,baseline,26-04-2026 00:29:43,26-04-2026 00:29:53,9.518s,PASSED
+try,Edge Chromium 147.0.3912.72,,,26-04-2026 00:29:43,26-04-2026 00:29:52,9.102s,PASSED
+Finally,Edge Chromium 147.0.3912.72,,,26-04-2026 00:29:52,26-04-2026 00:29:53,0.360s,PASSED
+,,,,,,,
+Test Cases/StaffTables/TC-019-Appointment-status-tabs,Edge Chromium 147.0.3912.72,Open appointment page and switch status tabs.,baseline,26-04-2026 00:29:53,26-04-2026 00:30:02,8.873s,PASSED
+try,Edge Chromium 147.0.3912.72,,,26-04-2026 00:29:53,26-04-2026 00:30:01,8.556s,PASSED
+Finally,Edge Chromium 147.0.3912.72,,,26-04-2026 00:30:01,26-04-2026 00:30:02,0.251s,PASSED
+,,,,,,,
+Test Cases/StaffTables/TC-020-Invoice-patient-search,Edge Chromium 147.0.3912.72,Search patient on invoice page.,baseline,26-04-2026 00:30:02,26-04-2026 00:30:11,9.311s,PASSED
+try,Edge Chromium 147.0.3912.72,,,26-04-2026 00:30:02,26-04-2026 00:30:11,8.933s,PASSED
+Finally,Edge Chromium 147.0.3912.72,,,26-04-2026 00:30:11,26-04-2026 00:30:11,0.259s,PASSED

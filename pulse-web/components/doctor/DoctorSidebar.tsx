@@ -48,6 +48,7 @@ const DoctorSidebar = () => {
                     <li>
                         <button
                             onClick={handleLogout}
+                            data-testid="logout-button"
                             className="flex items-center gap-3 px-4 py-3 text-error hover:bg-error/10 hover:text-error rounded-lg font-medium"
                         >
                             <LogOut size={20} />

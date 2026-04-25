@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><TestCaseEntity><description>Staff login with empty email field - browser HTML5 required validation should prevent form submission.</description><name>TC-021-Staff-login-empty-email</name><tag>baseline</tag><comment></comment><testCaseGuid>00000000-0000-0000-0000-000000000221</testCaseGuid></TestCaseEntity>

@@ -10,11 +10,15 @@ interface ToolbarProps {
 
 const Toolbar = ({ buttonName, onSearch, onFilter, onAdd }: ToolbarProps) => {
     return (
-        <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+        <div
+            className="flex flex-col md:flex-row justify-between items-center gap-4"
+            data-testid="staff-toolbar"
+        >
             <div className="flex items-center gap-4 w-full md:w-auto flex-1">
                 <button
                     onClick={onFilter}
                     className="btn btn-outline border-base-300 text-base-content/70 hover:bg-base-200 hover:border-base-300 font-medium normal-case bg-white gap-2 px-5"
+                    data-testid="toolbar-filter-button"
                 >
                     <Filter size={18} />
                     <span>Filter</span>
@@ -27,6 +31,7 @@ const Toolbar = ({ buttonName, onSearch, onFilter, onAdd }: ToolbarProps) => {
                         className="grow placeholder:text-base-content/40"
                         placeholder="Search"
                         onChange={(e) => onSearch && onSearch(e.target.value)}
+                        data-testid="toolbar-search-input"
                     />
                 </label>
             </div>
@@ -35,6 +40,7 @@ const Toolbar = ({ buttonName, onSearch, onFilter, onAdd }: ToolbarProps) => {
                 <button
                     onClick={onAdd}
                     className="btn btn-primary text-white normal-case px-6 w-full md:w-auto gap-2 shadow-sm"
+                    data-testid="toolbar-add-button"
                 >
                     Add to {buttonName}
                 </button>

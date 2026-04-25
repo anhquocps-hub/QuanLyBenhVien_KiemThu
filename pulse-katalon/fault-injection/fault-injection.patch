@@ -1,0 +1,60 @@
+diff --git a/pulse-web/components/staff/auth/StaffLoginForm.tsx b/pulse-web/components/staff/auth/StaffLoginForm.tsx
+--- a/pulse-web/components/staff/auth/StaffLoginForm.tsx
++++ b/pulse-web/components/staff/auth/StaffLoginForm.tsx
+@@ -99,7 +99,7 @@
+                 if (data.user) {
+                     localStorage.setItem("user", JSON.stringify(data.user));
+                 }
+ 
+-                navigateToSubdomain("staff", "/dashboard");
++                navigateToSubdomain("staff", "/broken-dashboard");
+             } else {
+                 setError("No token received");
+                 setLoading(false);
+diff --git a/pulse-web/components/staff/ToolBar.tsx b/pulse-web/components/staff/ToolBar.tsx
+--- a/pulse-web/components/staff/ToolBar.tsx
++++ b/pulse-web/components/staff/ToolBar.tsx
+@@ -30,7 +30,7 @@
+                         className="grow placeholder:text-base-content/40"
+                         placeholder="Search"
+                         onChange={(e) => onSearch && onSearch(e.target.value)}
+-                        data-testid="toolbar-search-input"
++                        data-testid="toolbar-search-input-broken"
+                     />
+                 </label>
+             </div>
+diff --git a/pulse-web/app/staff/(workspace)/patients/page.tsx b/pulse-web/app/staff/(workspace)/patients/page.tsx
+--- a/pulse-web/app/staff/(workspace)/patients/page.tsx
++++ b/pulse-web/app/staff/(workspace)/patients/page.tsx
+@@ -170,7 +170,7 @@
+         if (filters.hasInsurance) {
+             const hasInsurance = filters.hasInsurance === "yes";
+             result = result.filter(
+-                (patient) => patient.healthInsurance === hasInsurance
++                (patient) => patient.healthInsurance !== hasInsurance
+             );
+         }
+ 
+diff --git a/pulse-web/app/staff/(workspace)/rooms/page.tsx b/pulse-web/app/staff/(workspace)/rooms/page.tsx
+--- a/pulse-web/app/staff/(workspace)/rooms/page.tsx
++++ b/pulse-web/app/staff/(workspace)/rooms/page.tsx
+@@ -105,6 +105,6 @@
+         if (filters.status) {
+             const isAvailable = filters.status === "available";
+-            result = result.filter((room) => room.isAvailable === isAvailable);
++            result = result.filter((room) => room.isAvailable !== isAvailable);
+         }
+ 
+         setFilteredRooms(result);
+diff --git a/pulse-web/app/staff/(workspace)/appointments/page.tsx b/pulse-web/app/staff/(workspace)/appointments/page.tsx
+--- a/pulse-web/app/staff/(workspace)/appointments/page.tsx
++++ b/pulse-web/app/staff/(workspace)/appointments/page.tsx
+@@ -537,7 +537,7 @@
+                 {tabs.map((tab) => (
+                     <button
+                         key={tab.value}
+-                        onClick={() => setActiveTab(tab.value)}
++                        onClick={() => setActiveTab("PENDING")}
+                         className={`px-4 py-2 font-medium transition-colors relative ${
+                             activeTab === tab.value
+                                 ? "text-purple-600 border-b-2 border-purple-600"

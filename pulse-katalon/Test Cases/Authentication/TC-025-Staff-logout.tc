@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><TestCaseEntity><description>Staff logout - after login, clicking logout must redirect to /login and clear session.</description><name>TC-025-Staff-logout</name><tag>baseline</tag><comment></comment><testCaseGuid>00000000-0000-0000-0000-000000000225</testCaseGuid></TestCaseEntity>

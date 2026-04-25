@@ -349,7 +349,10 @@ export default function ManageRoomsPage() {
                 </div>
             )}
 
-            <div className={`modal ${isFilterOpen ? "modal-open" : ""}`}>
+            <div
+                className={`modal ${isFilterOpen ? "modal-open" : ""}`}
+                data-testid="room-filter-modal"
+            >
                 <div className="modal-box">
                     <h3 className="font-bold text-lg mb-4">Filter Rooms</h3>
 
@@ -361,6 +364,7 @@ export default function ManageRoomsPage() {
                             <select
                                 className="select select-bordered w-full"
                                 value={filters.department}
+                                data-testid="room-filter-department"
                                 onChange={(e) =>
                                     handleFilterChange(
                                         "department",
@@ -384,6 +388,7 @@ export default function ManageRoomsPage() {
                             <select
                                 className="select select-bordered w-full"
                                 value={filters.status}
+                                data-testid="room-filter-status"
                                 onChange={(e) =>
                                     handleFilterChange("status", e.target.value)
                                 }
@@ -405,6 +410,7 @@ export default function ManageRoomsPage() {
                         <button
                             className="btn btn-primary"
                             onClick={() => setIsFilterOpen(false)}
+                            data-testid="room-filter-apply"
                         >
                             Apply Filters
                         </button>

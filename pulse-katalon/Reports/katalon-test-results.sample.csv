@@ -1,0 +1,4 @@
+ID Bài Test,Trạng thái Pass/Fail,Thời gian chạy
+TC-001,PASS,2.31s
+TC-005,FAIL,5.82s
+TC-011,FAIL,3.44s

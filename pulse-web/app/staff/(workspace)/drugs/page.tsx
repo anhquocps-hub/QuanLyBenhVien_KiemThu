@@ -349,7 +349,10 @@ export default function DrugsPage() {
                 drug={selectedDrug}
             />
 
-            <div className={`modal ${isFilterOpen ? "modal-open" : ""}`}>
+            <div
+                className={`modal ${isFilterOpen ? "modal-open" : ""}`}
+                data-testid="drug-filter-modal"
+            >
                 <div className="modal-box">
                     <h3 className="font-bold text-lg mb-4">Filter Drugs</h3>
 
@@ -361,6 +364,7 @@ export default function DrugsPage() {
                             <select
                                 className="select select-bordered w-full"
                                 value={filters.dosageForm}
+                                data-testid="drug-filter-dosage-form"
                                 onChange={(e) =>
                                     handleFilterChange(
                                         "dosageForm",
@@ -384,6 +388,7 @@ export default function DrugsPage() {
                             <select
                                 className="select select-bordered w-full"
                                 value={filters.unit}
+                                data-testid="drug-filter-unit"
                                 onChange={(e) =>
                                     handleFilterChange("unit", e.target.value)
                                 }
@@ -444,6 +449,7 @@ export default function DrugsPage() {
                         <button
                             className="btn btn-primary"
                             onClick={() => setIsFilterOpen(false)}
+                            data-testid="drug-filter-apply"
                         >
                             Apply Filters
                         </button>

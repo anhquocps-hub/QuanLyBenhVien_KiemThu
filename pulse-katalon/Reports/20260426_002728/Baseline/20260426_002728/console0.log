@@ -1,0 +1,484 @@
+2026-04-26 00:27:32.326 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\ACER\.katalon\packages\KS-11.0.1\configuration\org.eclipse.osgi\148\0\.cp\resources\logback\logback-execution.xml
+2026-04-26 00:27:32.329 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized
+2026-04-26 00:27:32.997 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Baseline
+2026-04-26 00:27:33.068 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Anh Quốc Huỳnh
+2026-04-26 00:27:33.070 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = PulseClinicKatalon
+2026-04-26 00:27:33.071 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = ACER - Aspire-A715
+2026-04-26 00:27:33.072 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-04-26 00:27:33.073 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.9
+2026-04-26 00:27:33.074 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.0.1.0
+2026-04-26 00:27:33.186 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-26 00:27:33.186 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Authentication/TC-001-Open-HMS-role-selection
+2026-04-26 00:27:33.443 DEBUG t.TC-001-Open-HMS-role-selection         - 1: try
+2026-04-26 00:27:33.445 DEBUG t.TC-001-Open-HMS-role-selection         - 1: pulseclinic.WebUiKeywords.openAt(hmsBaseUrl)
+2026-04-26 00:27:33.971 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-04-26 00:27:34.029 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Apr 26, 2026 12:27:35 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 147, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 147
+2026-04-26 00:27:36.373 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 27adb0b3e1aa3ed44f03ae351f9bf85f
+2026-04-26 00:27:36.377 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 147.0.3912.72
+2026-04-26 00:27:36.378 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-26 00:27:36.380 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-26 00:27:36.392 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-26 00:27:37.595 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.openAt is PASSED
+2026-04-26 00:27:37.599 DEBUG t.TC-001-Open-HMS-role-selection         - 2: pulseclinic.WebUiKeywords.verifyTextPresent("Hospital Management System")
+2026-04-26 00:27:38.007 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.verifyTextPresent is PASSED
+2026-04-26 00:27:38.010 DEBUG t.TC-001-Open-HMS-role-selection         - 3: pulseclinic.WebUiKeywords.verifyTextPresent("Staff")
+2026-04-26 00:27:38.308 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.verifyTextPresent is PASSED
+2026-04-26 00:27:38.313 DEBUG t.TC-001-Open-HMS-role-selection         - 4: pulseclinic.WebUiKeywords.verifyTextPresent("Doctor")
+2026-04-26 00:27:38.582 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.verifyTextPresent is PASSED
+2026-04-26 00:27:38.582 DEBUG t.TC-001-Open-HMS-role-selection         - 2: Finally
+2026-04-26 00:27:38.585 DEBUG t.TC-001-Open-HMS-role-selection         - 1: pulseclinic.WebUiKeywords.closeBrowser()
+2026-04-26 00:27:38.833 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.closeBrowser is PASSED
+2026-04-26 00:27:38.835 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Authentication/TC-001-Open-HMS-role-selection
+2026-04-26 00:27:38.839 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-26 00:27:38.839 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Authentication/TC-002-Open-staff-login
+2026-04-26 00:27:38.890 DEBUG t.TC-001-Open-HMS-role-selection         - 1: try
+2026-04-26 00:27:38.891 DEBUG t.TC-001-Open-HMS-role-selection         - 1: pulseclinic.WebUiKeywords.openAt(hmsBaseUrl)
+2026-04-26 00:27:38.893 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-04-26 00:27:38.900 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Apr 26, 2026 12:27:39 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 147, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 147
+2026-04-26 00:27:39.979 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 9495baa88806406207beedd068b4ac31
+2026-04-26 00:27:39.979 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 147.0.3912.72
+2026-04-26 00:27:39.980 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-26 00:27:39.980 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-26 00:27:39.982 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-26 00:27:40.603 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.openAt is PASSED
+2026-04-26 00:27:40.604 DEBUG t.TC-001-Open-HMS-role-selection         - 2: pulseclinic.WebUiKeywords.clickByTestId("role-card-staff")
+2026-04-26 00:27:42.105 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.clickByTestId is PASSED
+2026-04-26 00:27:42.109 DEBUG t.TC-001-Open-HMS-role-selection         - 3: pulseclinic.WebUiKeywords.verifyUrlContains("/login")
+2026-04-26 00:27:42.182 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.verifyUrlContains is PASSED
+2026-04-26 00:27:42.184 DEBUG t.TC-001-Open-HMS-role-selection         - 4: pulseclinic.WebUiKeywords.verifyTextPresent("Staff Login")
+2026-04-26 00:27:42.655 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.verifyTextPresent is PASSED
+2026-04-26 00:27:42.657 DEBUG t.TC-001-Open-HMS-role-selection         - 2: Finally
+2026-04-26 00:27:42.660 DEBUG t.TC-001-Open-HMS-role-selection         - 1: pulseclinic.WebUiKeywords.closeBrowser()
+2026-04-26 00:27:42.952 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.closeBrowser is PASSED
+2026-04-26 00:27:42.954 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Authentication/TC-002-Open-staff-login
+2026-04-26 00:27:42.958 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-26 00:27:42.958 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Authentication/TC-003-Staff-login-required-fields
+2026-04-26 00:27:43.040 DEBUG t.TC-001-Open-HMS-role-selection         - 1: try
+2026-04-26 00:27:43.043 DEBUG t.TC-001-Open-HMS-role-selection         - 1: pulseclinic.WebUiKeywords.openAt(staffBaseUrl + "/login")
+2026-04-26 00:27:43.050 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-04-26 00:27:43.057 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Apr 26, 2026 12:27:44 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 147, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 147
+2026-04-26 00:27:44.217 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 94a27ce0a120ec87f435b37aa981d460
+2026-04-26 00:27:44.217 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 147.0.3912.72
+2026-04-26 00:27:44.218 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-26 00:27:44.220 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-26 00:27:44.222 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-26 00:27:44.974 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.openAt is PASSED
+2026-04-26 00:27:44.980 DEBUG t.TC-001-Open-HMS-role-selection         - 2: verifyElementHasAttribute(pulseclinic.WebUiKeywords.byTestId("login-email-input"), "required", defaultTimeout)
+2026-04-26 00:27:44.986 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.byTestId is PASSED
+2026-04-26 00:27:45.515 DEBUG t.TC-001-Open-HMS-role-selection         - 3: verifyElementHasAttribute(pulseclinic.WebUiKeywords.byTestId("login-password-input"), "required", defaultTimeout)
+2026-04-26 00:27:45.518 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.byTestId is PASSED
+2026-04-26 00:27:45.776 DEBUG t.TC-001-Open-HMS-role-selection         - 4: pulseclinic.WebUiKeywords.clickByTestId("login-submit-button")
+2026-04-26 00:27:46.527 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.clickByTestId is PASSED
+2026-04-26 00:27:46.529 DEBUG t.TC-001-Open-HMS-role-selection         - 2: Finally
+2026-04-26 00:27:46.534 DEBUG t.TC-001-Open-HMS-role-selection         - 1: pulseclinic.WebUiKeywords.closeBrowser()
+2026-04-26 00:27:46.803 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.closeBrowser is PASSED
+2026-04-26 00:27:46.804 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Authentication/TC-003-Staff-login-required-fields
+2026-04-26 00:27:46.807 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-26 00:27:46.808 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Authentication/TC-004-Staff-login-invalid-credentials
+2026-04-26 00:27:46.878 DEBUG t.TC-001-Open-HMS-role-selection         - 1: try
+2026-04-26 00:27:46.880 DEBUG t.TC-001-Open-HMS-role-selection         - 1: pulseclinic.WebUiKeywords.openAt(staffBaseUrl + "/login")
+2026-04-26 00:27:46.882 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-04-26 00:27:46.889 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Apr 26, 2026 12:27:47 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 147, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 147
+2026-04-26 00:27:47.853 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 374a3aa14b6b883c0d2ecb5a25d0187e
+2026-04-26 00:27:47.854 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 147.0.3912.72
+2026-04-26 00:27:47.854 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-26 00:27:47.855 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-26 00:27:47.856 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-26 00:27:48.372 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.openAt is PASSED
+2026-04-26 00:27:48.374 DEBUG t.TC-001-Open-HMS-role-selection         - 2: pulseclinic.WebUiKeywords.setTextByTestId("login-email-input", "wrong.staff@hospital.com")
+2026-04-26 00:27:49.631 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.setTextByTestId is PASSED
+2026-04-26 00:27:49.633 DEBUG t.TC-001-Open-HMS-role-selection         - 3: pulseclinic.WebUiKeywords.setTextByTestId("login-password-input", "wrong-password")
+2026-04-26 00:27:50.633 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.setTextByTestId is PASSED
+2026-04-26 00:27:50.634 DEBUG t.TC-001-Open-HMS-role-selection         - 4: pulseclinic.WebUiKeywords.clickByTestId("login-submit-button")
+2026-04-26 00:27:51.270 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.clickByTestId is PASSED
+2026-04-26 00:27:51.272 DEBUG t.TC-001-Open-HMS-role-selection         - 5: waitForElementVisible(pulseclinic.WebUiKeywords.byTestId("login-error"), defaultTimeout)
+2026-04-26 00:27:51.275 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.byTestId is PASSED
+2026-04-26 00:27:52.129 DEBUG t.TC-001-Open-HMS-role-selection         - 2: Finally
+2026-04-26 00:27:52.131 DEBUG t.TC-001-Open-HMS-role-selection         - 1: pulseclinic.WebUiKeywords.closeBrowser()
+2026-04-26 00:27:52.493 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.closeBrowser is PASSED
+2026-04-26 00:27:52.495 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Authentication/TC-004-Staff-login-invalid-credentials
+2026-04-26 00:27:52.499 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-26 00:27:52.499 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Authentication/TC-005-Staff-login-success-dashboard
+2026-04-26 00:27:52.547 DEBUG t.TC-001-Open-HMS-role-selection         - 1: try
+2026-04-26 00:27:52.548 DEBUG t.TC-001-Open-HMS-role-selection         - 1: pulseclinic.WebUiKeywords.loginAsStaff()
+2026-04-26 00:27:52.550 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-04-26 00:27:52.555 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Apr 26, 2026 12:27:53 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 147, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 147
+2026-04-26 00:27:53.527 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 31bd29245243670e030f258872e6ebea
+2026-04-26 00:27:53.528 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 147.0.3912.72
+2026-04-26 00:27:53.528 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-26 00:27:53.531 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-26 00:27:53.532 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-26 00:27:58.160 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+2026-04-26 00:27:58.161 DEBUG t.TC-001-Open-HMS-role-selection         - 2: Finally
+2026-04-26 00:27:58.164 DEBUG t.TC-001-Open-HMS-role-selection         - 1: pulseclinic.WebUiKeywords.closeBrowser()
+2026-04-26 00:27:58.415 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.closeBrowser is PASSED
+2026-04-26 00:27:58.417 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Authentication/TC-005-Staff-login-success-dashboard
+2026-04-26 00:27:58.421 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-26 00:27:58.421 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Authentication/TC-006-Doctor-login-success-schedule
+2026-04-26 00:27:58.461 DEBUG t.TC-001-Open-HMS-role-selection         - 1: try
+2026-04-26 00:27:58.463 DEBUG t.TC-001-Open-HMS-role-selection         - 1: pulseclinic.WebUiKeywords.loginAsDoctor()
+2026-04-26 00:27:58.465 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-04-26 00:27:58.470 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Apr 26, 2026 12:27:59 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 147, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 147
+2026-04-26 00:27:59.623 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 3d7fa9cdcad04bca19122bafd0badd2f
+2026-04-26 00:27:59.624 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 147.0.3912.72
+2026-04-26 00:27:59.628 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-26 00:27:59.629 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-26 00:27:59.631 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-26 00:28:07.852 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.loginAsDoctor is PASSED
+2026-04-26 00:28:07.854 DEBUG t.TC-001-Open-HMS-role-selection         - 2: Finally
+2026-04-26 00:28:07.860 DEBUG t.TC-001-Open-HMS-role-selection         - 1: pulseclinic.WebUiKeywords.closeBrowser()
+2026-04-26 00:28:08.205 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.closeBrowser is PASSED
+2026-04-26 00:28:08.207 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Authentication/TC-006-Doctor-login-success-schedule
+2026-04-26 00:28:08.212 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-26 00:28:08.212 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Authentication/TC-007-Patient-login-success-dashboard
+2026-04-26 00:28:08.255 DEBUG t.TC-001-Open-HMS-role-selection         - 1: try
+2026-04-26 00:28:08.257 DEBUG t.TC-001-Open-HMS-role-selection         - 1: pulseclinic.WebUiKeywords.loginAsPatient()
+2026-04-26 00:28:08.259 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-04-26 00:28:08.264 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Apr 26, 2026 12:28:09 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 147, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 147
+2026-04-26 00:28:09.611 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 188cc46b8c9246e649960e0dd3f6a85e
+2026-04-26 00:28:09.613 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 147.0.3912.72
+2026-04-26 00:28:09.617 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-26 00:28:09.618 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-26 00:28:09.619 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-26 00:28:15.329 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.loginAsPatient is PASSED
+2026-04-26 00:28:15.338 DEBUG t.TC-001-Open-HMS-role-selection         - 2: Finally
+2026-04-26 00:28:15.345 DEBUG t.TC-001-Open-HMS-role-selection         - 1: pulseclinic.WebUiKeywords.closeBrowser()
+2026-04-26 00:28:15.902 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.closeBrowser is PASSED
+2026-04-26 00:28:15.904 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Authentication/TC-007-Patient-login-success-dashboard
+2026-04-26 00:28:15.910 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-26 00:28:15.910 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/StaffTables/TC-008-Patient-profile-table
+2026-04-26 00:28:15.982 DEBUG t.TC-001-Open-HMS-role-selection         - 1: try
+2026-04-26 00:28:15.984 DEBUG t.TC-001-Open-HMS-role-selection         - 1: pulseclinic.WebUiKeywords.loginAsStaff()
+2026-04-26 00:28:15.985 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-04-26 00:28:15.990 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Apr 26, 2026 12:28:17 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 147, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 147
+2026-04-26 00:28:17.164 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 2589d2eaeee75bd4f3cff967deadad84
+2026-04-26 00:28:17.165 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 147.0.3912.72
+2026-04-26 00:28:17.165 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-26 00:28:17.165 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-26 00:28:17.166 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-26 00:28:21.878 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+2026-04-26 00:28:21.880 DEBUG t.TC-001-Open-HMS-role-selection         - 2: navigateToUrl(staffBaseUrl + "/patients")
+2026-04-26 00:28:22.430 DEBUG t.TC-001-Open-HMS-role-selection         - 3: pulseclinic.WebUiKeywords.verifyRowsOrEmptyState()
+2026-04-26 00:28:23.303 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+2026-04-26 00:28:23.305 DEBUG t.TC-001-Open-HMS-role-selection         - 2: Finally
+2026-04-26 00:28:23.307 DEBUG t.TC-001-Open-HMS-role-selection         - 1: pulseclinic.WebUiKeywords.closeBrowser()
+2026-04-26 00:28:23.598 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.closeBrowser is PASSED
+2026-04-26 00:28:23.599 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/StaffTables/TC-008-Patient-profile-table
+2026-04-26 00:28:23.603 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-26 00:28:23.603 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/StaffTables/TC-009-Patient-search
+2026-04-26 00:28:23.661 DEBUG t.TC-001-Open-HMS-role-selection         - 1: try
+2026-04-26 00:28:23.662 DEBUG t.TC-001-Open-HMS-role-selection         - 1: pulseclinic.WebUiKeywords.loginAsStaff()
+2026-04-26 00:28:23.664 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-04-26 00:28:23.669 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Apr 26, 2026 12:28:24 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 147, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 147
+2026-04-26 00:28:24.567 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ea5f279cf201e14836ab4be0c6a2ee1e
+2026-04-26 00:28:24.567 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 147.0.3912.72
+2026-04-26 00:28:24.567 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-26 00:28:24.567 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-26 00:28:24.568 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-26 00:28:28.847 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+2026-04-26 00:28:28.850 DEBUG t.TC-001-Open-HMS-role-selection         - 2: navigateToUrl(staffBaseUrl + "/patients")
+2026-04-26 00:28:29.255 DEBUG t.TC-001-Open-HMS-role-selection         - 3: pulseclinic.WebUiKeywords.searchToolbar(patientSearchTerm)
+2026-04-26 00:28:31.610 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.searchToolbar is PASSED
+2026-04-26 00:28:31.611 DEBUG t.TC-001-Open-HMS-role-selection         - 4: pulseclinic.WebUiKeywords.verifyTextPresent(patientSearchTerm)
+2026-04-26 00:28:31.884 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.verifyTextPresent is PASSED
+2026-04-26 00:28:31.885 DEBUG t.TC-001-Open-HMS-role-selection         - 2: Finally
+2026-04-26 00:28:31.886 DEBUG t.TC-001-Open-HMS-role-selection         - 1: pulseclinic.WebUiKeywords.closeBrowser()
+2026-04-26 00:28:32.097 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.closeBrowser is PASSED
+2026-04-26 00:28:32.098 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/StaffTables/TC-009-Patient-search
+2026-04-26 00:28:32.101 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-26 00:28:32.101 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/StaffTables/TC-010-Patient-filter-gender
+2026-04-26 00:28:32.133 DEBUG t.TC-001-Open-HMS-role-selection         - 1: try
+2026-04-26 00:28:32.134 DEBUG t.TC-001-Open-HMS-role-selection         - 1: pulseclinic.WebUiKeywords.loginAsStaff()
+2026-04-26 00:28:32.135 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-04-26 00:28:32.137 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Apr 26, 2026 12:28:32 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 147, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 147
+2026-04-26 00:28:33.067 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 1b13535e27894a25a6eb6af7b388f3f9
+2026-04-26 00:28:33.069 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 147.0.3912.72
+2026-04-26 00:28:33.069 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-26 00:28:33.069 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-26 00:28:33.069 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-26 00:28:37.508 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+2026-04-26 00:28:37.509 DEBUG t.TC-001-Open-HMS-role-selection         - 2: navigateToUrl(staffBaseUrl + "/patients")
+2026-04-26 00:28:37.804 DEBUG t.TC-001-Open-HMS-role-selection         - 3: pulseclinic.WebUiKeywords.openToolbarFilter()
+2026-04-26 00:28:38.895 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.openToolbarFilter is PASSED
+2026-04-26 00:28:38.896 DEBUG t.TC-001-Open-HMS-role-selection         - 4: pulseclinic.WebUiKeywords.selectByValueTestId("patient-filter-gender", "Male")
+2026-04-26 00:28:39.821 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.selectByValueTestId is PASSED
+2026-04-26 00:28:39.824 DEBUG t.TC-001-Open-HMS-role-selection         - 5: pulseclinic.WebUiKeywords.clickByTestId("patient-filter-apply")
+2026-04-26 00:28:40.684 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.clickByTestId is PASSED
+2026-04-26 00:28:40.685 DEBUG t.TC-001-Open-HMS-role-selection         - 6: pulseclinic.WebUiKeywords.verifyRowsOrEmptyState()
+2026-04-26 00:28:41.208 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+2026-04-26 00:28:41.209 DEBUG t.TC-001-Open-HMS-role-selection         - 2: Finally
+2026-04-26 00:28:41.211 DEBUG t.TC-001-Open-HMS-role-selection         - 1: pulseclinic.WebUiKeywords.closeBrowser()
+2026-04-26 00:28:41.473 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.closeBrowser is PASSED
+2026-04-26 00:28:41.475 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/StaffTables/TC-010-Patient-filter-gender
+2026-04-26 00:28:41.479 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-26 00:28:41.479 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/StaffTables/TC-011-Patient-filter-insurance
+2026-04-26 00:28:41.538 DEBUG t.TC-001-Open-HMS-role-selection         - 1: try
+2026-04-26 00:28:41.539 DEBUG t.TC-001-Open-HMS-role-selection         - 1: pulseclinic.WebUiKeywords.loginAsStaff()
+2026-04-26 00:28:41.540 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-04-26 00:28:41.544 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Apr 26, 2026 12:28:42 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 147, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 147
+2026-04-26 00:28:42.419 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 1ef197cebc926656258a89166a9f12ad
+2026-04-26 00:28:42.419 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 147.0.3912.72
+2026-04-26 00:28:42.419 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-26 00:28:42.419 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-26 00:28:42.420 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-26 00:28:47.064 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+2026-04-26 00:28:47.065 DEBUG t.TC-001-Open-HMS-role-selection         - 2: navigateToUrl(staffBaseUrl + "/patients")
+2026-04-26 00:28:47.335 DEBUG t.TC-001-Open-HMS-role-selection         - 3: pulseclinic.WebUiKeywords.openToolbarFilter()
+2026-04-26 00:28:48.288 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.openToolbarFilter is PASSED
+2026-04-26 00:28:48.288 DEBUG t.TC-001-Open-HMS-role-selection         - 4: pulseclinic.WebUiKeywords.selectByValueTestId("patient-filter-insurance", "yes")
+2026-04-26 00:28:49.139 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.selectByValueTestId is PASSED
+2026-04-26 00:28:49.141 DEBUG t.TC-001-Open-HMS-role-selection         - 5: pulseclinic.WebUiKeywords.clickByTestId("patient-filter-apply")
+2026-04-26 00:28:49.950 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.clickByTestId is PASSED
+2026-04-26 00:28:49.951 DEBUG t.TC-001-Open-HMS-role-selection         - 6: pulseclinic.WebUiKeywords.verifyRowsOrEmptyState()
+2026-04-26 00:28:50.457 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+2026-04-26 00:28:50.458 DEBUG t.TC-001-Open-HMS-role-selection         - 2: Finally
+2026-04-26 00:28:50.459 DEBUG t.TC-001-Open-HMS-role-selection         - 1: pulseclinic.WebUiKeywords.closeBrowser()
+2026-04-26 00:28:50.724 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.closeBrowser is PASSED
+2026-04-26 00:28:50.725 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/StaffTables/TC-011-Patient-filter-insurance
+2026-04-26 00:28:50.729 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-26 00:28:50.729 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/StaffTables/TC-012-Drug-catalog-table
+2026-04-26 00:28:50.782 DEBUG t.TC-001-Open-HMS-role-selection         - 1: try
+2026-04-26 00:28:50.784 DEBUG t.TC-001-Open-HMS-role-selection         - 1: pulseclinic.WebUiKeywords.loginAsStaff()
+2026-04-26 00:28:50.785 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-04-26 00:28:50.788 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Apr 26, 2026 12:28:51 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 147, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 147
+2026-04-26 00:28:51.794 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ce9f9a1d53270de47d58dbe4faf5ae12
+2026-04-26 00:28:51.795 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 147.0.3912.72
+2026-04-26 00:28:51.796 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-26 00:28:51.796 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-26 00:28:51.797 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-26 00:28:56.239 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+2026-04-26 00:28:56.241 DEBUG t.TC-001-Open-HMS-role-selection         - 2: navigateToUrl(staffBaseUrl + "/drugs")
+2026-04-26 00:28:57.142 DEBUG t.TC-001-Open-HMS-role-selection         - 3: pulseclinic.WebUiKeywords.verifyRowsOrEmptyState()
+2026-04-26 00:28:58.029 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+2026-04-26 00:28:58.031 DEBUG t.TC-001-Open-HMS-role-selection         - 4: pulseclinic.WebUiKeywords.verifyTextPresent("Paracetamol")
+2026-04-26 00:28:58.310 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.verifyTextPresent is PASSED
+2026-04-26 00:28:58.311 DEBUG t.TC-001-Open-HMS-role-selection         - 2: Finally
+2026-04-26 00:28:58.313 DEBUG t.TC-001-Open-HMS-role-selection         - 1: pulseclinic.WebUiKeywords.closeBrowser()
+2026-04-26 00:28:58.522 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.closeBrowser is PASSED
+2026-04-26 00:28:58.523 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/StaffTables/TC-012-Drug-catalog-table
+2026-04-26 00:28:58.525 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-26 00:28:58.526 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/StaffTables/TC-013-Drug-search
+2026-04-26 00:28:58.580 DEBUG t.TC-001-Open-HMS-role-selection         - 1: try
+2026-04-26 00:28:58.581 DEBUG t.TC-001-Open-HMS-role-selection         - 1: pulseclinic.WebUiKeywords.loginAsStaff()
+2026-04-26 00:28:58.583 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-04-26 00:28:58.587 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Apr 26, 2026 12:28:59 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 147, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 147
+2026-04-26 00:28:59.600 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 4fe17453b58213bd50f51e064656dc1d
+2026-04-26 00:28:59.601 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 147.0.3912.72
+2026-04-26 00:28:59.601 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-26 00:28:59.601 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-26 00:28:59.602 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-26 00:29:03.976 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+2026-04-26 00:29:03.977 DEBUG t.TC-001-Open-HMS-role-selection         - 2: navigateToUrl(staffBaseUrl + "/drugs")
+2026-04-26 00:29:04.235 DEBUG t.TC-001-Open-HMS-role-selection         - 3: pulseclinic.WebUiKeywords.searchToolbar(drugSearchTerm)
+2026-04-26 00:29:06.634 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.searchToolbar is PASSED
+2026-04-26 00:29:06.634 DEBUG t.TC-001-Open-HMS-role-selection         - 4: pulseclinic.WebUiKeywords.verifyTextPresent(drugSearchTerm)
+2026-04-26 00:29:06.923 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.verifyTextPresent is PASSED
+2026-04-26 00:29:06.924 DEBUG t.TC-001-Open-HMS-role-selection         - 2: Finally
+2026-04-26 00:29:06.926 DEBUG t.TC-001-Open-HMS-role-selection         - 1: pulseclinic.WebUiKeywords.closeBrowser()
+2026-04-26 00:29:07.225 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.closeBrowser is PASSED
+2026-04-26 00:29:07.226 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/StaffTables/TC-013-Drug-search
+2026-04-26 00:29:07.229 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-26 00:29:07.229 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/StaffTables/TC-014-Drug-filter-dosage-unit
+2026-04-26 00:29:07.285 DEBUG t.TC-001-Open-HMS-role-selection         - 1: try
+2026-04-26 00:29:07.286 DEBUG t.TC-001-Open-HMS-role-selection         - 1: pulseclinic.WebUiKeywords.loginAsStaff()
+2026-04-26 00:29:07.288 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-04-26 00:29:07.291 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Apr 26, 2026 12:29:08 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 147, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 147
+2026-04-26 00:29:08.225 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = be525e4427d0965b0fc6e6a774116e5e
+2026-04-26 00:29:08.225 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 147.0.3912.72
+2026-04-26 00:29:08.225 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-26 00:29:08.225 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-26 00:29:08.226 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-26 00:29:12.434 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+2026-04-26 00:29:12.434 DEBUG t.TC-001-Open-HMS-role-selection         - 2: navigateToUrl(staffBaseUrl + "/drugs")
+2026-04-26 00:29:12.737 DEBUG t.TC-001-Open-HMS-role-selection         - 3: pulseclinic.WebUiKeywords.openToolbarFilter()
+2026-04-26 00:29:13.696 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.openToolbarFilter is PASSED
+2026-04-26 00:29:13.697 DEBUG t.TC-001-Open-HMS-role-selection         - 4: pulseclinic.WebUiKeywords.selectByValueTestId("drug-filter-dosage-form", "TABLET")
+2026-04-26 00:29:14.557 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.selectByValueTestId is PASSED
+2026-04-26 00:29:14.559 DEBUG t.TC-001-Open-HMS-role-selection         - 5: pulseclinic.WebUiKeywords.selectByValueTestId("drug-filter-unit", "TABLET")
+2026-04-26 00:29:15.631 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.selectByValueTestId is PASSED
+2026-04-26 00:29:15.632 DEBUG t.TC-001-Open-HMS-role-selection         - 6: pulseclinic.WebUiKeywords.clickByTestId("drug-filter-apply")
+2026-04-26 00:29:16.453 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.clickByTestId is PASSED
+2026-04-26 00:29:16.454 DEBUG t.TC-001-Open-HMS-role-selection         - 7: pulseclinic.WebUiKeywords.verifyRowsOrEmptyState()
+2026-04-26 00:29:16.945 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+2026-04-26 00:29:16.946 DEBUG t.TC-001-Open-HMS-role-selection         - 2: Finally
+2026-04-26 00:29:16.947 DEBUG t.TC-001-Open-HMS-role-selection         - 1: pulseclinic.WebUiKeywords.closeBrowser()
+2026-04-26 00:29:17.197 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.closeBrowser is PASSED
+2026-04-26 00:29:17.198 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/StaffTables/TC-014-Drug-filter-dosage-unit
+2026-04-26 00:29:17.201 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-26 00:29:17.201 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/StaffTables/TC-015-Room-search
+2026-04-26 00:29:17.258 DEBUG t.TC-001-Open-HMS-role-selection         - 1: try
+2026-04-26 00:29:17.260 DEBUG t.TC-001-Open-HMS-role-selection         - 1: pulseclinic.WebUiKeywords.loginAsStaff()
+2026-04-26 00:29:17.262 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-04-26 00:29:17.281 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Apr 26, 2026 12:29:18 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 147, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 147
+2026-04-26 00:29:18.249 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = dcf27f84908e1b4a4b31a1d5627068f1
+2026-04-26 00:29:18.250 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 147.0.3912.72
+2026-04-26 00:29:18.250 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-26 00:29:18.251 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-26 00:29:18.251 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-26 00:29:22.576 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+2026-04-26 00:29:22.577 DEBUG t.TC-001-Open-HMS-role-selection         - 2: navigateToUrl(staffBaseUrl + "/rooms")
+2026-04-26 00:29:23.637 DEBUG t.TC-001-Open-HMS-role-selection         - 3: pulseclinic.WebUiKeywords.searchToolbar(roomSearchTerm)
+2026-04-26 00:29:26.124 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.searchToolbar is PASSED
+2026-04-26 00:29:26.125 DEBUG t.TC-001-Open-HMS-role-selection         - 4: pulseclinic.WebUiKeywords.verifyTextPresent(roomSearchTerm)
+2026-04-26 00:29:26.398 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.verifyTextPresent is PASSED
+2026-04-26 00:29:26.399 DEBUG t.TC-001-Open-HMS-role-selection         - 2: Finally
+2026-04-26 00:29:26.401 DEBUG t.TC-001-Open-HMS-role-selection         - 1: pulseclinic.WebUiKeywords.closeBrowser()
+2026-04-26 00:29:26.857 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.closeBrowser is PASSED
+2026-04-26 00:29:26.858 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/StaffTables/TC-015-Room-search
+2026-04-26 00:29:26.861 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-26 00:29:26.861 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/StaffTables/TC-016-Room-filter-status
+2026-04-26 00:29:26.910 DEBUG t.TC-001-Open-HMS-role-selection         - 1: try
+2026-04-26 00:29:26.910 DEBUG t.TC-001-Open-HMS-role-selection         - 1: pulseclinic.WebUiKeywords.loginAsStaff()
+2026-04-26 00:29:26.911 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-04-26 00:29:26.914 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Apr 26, 2026 12:29:28 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 147, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 147
+2026-04-26 00:29:28.234 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = d3e053d3f1908df86a7e239c551b2bb8
+2026-04-26 00:29:28.235 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 147.0.3912.72
+2026-04-26 00:29:28.235 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-26 00:29:28.235 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-26 00:29:28.236 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-26 00:29:32.679 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+2026-04-26 00:29:32.680 DEBUG t.TC-001-Open-HMS-role-selection         - 2: navigateToUrl(staffBaseUrl + "/rooms")
+2026-04-26 00:29:32.880 DEBUG t.TC-001-Open-HMS-role-selection         - 3: pulseclinic.WebUiKeywords.openToolbarFilter()
+2026-04-26 00:29:33.880 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.openToolbarFilter is PASSED
+2026-04-26 00:29:33.881 DEBUG t.TC-001-Open-HMS-role-selection         - 4: pulseclinic.WebUiKeywords.selectByValueTestId("room-filter-status", "available")
+2026-04-26 00:29:34.719 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.selectByValueTestId is PASSED
+2026-04-26 00:29:34.721 DEBUG t.TC-001-Open-HMS-role-selection         - 5: pulseclinic.WebUiKeywords.clickByTestId("room-filter-apply")
+2026-04-26 00:29:35.560 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.clickByTestId is PASSED
+2026-04-26 00:29:35.562 DEBUG t.TC-001-Open-HMS-role-selection         - 6: pulseclinic.WebUiKeywords.verifyRowsOrEmptyState()
+2026-04-26 00:29:36.072 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+2026-04-26 00:29:36.072 DEBUG t.TC-001-Open-HMS-role-selection         - 2: Finally
+2026-04-26 00:29:36.073 DEBUG t.TC-001-Open-HMS-role-selection         - 1: pulseclinic.WebUiKeywords.closeBrowser()
+2026-04-26 00:29:36.399 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.closeBrowser is PASSED
+2026-04-26 00:29:36.399 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/StaffTables/TC-016-Room-filter-status
+2026-04-26 00:29:36.401 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-26 00:29:36.401 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/StaffTables/TC-017-Waitlist-priority-order
+2026-04-26 00:29:36.433 DEBUG t.TC-001-Open-HMS-role-selection         - 1: try
+2026-04-26 00:29:36.434 DEBUG t.TC-001-Open-HMS-role-selection         - 1: pulseclinic.WebUiKeywords.loginAsStaff()
+2026-04-26 00:29:36.435 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-04-26 00:29:36.437 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Apr 26, 2026 12:29:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 147, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 147
+2026-04-26 00:29:37.504 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 068a544e899d0441545f9845ef336ff9
+2026-04-26 00:29:37.506 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 147.0.3912.72
+2026-04-26 00:29:37.507 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-26 00:29:37.507 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-26 00:29:37.508 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-26 00:29:42.115 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+2026-04-26 00:29:42.119 DEBUG t.TC-001-Open-HMS-role-selection         - 2: navigateToUrl(staffBaseUrl + "/wait-list")
+2026-04-26 00:29:42.815 DEBUG t.TC-001-Open-HMS-role-selection         - 3: pulseclinic.WebUiKeywords.verifyOptionalPriorityOrder()
+2026-04-26 00:29:43.407 INFO  com.kms.katalon.core.util.KeywordUtil    - Waitlist priority order is validated when rows are available; empty seed data is accepted for baseline stability.
+2026-04-26 00:29:43.408 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.verifyOptionalPriorityOrder is PASSED
+2026-04-26 00:29:43.409 DEBUG t.TC-001-Open-HMS-role-selection         - 2: Finally
+2026-04-26 00:29:43.410 DEBUG t.TC-001-Open-HMS-role-selection         - 1: pulseclinic.WebUiKeywords.closeBrowser()
+2026-04-26 00:29:43.621 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.closeBrowser is PASSED
+2026-04-26 00:29:43.622 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/StaffTables/TC-017-Waitlist-priority-order
+2026-04-26 00:29:43.626 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-26 00:29:43.626 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/StaffTables/TC-018-Waitlist-filter-priority
+2026-04-26 00:29:43.681 DEBUG t.TC-001-Open-HMS-role-selection         - 1: try
+2026-04-26 00:29:43.682 DEBUG t.TC-001-Open-HMS-role-selection         - 1: pulseclinic.WebUiKeywords.loginAsStaff()
+2026-04-26 00:29:43.683 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-04-26 00:29:43.686 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Apr 26, 2026 12:29:44 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 147, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 147
+2026-04-26 00:29:44.607 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 4336834872674565166d4b254ef3aa4c
+2026-04-26 00:29:44.609 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 147.0.3912.72
+2026-04-26 00:29:44.610 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-26 00:29:44.610 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-26 00:29:44.610 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-26 00:29:48.952 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+2026-04-26 00:29:48.953 DEBUG t.TC-001-Open-HMS-role-selection         - 2: navigateToUrl(staffBaseUrl + "/wait-list")
+2026-04-26 00:29:49.191 DEBUG t.TC-001-Open-HMS-role-selection         - 3: pulseclinic.WebUiKeywords.openToolbarFilter()
+2026-04-26 00:29:50.136 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.openToolbarFilter is PASSED
+2026-04-26 00:29:50.138 DEBUG t.TC-001-Open-HMS-role-selection         - 4: pulseclinic.WebUiKeywords.selectByValueTestId("waitlist-filter-priority", "NORMAL")
+2026-04-26 00:29:51.210 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.selectByValueTestId is PASSED
+2026-04-26 00:29:51.212 DEBUG t.TC-001-Open-HMS-role-selection         - 5: pulseclinic.WebUiKeywords.clickByTestId("waitlist-filter-apply")
+2026-04-26 00:29:52.025 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.clickByTestId is PASSED
+2026-04-26 00:29:52.026 DEBUG t.TC-001-Open-HMS-role-selection         - 6: pulseclinic.WebUiKeywords.verifyRowsOrEmptyState()
+2026-04-26 00:29:52.782 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+2026-04-26 00:29:52.783 DEBUG t.TC-001-Open-HMS-role-selection         - 2: Finally
+2026-04-26 00:29:52.784 DEBUG t.TC-001-Open-HMS-role-selection         - 1: pulseclinic.WebUiKeywords.closeBrowser()
+2026-04-26 00:29:53.143 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.closeBrowser is PASSED
+2026-04-26 00:29:53.144 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/StaffTables/TC-018-Waitlist-filter-priority
+2026-04-26 00:29:53.149 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-26 00:29:53.149 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/StaffTables/TC-019-Appointment-status-tabs
+2026-04-26 00:29:53.214 DEBUG t.TC-001-Open-HMS-role-selection         - 1: try
+2026-04-26 00:29:53.216 DEBUG t.TC-001-Open-HMS-role-selection         - 1: pulseclinic.WebUiKeywords.loginAsStaff()
+2026-04-26 00:29:53.219 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-04-26 00:29:53.224 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Apr 26, 2026 12:29:54 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 147, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 147
+2026-04-26 00:29:54.384 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 5cf52089cf2c9b9beb2b3f8f9cbb2dd6
+2026-04-26 00:29:54.384 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 147.0.3912.72
+2026-04-26 00:29:54.386 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-26 00:29:54.386 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-26 00:29:54.387 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-26 00:29:59.092 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+2026-04-26 00:29:59.093 DEBUG t.TC-001-Open-HMS-role-selection         - 2: navigateToUrl(staffBaseUrl + "/appointments")
+2026-04-26 00:29:59.978 DEBUG t.TC-001-Open-HMS-role-selection         - 3: pulseclinic.WebUiKeywords.clickByTestId("appointment-tab-confirmed")
+2026-04-26 00:30:00.918 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.clickByTestId is PASSED
+2026-04-26 00:30:00.919 DEBUG t.TC-001-Open-HMS-role-selection         - 4: pulseclinic.WebUiKeywords.clickByTestId("appointment-tab-cancelled")
+2026-04-26 00:30:01.533 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.clickByTestId is PASSED
+2026-04-26 00:30:01.534 DEBUG t.TC-001-Open-HMS-role-selection         - 5: pulseclinic.WebUiKeywords.verifyTablePresent()
+2026-04-26 00:30:01.768 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.verifyTablePresent is PASSED
+2026-04-26 00:30:01.769 DEBUG t.TC-001-Open-HMS-role-selection         - 2: Finally
+2026-04-26 00:30:01.771 DEBUG t.TC-001-Open-HMS-role-selection         - 1: pulseclinic.WebUiKeywords.closeBrowser()
+2026-04-26 00:30:02.020 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.closeBrowser is PASSED
+2026-04-26 00:30:02.021 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/StaffTables/TC-019-Appointment-status-tabs
+2026-04-26 00:30:02.024 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-04-26 00:30:02.024 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/StaffTables/TC-020-Invoice-patient-search
+2026-04-26 00:30:02.142 DEBUG t.TC-001-Open-HMS-role-selection         - 1: try
+2026-04-26 00:30:02.143 DEBUG t.TC-001-Open-HMS-role-selection         - 1: pulseclinic.WebUiKeywords.loginAsStaff()
+2026-04-26 00:30:02.145 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-04-26 00:30:02.148 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Apr 26, 2026 12:30:03 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 147, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 147
+2026-04-26 00:30:03.205 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 67617f42d0effda3761173b919afccf5
+2026-04-26 00:30:03.205 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 147.0.3912.72
+2026-04-26 00:30:03.206 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-04-26 00:30:03.206 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-04-26 00:30:03.207 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-04-26 00:30:07.543 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+2026-04-26 00:30:07.544 DEBUG t.TC-001-Open-HMS-role-selection         - 2: navigateToUrl(staffBaseUrl + "/invoices")
+2026-04-26 00:30:08.447 DEBUG t.TC-001-Open-HMS-role-selection         - 3: pulseclinic.WebUiKeywords.searchToolbar(patientSearchTerm)
+2026-04-26 00:30:10.787 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.searchToolbar is PASSED
+2026-04-26 00:30:10.789 DEBUG t.TC-001-Open-HMS-role-selection         - 4: pulseclinic.WebUiKeywords.verifyTextPresent(patientSearchTerm)
+2026-04-26 00:30:11.074 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.verifyTextPresent is PASSED
+2026-04-26 00:30:11.075 DEBUG t.TC-001-Open-HMS-role-selection         - 2: Finally
+2026-04-26 00:30:11.076 DEBUG t.TC-001-Open-HMS-role-selection         - 1: pulseclinic.WebUiKeywords.closeBrowser()
+2026-04-26 00:30:11.334 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - pulseclinic.WebUiKeywords.closeBrowser is PASSED
+2026-04-26 00:30:11.335 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/StaffTables/TC-020-Invoice-patient-search
+2026-04-26 00:30:11.383 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-04-26 00:30:11.383 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Baseline
+2026-04-26 00:30:11.383 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

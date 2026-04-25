@@ -1,0 +1,2616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Baseline" time="312.853" tests="35" failures="1" errors="0">
+   <testsuite name="Baseline" tests="35" failures="1" errors="0" time="312.853" skipped="0" timestamp="2026-04-25T17:46:58.934Z" hostname="ACER - Aspire-A715" id="Test Suites/Baseline">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\UNI_DOCS\\HK6\\KCPM\\QuanLyBenhVien_KiemThu\\pulse-katalon\\Reports\\20260426_004652\\Baseline\\20260426_004652"/>
+         <property name="logFiles" value="D:\\UNI_DOCS\\HK6\\KCPM\\QuanLyBenhVien_KiemThu\\pulse-katalon\\Reports\\20260426_004652\\Baseline\\20260426_004652\\console0.log, D:\\UNI_DOCS\\HK6\\KCPM\\QuanLyBenhVien_KiemThu\\pulse-katalon\\Reports\\20260426_004652\\Baseline\\20260426_004652\\execution0.log"/>
+         <property name="attachments" value="D:\\UNI_DOCS\\HK6\\KCPM\\QuanLyBenhVien_KiemThu\\pulse-katalon\\Reports\\20260426_004652\\Baseline\\20260426_004652\\1777139502439.png"/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="ACER - Aspire-A715"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.0.1.0"/>
+         <property name="browser" value="Edge Chromium 147.0.3912.72"/>
+         <property name="userFullName" value="Anh Quốc Huỳnh"/>
+         <property name="hostAddress" value="192.168.1.9"/>
+         <property name="sessionId" value="ceb9ea7be9fa2f12cc801c9bfc50317c"/>
+         <property name="projectName" value="PulseClinicKatalon"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Authentication/TC-001-Open-HMS-role-selection" time="5.945" classname="Test Cases/Authentication/TC-001-Open-HMS-role-selection" status="PASSED">
+         <system-out><![CDATA[26-04-2026T00:46:59 - [TEST_CASE][PASSED] - Test Cases/Authentication/TC-001-Open-HMS-role-selection: Test Cases/Authentication/TC-001-Open-HMS-role-selection
+
+26-04-2026T00:46:59 - [TEST_STEP][PASSED] - try: pulseclinic.WebUiKeywords.verifyTextPresent is PASSED
+
+26-04-2026T00:46:59 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.openAt(hmsBaseUrl): pulseclinic.WebUiKeywords.openAt is PASSED
+
+26-04-2026T00:47:00 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+26-04-2026T00:47:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-04-2026T00:47:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-04-2026T00:47:03 - [MESSAGE][PASSED] - Current window maximized
+
+26-04-2026T00:47:03 - [MESSAGE][PASSED] - Navigate to 'http://hms.localhost:3000' successfully
+
+26-04-2026T00:47:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+26-04-2026T00:47:03 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.openAt is PASSED
+
+26-04-2026T00:47:03 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.verifyTextPresent("Hospital Management System"): pulseclinic.WebUiKeywords.verifyTextPresent is PASSED
+
+26-04-2026T00:47:04 - [MESSAGE][PASSED] - Text 'Hospital Management System' is present on page 
+
+26-04-2026T00:47:04 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.verifyTextPresent is PASSED
+
+26-04-2026T00:47:04 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.verifyTextPresent("Staff"): pulseclinic.WebUiKeywords.verifyTextPresent is PASSED
+
+26-04-2026T00:47:04 - [MESSAGE][PASSED] - Text 'Staff' is present on page 
+
+26-04-2026T00:47:04 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.verifyTextPresent is PASSED
+
+26-04-2026T00:47:04 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.verifyTextPresent("Doctor"): pulseclinic.WebUiKeywords.verifyTextPresent is PASSED
+
+26-04-2026T00:47:04 - [MESSAGE][PASSED] - Text 'Doctor' is present on page 
+
+26-04-2026T00:47:04 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.verifyTextPresent is PASSED
+
+26-04-2026T00:47:04 - [TEST_STEP][PASSED] - Finally: pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:47:04 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.closeBrowser(): pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:47:05 - [MESSAGE][PASSED] - Browser is closed
+
+26-04-2026T00:47:05 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentication/TC-002-Open-staff-login" time="3.894" classname="Test Cases/Authentication/TC-002-Open-staff-login" status="PASSED">
+         <system-out><![CDATA[26-04-2026T00:47:05 - [TEST_CASE][PASSED] - Test Cases/Authentication/TC-002-Open-staff-login: Test Cases/Authentication/TC-002-Open-staff-login
+
+26-04-2026T00:47:05 - [TEST_STEP][PASSED] - try: pulseclinic.WebUiKeywords.verifyTextPresent is PASSED
+
+26-04-2026T00:47:05 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.openAt(hmsBaseUrl): pulseclinic.WebUiKeywords.openAt is PASSED
+
+26-04-2026T00:47:05 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+26-04-2026T00:47:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-04-2026T00:47:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-04-2026T00:47:06 - [MESSAGE][PASSED] - Current window maximized
+
+26-04-2026T00:47:06 - [MESSAGE][PASSED] - Navigate to 'http://hms.localhost:3000' successfully
+
+26-04-2026T00:47:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+26-04-2026T00:47:06 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.openAt is PASSED
+
+26-04-2026T00:47:06 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.clickByTestId("role-card-staff"): pulseclinic.WebUiKeywords.clickByTestId is PASSED
+
+26-04-2026T00:47:07 - [MESSAGE][PASSED] - Object 'testid:role-card-staff' is clickable
+
+26-04-2026T00:47:08 - [MESSAGE][PASSED] - Object: 'testid:role-card-staff' is clicked on
+
+26-04-2026T00:47:08 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.clickByTestId is PASSED
+
+26-04-2026T00:47:08 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.verifyUrlContains("/login"): pulseclinic.WebUiKeywords.verifyUrlContains is PASSED
+
+26-04-2026T00:47:08 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/login'
+
+26-04-2026T00:47:08 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.verifyUrlContains is PASSED
+
+26-04-2026T00:47:08 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.verifyTextPresent("Staff Login"): pulseclinic.WebUiKeywords.verifyTextPresent is PASSED
+
+26-04-2026T00:47:08 - [MESSAGE][PASSED] - Text 'Staff Login' is present on page 
+
+26-04-2026T00:47:08 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.verifyTextPresent is PASSED
+
+26-04-2026T00:47:08 - [TEST_STEP][PASSED] - Finally: pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:47:08 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.closeBrowser(): pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:47:08 - [MESSAGE][PASSED] - Browser is closed
+
+26-04-2026T00:47:08 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentication/TC-003-Staff-login-required-fields" time="3.374" classname="Test Cases/Authentication/TC-003-Staff-login-required-fields" status="PASSED">
+         <system-out><![CDATA[26-04-2026T00:47:09 - [TEST_CASE][PASSED] - Test Cases/Authentication/TC-003-Staff-login-required-fields: Test Cases/Authentication/TC-003-Staff-login-required-fields
+
+26-04-2026T00:47:09 - [TEST_STEP][PASSED] - try: pulseclinic.WebUiKeywords.clickByTestId is PASSED
+
+26-04-2026T00:47:09 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.openAt(staffBaseUrl + "/login"): pulseclinic.WebUiKeywords.openAt is PASSED
+
+26-04-2026T00:47:09 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+26-04-2026T00:47:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-04-2026T00:47:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-04-2026T00:47:10 - [MESSAGE][PASSED] - Current window maximized
+
+26-04-2026T00:47:10 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/login' successfully
+
+26-04-2026T00:47:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+26-04-2026T00:47:10 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.openAt is PASSED
+
+26-04-2026T00:47:10 - [TEST_STEP][PASSED] - verifyElementHasAttribute(pulseclinic.WebUiKeywords.byTestId("login-email-input"), "required", defaultTimeout): Object 'testid:login-email-input' has attribute 'required'
+
+26-04-2026T00:47:10 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.byTestId is PASSED
+
+26-04-2026T00:47:11 - [MESSAGE][PASSED] - Object 'testid:login-email-input' has attribute 'required'
+
+26-04-2026T00:47:11 - [TEST_STEP][PASSED] - verifyElementHasAttribute(pulseclinic.WebUiKeywords.byTestId("login-password-input"), "required", defaultTimeout): Object 'testid:login-password-input' has attribute 'required'
+
+26-04-2026T00:47:11 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.byTestId is PASSED
+
+26-04-2026T00:47:11 - [MESSAGE][PASSED] - Object 'testid:login-password-input' has attribute 'required'
+
+26-04-2026T00:47:11 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.clickByTestId("login-submit-button"): pulseclinic.WebUiKeywords.clickByTestId is PASSED
+
+26-04-2026T00:47:11 - [MESSAGE][PASSED] - Object 'testid:login-submit-button' is clickable
+
+26-04-2026T00:47:12 - [MESSAGE][PASSED] - Object: 'testid:login-submit-button' is clicked on
+
+26-04-2026T00:47:12 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.clickByTestId is PASSED
+
+26-04-2026T00:47:12 - [TEST_STEP][PASSED] - Finally: pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:47:12 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.closeBrowser(): pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:47:12 - [MESSAGE][PASSED] - Browser is closed
+
+26-04-2026T00:47:12 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentication/TC-004-Staff-login-invalid-credentials" time="5.489" classname="Test Cases/Authentication/TC-004-Staff-login-invalid-credentials" status="PASSED">
+         <system-out><![CDATA[26-04-2026T00:47:12 - [TEST_CASE][PASSED] - Test Cases/Authentication/TC-004-Staff-login-invalid-credentials: Test Cases/Authentication/TC-004-Staff-login-invalid-credentials
+
+26-04-2026T00:47:12 - [TEST_STEP][PASSED] - try: Object 'testid:login-error' is visible
+
+26-04-2026T00:47:12 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.openAt(staffBaseUrl + "/login"): pulseclinic.WebUiKeywords.openAt is PASSED
+
+26-04-2026T00:47:12 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+26-04-2026T00:47:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-04-2026T00:47:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-04-2026T00:47:13 - [MESSAGE][PASSED] - Current window maximized
+
+26-04-2026T00:47:13 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/login' successfully
+
+26-04-2026T00:47:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+26-04-2026T00:47:14 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.openAt is PASSED
+
+26-04-2026T00:47:14 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.setTextByTestId("login-email-input", "wrong.staff@hospital.com"): pulseclinic.WebUiKeywords.setTextByTestId is PASSED
+
+26-04-2026T00:47:14 - [MESSAGE][PASSED] - Object 'testid:login-email-input' is visible
+
+26-04-2026T00:47:15 - [MESSAGE][PASSED] - Text 'wrong.staff@hospital.com' is set on object 'testid:login-email-input'
+
+26-04-2026T00:47:15 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.setTextByTestId is PASSED
+
+26-04-2026T00:47:15 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.setTextByTestId("login-password-input", "wrong-password"): pulseclinic.WebUiKeywords.setTextByTestId is PASSED
+
+26-04-2026T00:47:15 - [MESSAGE][PASSED] - Object 'testid:login-password-input' is visible
+
+26-04-2026T00:47:16 - [MESSAGE][PASSED] - Text 'wrong-password' is set on object 'testid:login-password-input'
+
+26-04-2026T00:47:16 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.setTextByTestId is PASSED
+
+26-04-2026T00:47:16 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.clickByTestId("login-submit-button"): pulseclinic.WebUiKeywords.clickByTestId is PASSED
+
+26-04-2026T00:47:16 - [MESSAGE][PASSED] - Object 'testid:login-submit-button' is clickable
+
+26-04-2026T00:47:16 - [MESSAGE][PASSED] - Object: 'testid:login-submit-button' is clicked on
+
+26-04-2026T00:47:16 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.clickByTestId is PASSED
+
+26-04-2026T00:47:16 - [TEST_STEP][PASSED] - waitForElementVisible(pulseclinic.WebUiKeywords.byTestId("login-error"), defaultTimeout): Object 'testid:login-error' is visible
+
+26-04-2026T00:47:16 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.byTestId is PASSED
+
+26-04-2026T00:47:17 - [MESSAGE][PASSED] - Object 'testid:login-error' is visible
+
+26-04-2026T00:47:17 - [TEST_STEP][PASSED] - Finally: pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:47:17 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.closeBrowser(): pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:47:17 - [MESSAGE][PASSED] - Browser is closed
+
+26-04-2026T00:47:17 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentication/TC-005-Staff-login-success-dashboard" time="5.663" classname="Test Cases/Authentication/TC-005-Staff-login-success-dashboard" status="PASSED">
+         <system-out><![CDATA[26-04-2026T00:47:17 - [TEST_CASE][PASSED] - Test Cases/Authentication/TC-005-Staff-login-success-dashboard: Test Cases/Authentication/TC-005-Staff-login-success-dashboard
+
+26-04-2026T00:47:17 - [TEST_STEP][PASSED] - try: pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:47:17 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff(): pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:47:17 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+26-04-2026T00:47:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-04-2026T00:47:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-04-2026T00:47:18 - [MESSAGE][PASSED] - Current window maximized
+
+26-04-2026T00:47:19 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/login' successfully
+
+26-04-2026T00:47:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+26-04-2026T00:47:19 - [MESSAGE][PASSED] - Object 'testid:login-email-input' is visible
+
+26-04-2026T00:47:20 - [MESSAGE][PASSED] - Text 'pharmacist1@hospital.com' is set on object 'testid:login-email-input'
+
+26-04-2026T00:47:20 - [MESSAGE][PASSED] - Object 'testid:login-password-input' is visible
+
+26-04-2026T00:47:21 - [MESSAGE][PASSED] - Text 'password123' is set on object 'testid:login-password-input'
+
+26-04-2026T00:47:21 - [MESSAGE][PASSED] - Object 'testid:login-submit-button' is clickable
+
+26-04-2026T00:47:22 - [MESSAGE][PASSED] - Object: 'testid:login-submit-button' is clicked on
+
+26-04-2026T00:47:22 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/login'
+
+26-04-2026T00:47:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-04-2026T00:47:23 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/dashboard'
+
+26-04-2026T00:47:23 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:47:23 - [TEST_STEP][PASSED] - Finally: pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:47:23 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.closeBrowser(): pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:47:23 - [MESSAGE][PASSED] - Browser is closed
+
+26-04-2026T00:47:23 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentication/TC-006-Doctor-login-success-schedule" time="5.642" classname="Test Cases/Authentication/TC-006-Doctor-login-success-schedule" status="PASSED">
+         <system-out><![CDATA[26-04-2026T00:47:23 - [TEST_CASE][PASSED] - Test Cases/Authentication/TC-006-Doctor-login-success-schedule: Test Cases/Authentication/TC-006-Doctor-login-success-schedule
+
+26-04-2026T00:47:23 - [TEST_STEP][PASSED] - try: pulseclinic.WebUiKeywords.loginAsDoctor is PASSED
+
+26-04-2026T00:47:23 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.loginAsDoctor(): pulseclinic.WebUiKeywords.loginAsDoctor is PASSED
+
+26-04-2026T00:47:23 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+26-04-2026T00:47:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-04-2026T00:47:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-04-2026T00:47:24 - [MESSAGE][PASSED] - Current window maximized
+
+26-04-2026T00:47:25 - [MESSAGE][PASSED] - Navigate to 'http://doctor.localhost:3000/login' successfully
+
+26-04-2026T00:47:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+26-04-2026T00:47:25 - [MESSAGE][PASSED] - Object 'testid:login-email-input' is visible
+
+26-04-2026T00:47:26 - [MESSAGE][PASSED] - Text 'admin.doctor@hospital.com' is set on object 'testid:login-email-input'
+
+26-04-2026T00:47:26 - [MESSAGE][PASSED] - Object 'testid:login-password-input' is visible
+
+26-04-2026T00:47:27 - [MESSAGE][PASSED] - Text 'password123' is set on object 'testid:login-password-input'
+
+26-04-2026T00:47:27 - [MESSAGE][PASSED] - Object 'testid:login-submit-button' is clickable
+
+26-04-2026T00:47:27 - [MESSAGE][PASSED] - Object: 'testid:login-submit-button' is clicked on
+
+26-04-2026T00:47:27 - [MESSAGE][PASSED] - Current window's url is: 'http://doctor.localhost:3000/login'
+
+26-04-2026T00:47:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-04-2026T00:47:28 - [MESSAGE][PASSED] - Current window's url is: 'http://doctor.localhost:3000/schedule'
+
+26-04-2026T00:47:28 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.loginAsDoctor is PASSED
+
+26-04-2026T00:47:28 - [TEST_STEP][PASSED] - Finally: pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:47:28 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.closeBrowser(): pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:47:29 - [MESSAGE][PASSED] - Browser is closed
+
+26-04-2026T00:47:29 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentication/TC-007-Patient-login-success-dashboard" time="5.677" classname="Test Cases/Authentication/TC-007-Patient-login-success-dashboard" status="PASSED">
+         <system-out><![CDATA[26-04-2026T00:47:29 - [TEST_CASE][PASSED] - Test Cases/Authentication/TC-007-Patient-login-success-dashboard: Test Cases/Authentication/TC-007-Patient-login-success-dashboard
+
+26-04-2026T00:47:29 - [TEST_STEP][PASSED] - try: pulseclinic.WebUiKeywords.loginAsPatient is PASSED
+
+26-04-2026T00:47:29 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.loginAsPatient(): pulseclinic.WebUiKeywords.loginAsPatient is PASSED
+
+26-04-2026T00:47:29 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+26-04-2026T00:47:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-04-2026T00:47:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-04-2026T00:47:30 - [MESSAGE][PASSED] - Current window maximized
+
+26-04-2026T00:47:30 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/login' successfully
+
+26-04-2026T00:47:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+26-04-2026T00:47:31 - [MESSAGE][PASSED] - Object 'testid:login-email-input' is visible
+
+26-04-2026T00:47:32 - [MESSAGE][PASSED] - Text 'patient1@example.com' is set on object 'testid:login-email-input'
+
+26-04-2026T00:47:32 - [MESSAGE][PASSED] - Object 'testid:login-password-input' is visible
+
+26-04-2026T00:47:32 - [MESSAGE][PASSED] - Text 'password123' is set on object 'testid:login-password-input'
+
+26-04-2026T00:47:33 - [MESSAGE][PASSED] - Object 'testid:login-submit-button' is clickable
+
+26-04-2026T00:47:33 - [MESSAGE][PASSED] - Object: 'testid:login-submit-button' is clicked on
+
+26-04-2026T00:47:33 - [MESSAGE][PASSED] - Current window's url is: 'http://localhost:3000/login'
+
+26-04-2026T00:47:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-04-2026T00:47:34 - [MESSAGE][PASSED] - Current window's url is: 'http://localhost:3000/dashboard'
+
+26-04-2026T00:47:34 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.loginAsPatient is PASSED
+
+26-04-2026T00:47:34 - [TEST_STEP][PASSED] - Finally: pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:47:34 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.closeBrowser(): pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:47:34 - [MESSAGE][PASSED] - Browser is closed
+
+26-04-2026T00:47:34 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StaffTables/TC-008-Patient-profile-table" time="7.029" classname="Test Cases/StaffTables/TC-008-Patient-profile-table" status="PASSED">
+         <system-out><![CDATA[26-04-2026T00:47:34 - [TEST_CASE][PASSED] - Test Cases/StaffTables/TC-008-Patient-profile-table: Test Cases/StaffTables/TC-008-Patient-profile-table
+
+26-04-2026T00:47:34 - [TEST_STEP][PASSED] - try: pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+
+26-04-2026T00:47:34 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff(): pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:47:34 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+26-04-2026T00:47:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-04-2026T00:47:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-04-2026T00:47:35 - [MESSAGE][PASSED] - Current window maximized
+
+26-04-2026T00:47:36 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/login' successfully
+
+26-04-2026T00:47:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+26-04-2026T00:47:36 - [MESSAGE][PASSED] - Object 'testid:login-email-input' is visible
+
+26-04-2026T00:47:37 - [MESSAGE][PASSED] - Text 'pharmacist1@hospital.com' is set on object 'testid:login-email-input'
+
+26-04-2026T00:47:37 - [MESSAGE][PASSED] - Object 'testid:login-password-input' is visible
+
+26-04-2026T00:47:38 - [MESSAGE][PASSED] - Text 'password123' is set on object 'testid:login-password-input'
+
+26-04-2026T00:47:38 - [MESSAGE][PASSED] - Object 'testid:login-submit-button' is clickable
+
+26-04-2026T00:47:39 - [MESSAGE][PASSED] - Object: 'testid:login-submit-button' is clicked on
+
+26-04-2026T00:47:39 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/login'
+
+26-04-2026T00:47:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-04-2026T00:47:40 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/dashboard'
+
+26-04-2026T00:47:40 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:47:40 - [TEST_STEP][PASSED] - navigateToUrl(staffBaseUrl + "/patients"): Navigate to 'http://staff.localhost:3000/patients' successfully
+
+26-04-2026T00:47:40 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/patients' successfully
+
+26-04-2026T00:47:40 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.verifyRowsOrEmptyState(): pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+
+26-04-2026T00:47:41 - [MESSAGE][PASSED] - Object 'testid:data-table' is present
+
+26-04-2026T00:47:41 - [MESSAGE][PASSED] - Object 'testid:data-table' is present
+
+26-04-2026T00:47:41 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelectorAll('[data-testid="data-table-row"]').length' successfully
+
+26-04-2026T00:47:41 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+
+26-04-2026T00:47:41 - [TEST_STEP][PASSED] - Finally: pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:47:41 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.closeBrowser(): pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:47:41 - [MESSAGE][PASSED] - Browser is closed
+
+26-04-2026T00:47:41 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StaffTables/TC-009-Patient-search" time="8.693" classname="Test Cases/StaffTables/TC-009-Patient-search" status="PASSED">
+         <system-out><![CDATA[26-04-2026T00:47:41 - [TEST_CASE][PASSED] - Test Cases/StaffTables/TC-009-Patient-search: Test Cases/StaffTables/TC-009-Patient-search
+
+26-04-2026T00:47:41 - [TEST_STEP][PASSED] - try: pulseclinic.WebUiKeywords.verifyTextPresent is PASSED
+
+26-04-2026T00:47:41 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff(): pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:47:41 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+26-04-2026T00:47:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-04-2026T00:47:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-04-2026T00:47:43 - [MESSAGE][PASSED] - Current window maximized
+
+26-04-2026T00:47:43 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/login' successfully
+
+26-04-2026T00:47:43 - [MESSAGE][PASSED] - Wait for page load successfully
+
+26-04-2026T00:47:44 - [MESSAGE][PASSED] - Object 'testid:login-email-input' is visible
+
+26-04-2026T00:47:44 - [MESSAGE][PASSED] - Text 'pharmacist1@hospital.com' is set on object 'testid:login-email-input'
+
+26-04-2026T00:47:45 - [MESSAGE][PASSED] - Object 'testid:login-password-input' is visible
+
+26-04-2026T00:47:45 - [MESSAGE][PASSED] - Text 'password123' is set on object 'testid:login-password-input'
+
+26-04-2026T00:47:46 - [MESSAGE][PASSED] - Object 'testid:login-submit-button' is clickable
+
+26-04-2026T00:47:46 - [MESSAGE][PASSED] - Object: 'testid:login-submit-button' is clicked on
+
+26-04-2026T00:47:46 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/login'
+
+26-04-2026T00:47:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-04-2026T00:47:47 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/dashboard'
+
+26-04-2026T00:47:47 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:47:47 - [TEST_STEP][PASSED] - navigateToUrl(staffBaseUrl + "/patients"): Navigate to 'http://staff.localhost:3000/patients' successfully
+
+26-04-2026T00:47:47 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/patients' successfully
+
+26-04-2026T00:47:47 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.searchToolbar(patientSearchTerm): pulseclinic.WebUiKeywords.searchToolbar is PASSED
+
+26-04-2026T00:47:48 - [MESSAGE][PASSED] - Object 'testid:toolbar-search-input' is visible
+
+26-04-2026T00:47:49 - [MESSAGE][PASSED] - Text 'John Patient' is set on object 'testid:toolbar-search-input'
+
+26-04-2026T00:47:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-04-2026T00:47:50 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.searchToolbar is PASSED
+
+26-04-2026T00:47:50 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.verifyTextPresent(patientSearchTerm): pulseclinic.WebUiKeywords.verifyTextPresent is PASSED
+
+26-04-2026T00:47:50 - [MESSAGE][PASSED] - Text 'John Patient' is present on page 
+
+26-04-2026T00:47:50 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.verifyTextPresent is PASSED
+
+26-04-2026T00:47:50 - [TEST_STEP][PASSED] - Finally: pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:47:50 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.closeBrowser(): pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:47:50 - [MESSAGE][PASSED] - Browser is closed
+
+26-04-2026T00:47:50 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StaffTables/TC-010-Patient-filter-gender" time="10.575" classname="Test Cases/StaffTables/TC-010-Patient-filter-gender" status="PASSED">
+         <system-out><![CDATA[26-04-2026T00:47:50 - [TEST_CASE][PASSED] - Test Cases/StaffTables/TC-010-Patient-filter-gender: Test Cases/StaffTables/TC-010-Patient-filter-gender
+
+26-04-2026T00:47:50 - [TEST_STEP][PASSED] - try: pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+
+26-04-2026T00:47:50 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff(): pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:47:50 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+26-04-2026T00:47:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-04-2026T00:47:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-04-2026T00:47:51 - [MESSAGE][PASSED] - Current window maximized
+
+26-04-2026T00:47:52 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/login' successfully
+
+26-04-2026T00:47:52 - [MESSAGE][PASSED] - Wait for page load successfully
+
+26-04-2026T00:47:53 - [MESSAGE][PASSED] - Object 'testid:login-email-input' is visible
+
+26-04-2026T00:47:54 - [MESSAGE][PASSED] - Text 'pharmacist1@hospital.com' is set on object 'testid:login-email-input'
+
+26-04-2026T00:47:54 - [MESSAGE][PASSED] - Object 'testid:login-password-input' is visible
+
+26-04-2026T00:47:55 - [MESSAGE][PASSED] - Text 'password123' is set on object 'testid:login-password-input'
+
+26-04-2026T00:47:55 - [MESSAGE][PASSED] - Object 'testid:login-submit-button' is clickable
+
+26-04-2026T00:47:56 - [MESSAGE][PASSED] - Object: 'testid:login-submit-button' is clicked on
+
+26-04-2026T00:47:56 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/login'
+
+26-04-2026T00:47:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-04-2026T00:47:57 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/dashboard'
+
+26-04-2026T00:47:57 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:47:57 - [TEST_STEP][PASSED] - navigateToUrl(staffBaseUrl + "/patients"): Navigate to 'http://staff.localhost:3000/patients' successfully
+
+26-04-2026T00:47:57 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/patients' successfully
+
+26-04-2026T00:47:57 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.openToolbarFilter(): pulseclinic.WebUiKeywords.openToolbarFilter is PASSED
+
+26-04-2026T00:47:58 - [MESSAGE][PASSED] - Object 'testid:toolbar-filter-button' is clickable
+
+26-04-2026T00:47:58 - [MESSAGE][PASSED] - Object: 'testid:toolbar-filter-button' is clicked on
+
+26-04-2026T00:47:58 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.openToolbarFilter is PASSED
+
+26-04-2026T00:47:58 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.selectByValueTestId("patient-filter-gender", "Male"): pulseclinic.WebUiKeywords.selectByValueTestId is PASSED
+
+26-04-2026T00:47:58 - [MESSAGE][PASSED] - Object 'testid:patient-filter-gender' is visible
+
+26-04-2026T00:47:59 - [MESSAGE][PASSED] - All options with value 'Male' are selected in object 'testid:patient-filter-gender' 
+
+26-04-2026T00:47:59 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.selectByValueTestId is PASSED
+
+26-04-2026T00:47:59 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.clickByTestId("patient-filter-apply"): pulseclinic.WebUiKeywords.clickByTestId is PASSED
+
+26-04-2026T00:48:00 - [MESSAGE][PASSED] - Object 'testid:patient-filter-apply' is clickable
+
+26-04-2026T00:48:00 - [MESSAGE][PASSED] - Object: 'testid:patient-filter-apply' is clicked on
+
+26-04-2026T00:48:00 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.clickByTestId is PASSED
+
+26-04-2026T00:48:00 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.verifyRowsOrEmptyState(): pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+
+26-04-2026T00:48:00 - [MESSAGE][PASSED] - Object 'testid:data-table' is present
+
+26-04-2026T00:48:00 - [MESSAGE][PASSED] - Object 'testid:data-table' is present
+
+26-04-2026T00:48:00 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelectorAll('[data-testid="data-table-row"]').length' successfully
+
+26-04-2026T00:48:00 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+
+26-04-2026T00:48:00 - [TEST_STEP][PASSED] - Finally: pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:48:00 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.closeBrowser(): pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:48:01 - [MESSAGE][PASSED] - Browser is closed
+
+26-04-2026T00:48:01 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StaffTables/TC-011-Patient-filter-insurance" time="9.113" classname="Test Cases/StaffTables/TC-011-Patient-filter-insurance" status="PASSED">
+         <system-out><![CDATA[26-04-2026T00:48:01 - [TEST_CASE][PASSED] - Test Cases/StaffTables/TC-011-Patient-filter-insurance: Test Cases/StaffTables/TC-011-Patient-filter-insurance
+
+26-04-2026T00:48:01 - [TEST_STEP][PASSED] - try: pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+
+26-04-2026T00:48:01 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff(): pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:48:01 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+26-04-2026T00:48:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-04-2026T00:48:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-04-2026T00:48:02 - [MESSAGE][PASSED] - Current window maximized
+
+26-04-2026T00:48:02 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/login' successfully
+
+26-04-2026T00:48:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+26-04-2026T00:48:03 - [MESSAGE][PASSED] - Object 'testid:login-email-input' is visible
+
+26-04-2026T00:48:03 - [MESSAGE][PASSED] - Text 'pharmacist1@hospital.com' is set on object 'testid:login-email-input'
+
+26-04-2026T00:48:04 - [MESSAGE][PASSED] - Object 'testid:login-password-input' is visible
+
+26-04-2026T00:48:04 - [MESSAGE][PASSED] - Text 'password123' is set on object 'testid:login-password-input'
+
+26-04-2026T00:48:05 - [MESSAGE][PASSED] - Object 'testid:login-submit-button' is clickable
+
+26-04-2026T00:48:05 - [MESSAGE][PASSED] - Object: 'testid:login-submit-button' is clicked on
+
+26-04-2026T00:48:05 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/login'
+
+26-04-2026T00:48:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-04-2026T00:48:06 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/dashboard'
+
+26-04-2026T00:48:06 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:48:06 - [TEST_STEP][PASSED] - navigateToUrl(staffBaseUrl + "/patients"): Navigate to 'http://staff.localhost:3000/patients' successfully
+
+26-04-2026T00:48:06 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/patients' successfully
+
+26-04-2026T00:48:06 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.openToolbarFilter(): pulseclinic.WebUiKeywords.openToolbarFilter is PASSED
+
+26-04-2026T00:48:07 - [MESSAGE][PASSED] - Object 'testid:toolbar-filter-button' is clickable
+
+26-04-2026T00:48:07 - [MESSAGE][PASSED] - Object: 'testid:toolbar-filter-button' is clicked on
+
+26-04-2026T00:48:07 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.openToolbarFilter is PASSED
+
+26-04-2026T00:48:07 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.selectByValueTestId("patient-filter-insurance", "yes"): pulseclinic.WebUiKeywords.selectByValueTestId is PASSED
+
+26-04-2026T00:48:08 - [MESSAGE][PASSED] - Object 'testid:patient-filter-insurance' is visible
+
+26-04-2026T00:48:08 - [MESSAGE][PASSED] - All options with value 'yes' are selected in object 'testid:patient-filter-insurance' 
+
+26-04-2026T00:48:08 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.selectByValueTestId is PASSED
+
+26-04-2026T00:48:08 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.clickByTestId("patient-filter-apply"): pulseclinic.WebUiKeywords.clickByTestId is PASSED
+
+26-04-2026T00:48:09 - [MESSAGE][PASSED] - Object 'testid:patient-filter-apply' is clickable
+
+26-04-2026T00:48:09 - [MESSAGE][PASSED] - Object: 'testid:patient-filter-apply' is clicked on
+
+26-04-2026T00:48:09 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.clickByTestId is PASSED
+
+26-04-2026T00:48:09 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.verifyRowsOrEmptyState(): pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+
+26-04-2026T00:48:09 - [MESSAGE][PASSED] - Object 'testid:data-table' is present
+
+26-04-2026T00:48:10 - [MESSAGE][PASSED] - Object 'testid:data-table' is present
+
+26-04-2026T00:48:10 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelectorAll('[data-testid="data-table-row"]').length' successfully
+
+26-04-2026T00:48:10 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+
+26-04-2026T00:48:10 - [TEST_STEP][PASSED] - Finally: pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:48:10 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.closeBrowser(): pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:48:10 - [MESSAGE][PASSED] - Browser is closed
+
+26-04-2026T00:48:10 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StaffTables/TC-012-Drug-catalog-table" time="7.445" classname="Test Cases/StaffTables/TC-012-Drug-catalog-table" status="PASSED">
+         <system-out><![CDATA[26-04-2026T00:48:10 - [TEST_CASE][PASSED] - Test Cases/StaffTables/TC-012-Drug-catalog-table: Test Cases/StaffTables/TC-012-Drug-catalog-table
+
+26-04-2026T00:48:10 - [TEST_STEP][PASSED] - try: pulseclinic.WebUiKeywords.verifyTextPresent is PASSED
+
+26-04-2026T00:48:10 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff(): pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:48:10 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+26-04-2026T00:48:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-04-2026T00:48:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-04-2026T00:48:11 - [MESSAGE][PASSED] - Current window maximized
+
+26-04-2026T00:48:11 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/login' successfully
+
+26-04-2026T00:48:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+26-04-2026T00:48:12 - [MESSAGE][PASSED] - Object 'testid:login-email-input' is visible
+
+26-04-2026T00:48:13 - [MESSAGE][PASSED] - Text 'pharmacist1@hospital.com' is set on object 'testid:login-email-input'
+
+26-04-2026T00:48:13 - [MESSAGE][PASSED] - Object 'testid:login-password-input' is visible
+
+26-04-2026T00:48:14 - [MESSAGE][PASSED] - Text 'password123' is set on object 'testid:login-password-input'
+
+26-04-2026T00:48:14 - [MESSAGE][PASSED] - Object 'testid:login-submit-button' is clickable
+
+26-04-2026T00:48:14 - [MESSAGE][PASSED] - Object: 'testid:login-submit-button' is clicked on
+
+26-04-2026T00:48:14 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/login'
+
+26-04-2026T00:48:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-04-2026T00:48:15 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/dashboard'
+
+26-04-2026T00:48:15 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:48:15 - [TEST_STEP][PASSED] - navigateToUrl(staffBaseUrl + "/drugs"): Navigate to 'http://staff.localhost:3000/drugs' successfully
+
+26-04-2026T00:48:16 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/drugs' successfully
+
+26-04-2026T00:48:16 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.verifyRowsOrEmptyState(): pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+
+26-04-2026T00:48:16 - [MESSAGE][PASSED] - Object 'testid:data-table' is present
+
+26-04-2026T00:48:17 - [MESSAGE][PASSED] - Object 'testid:data-table' is present
+
+26-04-2026T00:48:17 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelectorAll('[data-testid="data-table-row"]').length' successfully
+
+26-04-2026T00:48:17 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+
+26-04-2026T00:48:17 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.verifyTextPresent("Paracetamol"): pulseclinic.WebUiKeywords.verifyTextPresent is PASSED
+
+26-04-2026T00:48:17 - [MESSAGE][PASSED] - Text 'Paracetamol' is present on page 
+
+26-04-2026T00:48:17 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.verifyTextPresent is PASSED
+
+26-04-2026T00:48:17 - [TEST_STEP][PASSED] - Finally: pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:48:17 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.closeBrowser(): pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:48:17 - [MESSAGE][PASSED] - Browser is closed
+
+26-04-2026T00:48:17 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StaffTables/TC-013-Drug-search" time="8.644" classname="Test Cases/StaffTables/TC-013-Drug-search" status="PASSED">
+         <system-out><![CDATA[26-04-2026T00:48:17 - [TEST_CASE][PASSED] - Test Cases/StaffTables/TC-013-Drug-search: Test Cases/StaffTables/TC-013-Drug-search
+
+26-04-2026T00:48:17 - [TEST_STEP][PASSED] - try: pulseclinic.WebUiKeywords.verifyTextPresent is PASSED
+
+26-04-2026T00:48:17 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff(): pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:48:17 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+26-04-2026T00:48:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-04-2026T00:48:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-04-2026T00:48:18 - [MESSAGE][PASSED] - Current window maximized
+
+26-04-2026T00:48:19 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/login' successfully
+
+26-04-2026T00:48:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+26-04-2026T00:48:19 - [MESSAGE][PASSED] - Object 'testid:login-email-input' is visible
+
+26-04-2026T00:48:20 - [MESSAGE][PASSED] - Text 'pharmacist1@hospital.com' is set on object 'testid:login-email-input'
+
+26-04-2026T00:48:20 - [MESSAGE][PASSED] - Object 'testid:login-password-input' is visible
+
+26-04-2026T00:48:21 - [MESSAGE][PASSED] - Text 'password123' is set on object 'testid:login-password-input'
+
+26-04-2026T00:48:21 - [MESSAGE][PASSED] - Object 'testid:login-submit-button' is clickable
+
+26-04-2026T00:48:22 - [MESSAGE][PASSED] - Object: 'testid:login-submit-button' is clicked on
+
+26-04-2026T00:48:22 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/login'
+
+26-04-2026T00:48:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-04-2026T00:48:23 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/dashboard'
+
+26-04-2026T00:48:23 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:48:23 - [TEST_STEP][PASSED] - navigateToUrl(staffBaseUrl + "/drugs"): Navigate to 'http://staff.localhost:3000/drugs' successfully
+
+26-04-2026T00:48:23 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/drugs' successfully
+
+26-04-2026T00:48:23 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.searchToolbar(drugSearchTerm): pulseclinic.WebUiKeywords.searchToolbar is PASSED
+
+26-04-2026T00:48:24 - [MESSAGE][PASSED] - Object 'testid:toolbar-search-input' is visible
+
+26-04-2026T00:48:24 - [MESSAGE][PASSED] - Text 'Paracetamol' is set on object 'testid:toolbar-search-input'
+
+26-04-2026T00:48:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-04-2026T00:48:25 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.searchToolbar is PASSED
+
+26-04-2026T00:48:25 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.verifyTextPresent(drugSearchTerm): pulseclinic.WebUiKeywords.verifyTextPresent is PASSED
+
+26-04-2026T00:48:26 - [MESSAGE][PASSED] - Text 'Paracetamol' is present on page 
+
+26-04-2026T00:48:26 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.verifyTextPresent is PASSED
+
+26-04-2026T00:48:26 - [TEST_STEP][PASSED] - Finally: pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:48:26 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.closeBrowser(): pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:48:26 - [MESSAGE][PASSED] - Browser is closed
+
+26-04-2026T00:48:26 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StaffTables/TC-014-Drug-filter-dosage-unit" time="14.232" classname="Test Cases/StaffTables/TC-014-Drug-filter-dosage-unit" status="PASSED">
+         <system-out><![CDATA[26-04-2026T00:48:26 - [TEST_CASE][PASSED] - Test Cases/StaffTables/TC-014-Drug-filter-dosage-unit: Test Cases/StaffTables/TC-014-Drug-filter-dosage-unit
+
+26-04-2026T00:48:26 - [TEST_STEP][PASSED] - try: pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+
+26-04-2026T00:48:26 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff(): pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:48:26 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+26-04-2026T00:48:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-04-2026T00:48:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-04-2026T00:48:27 - [MESSAGE][PASSED] - Current window maximized
+
+26-04-2026T00:48:28 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/login' successfully
+
+26-04-2026T00:48:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+26-04-2026T00:48:29 - [MESSAGE][PASSED] - Object 'testid:login-email-input' is visible
+
+26-04-2026T00:48:30 - [MESSAGE][PASSED] - Text 'pharmacist1@hospital.com' is set on object 'testid:login-email-input'
+
+26-04-2026T00:48:30 - [MESSAGE][PASSED] - Object 'testid:login-password-input' is visible
+
+26-04-2026T00:48:31 - [MESSAGE][PASSED] - Text 'password123' is set on object 'testid:login-password-input'
+
+26-04-2026T00:48:31 - [MESSAGE][PASSED] - Object 'testid:login-submit-button' is clickable
+
+26-04-2026T00:48:31 - [MESSAGE][PASSED] - Object: 'testid:login-submit-button' is clicked on
+
+26-04-2026T00:48:31 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/login'
+
+26-04-2026T00:48:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-04-2026T00:48:33 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/dashboard'
+
+26-04-2026T00:48:33 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:48:33 - [TEST_STEP][PASSED] - navigateToUrl(staffBaseUrl + "/drugs"): Navigate to 'http://staff.localhost:3000/drugs' successfully
+
+26-04-2026T00:48:34 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/drugs' successfully
+
+26-04-2026T00:48:34 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.openToolbarFilter(): pulseclinic.WebUiKeywords.openToolbarFilter is PASSED
+
+26-04-2026T00:48:35 - [MESSAGE][PASSED] - Object 'testid:toolbar-filter-button' is clickable
+
+26-04-2026T00:48:36 - [MESSAGE][PASSED] - Object: 'testid:toolbar-filter-button' is clicked on
+
+26-04-2026T00:48:36 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.openToolbarFilter is PASSED
+
+26-04-2026T00:48:36 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.selectByValueTestId("drug-filter-dosage-form", "TABLET"): pulseclinic.WebUiKeywords.selectByValueTestId is PASSED
+
+26-04-2026T00:48:36 - [MESSAGE][PASSED] - Object 'testid:drug-filter-dosage-form' is visible
+
+26-04-2026T00:48:37 - [MESSAGE][PASSED] - All options with value 'TABLET' are selected in object 'testid:drug-filter-dosage-form' 
+
+26-04-2026T00:48:37 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.selectByValueTestId is PASSED
+
+26-04-2026T00:48:37 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.selectByValueTestId("drug-filter-unit", "TABLET"): pulseclinic.WebUiKeywords.selectByValueTestId is PASSED
+
+26-04-2026T00:48:37 - [MESSAGE][PASSED] - Object 'testid:drug-filter-unit' is visible
+
+26-04-2026T00:48:38 - [MESSAGE][PASSED] - All options with value 'TABLET' are selected in object 'testid:drug-filter-unit' 
+
+26-04-2026T00:48:38 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.selectByValueTestId is PASSED
+
+26-04-2026T00:48:38 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.clickByTestId("drug-filter-apply"): pulseclinic.WebUiKeywords.clickByTestId is PASSED
+
+26-04-2026T00:48:39 - [MESSAGE][PASSED] - Object 'testid:drug-filter-apply' is clickable
+
+26-04-2026T00:48:39 - [MESSAGE][PASSED] - Object: 'testid:drug-filter-apply' is clicked on
+
+26-04-2026T00:48:39 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.clickByTestId is PASSED
+
+26-04-2026T00:48:39 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.verifyRowsOrEmptyState(): pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+
+26-04-2026T00:48:39 - [MESSAGE][PASSED] - Object 'testid:data-table' is present
+
+26-04-2026T00:48:40 - [MESSAGE][PASSED] - Object 'testid:data-table' is present
+
+26-04-2026T00:48:40 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelectorAll('[data-testid="data-table-row"]').length' successfully
+
+26-04-2026T00:48:40 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+
+26-04-2026T00:48:40 - [TEST_STEP][PASSED] - Finally: pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:48:40 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.closeBrowser(): pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:48:40 - [MESSAGE][PASSED] - Browser is closed
+
+26-04-2026T00:48:40 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StaffTables/TC-015-Room-search" time="11.262" classname="Test Cases/StaffTables/TC-015-Room-search" status="PASSED">
+         <system-out><![CDATA[26-04-2026T00:48:40 - [TEST_CASE][PASSED] - Test Cases/StaffTables/TC-015-Room-search: Test Cases/StaffTables/TC-015-Room-search
+
+26-04-2026T00:48:40 - [TEST_STEP][PASSED] - try: pulseclinic.WebUiKeywords.verifyTextPresent is PASSED
+
+26-04-2026T00:48:40 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff(): pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:48:40 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+26-04-2026T00:48:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-04-2026T00:48:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-04-2026T00:48:42 - [MESSAGE][PASSED] - Current window maximized
+
+26-04-2026T00:48:43 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/login' successfully
+
+26-04-2026T00:48:43 - [MESSAGE][PASSED] - Wait for page load successfully
+
+26-04-2026T00:48:44 - [MESSAGE][PASSED] - Object 'testid:login-email-input' is visible
+
+26-04-2026T00:48:45 - [MESSAGE][PASSED] - Text 'pharmacist1@hospital.com' is set on object 'testid:login-email-input'
+
+26-04-2026T00:48:45 - [MESSAGE][PASSED] - Object 'testid:login-password-input' is visible
+
+26-04-2026T00:48:46 - [MESSAGE][PASSED] - Text 'password123' is set on object 'testid:login-password-input'
+
+26-04-2026T00:48:46 - [MESSAGE][PASSED] - Object 'testid:login-submit-button' is clickable
+
+26-04-2026T00:48:46 - [MESSAGE][PASSED] - Object: 'testid:login-submit-button' is clicked on
+
+26-04-2026T00:48:46 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/login'
+
+26-04-2026T00:48:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-04-2026T00:48:47 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/dashboard'
+
+26-04-2026T00:48:47 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:48:48 - [TEST_STEP][PASSED] - navigateToUrl(staffBaseUrl + "/rooms"): Navigate to 'http://staff.localhost:3000/rooms' successfully
+
+26-04-2026T00:48:48 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/rooms' successfully
+
+26-04-2026T00:48:48 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.searchToolbar(roomSearchTerm): pulseclinic.WebUiKeywords.searchToolbar is PASSED
+
+26-04-2026T00:48:49 - [MESSAGE][PASSED] - Object 'testid:toolbar-search-input' is visible
+
+26-04-2026T00:48:50 - [MESSAGE][PASSED] - Text '101' is set on object 'testid:toolbar-search-input'
+
+26-04-2026T00:48:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-04-2026T00:48:51 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.searchToolbar is PASSED
+
+26-04-2026T00:48:51 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.verifyTextPresent(roomSearchTerm): pulseclinic.WebUiKeywords.verifyTextPresent is PASSED
+
+26-04-2026T00:48:51 - [MESSAGE][PASSED] - Text '101' is present on page 
+
+26-04-2026T00:48:51 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.verifyTextPresent is PASSED
+
+26-04-2026T00:48:51 - [TEST_STEP][PASSED] - Finally: pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:48:51 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.closeBrowser(): pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:48:51 - [MESSAGE][PASSED] - Browser is closed
+
+26-04-2026T00:48:51 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StaffTables/TC-016-Room-filter-status" time="9.846" classname="Test Cases/StaffTables/TC-016-Room-filter-status" status="PASSED">
+         <system-out><![CDATA[26-04-2026T00:48:51 - [TEST_CASE][PASSED] - Test Cases/StaffTables/TC-016-Room-filter-status: Test Cases/StaffTables/TC-016-Room-filter-status
+
+26-04-2026T00:48:51 - [TEST_STEP][PASSED] - try: pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+
+26-04-2026T00:48:51 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff(): pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:48:51 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+26-04-2026T00:48:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-04-2026T00:48:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-04-2026T00:48:53 - [MESSAGE][PASSED] - Current window maximized
+
+26-04-2026T00:48:53 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/login' successfully
+
+26-04-2026T00:48:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+26-04-2026T00:48:54 - [MESSAGE][PASSED] - Object 'testid:login-email-input' is visible
+
+26-04-2026T00:48:55 - [MESSAGE][PASSED] - Text 'pharmacist1@hospital.com' is set on object 'testid:login-email-input'
+
+26-04-2026T00:48:55 - [MESSAGE][PASSED] - Object 'testid:login-password-input' is visible
+
+26-04-2026T00:48:56 - [MESSAGE][PASSED] - Text 'password123' is set on object 'testid:login-password-input'
+
+26-04-2026T00:48:56 - [MESSAGE][PASSED] - Object 'testid:login-submit-button' is clickable
+
+26-04-2026T00:48:56 - [MESSAGE][PASSED] - Object: 'testid:login-submit-button' is clicked on
+
+26-04-2026T00:48:56 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/login'
+
+26-04-2026T00:48:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-04-2026T00:48:57 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/dashboard'
+
+26-04-2026T00:48:57 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:48:57 - [TEST_STEP][PASSED] - navigateToUrl(staffBaseUrl + "/rooms"): Navigate to 'http://staff.localhost:3000/rooms' successfully
+
+26-04-2026T00:48:58 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/rooms' successfully
+
+26-04-2026T00:48:58 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.openToolbarFilter(): pulseclinic.WebUiKeywords.openToolbarFilter is PASSED
+
+26-04-2026T00:48:58 - [MESSAGE][PASSED] - Object 'testid:toolbar-filter-button' is clickable
+
+26-04-2026T00:48:59 - [MESSAGE][PASSED] - Object: 'testid:toolbar-filter-button' is clicked on
+
+26-04-2026T00:48:59 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.openToolbarFilter is PASSED
+
+26-04-2026T00:48:59 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.selectByValueTestId("room-filter-status", "available"): pulseclinic.WebUiKeywords.selectByValueTestId is PASSED
+
+26-04-2026T00:48:59 - [MESSAGE][PASSED] - Object 'testid:room-filter-status' is visible
+
+26-04-2026T00:49:00 - [MESSAGE][PASSED] - All options with value 'available' are selected in object 'testid:room-filter-status' 
+
+26-04-2026T00:49:00 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.selectByValueTestId is PASSED
+
+26-04-2026T00:49:00 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.clickByTestId("room-filter-apply"): pulseclinic.WebUiKeywords.clickByTestId is PASSED
+
+26-04-2026T00:49:00 - [MESSAGE][PASSED] - Object 'testid:room-filter-apply' is clickable
+
+26-04-2026T00:49:00 - [MESSAGE][PASSED] - Object: 'testid:room-filter-apply' is clicked on
+
+26-04-2026T00:49:00 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.clickByTestId is PASSED
+
+26-04-2026T00:49:00 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.verifyRowsOrEmptyState(): pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+
+26-04-2026T00:49:01 - [MESSAGE][PASSED] - Object 'testid:data-table' is present
+
+26-04-2026T00:49:01 - [MESSAGE][PASSED] - Object 'testid:data-table' is present
+
+26-04-2026T00:49:01 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelectorAll('[data-testid="data-table-row"]').length' successfully
+
+26-04-2026T00:49:01 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+
+26-04-2026T00:49:01 - [TEST_STEP][PASSED] - Finally: pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:49:01 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.closeBrowser(): pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:49:01 - [MESSAGE][PASSED] - Browser is closed
+
+26-04-2026T00:49:01 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StaffTables/TC-017-Waitlist-priority-order" time="7.124" classname="Test Cases/StaffTables/TC-017-Waitlist-priority-order" status="PASSED">
+         <system-out><![CDATA[26-04-2026T00:49:01 - [TEST_CASE][PASSED] - Test Cases/StaffTables/TC-017-Waitlist-priority-order: Test Cases/StaffTables/TC-017-Waitlist-priority-order
+
+26-04-2026T00:49:01 - [TEST_STEP][PASSED] - try: pulseclinic.WebUiKeywords.verifyOptionalPriorityOrder is PASSED
+
+26-04-2026T00:49:01 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff(): pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:49:01 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+26-04-2026T00:49:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-04-2026T00:49:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-04-2026T00:49:02 - [MESSAGE][PASSED] - Current window maximized
+
+26-04-2026T00:49:03 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/login' successfully
+
+26-04-2026T00:49:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+26-04-2026T00:49:04 - [MESSAGE][PASSED] - Object 'testid:login-email-input' is visible
+
+26-04-2026T00:49:04 - [MESSAGE][PASSED] - Text 'pharmacist1@hospital.com' is set on object 'testid:login-email-input'
+
+26-04-2026T00:49:05 - [MESSAGE][PASSED] - Object 'testid:login-password-input' is visible
+
+26-04-2026T00:49:05 - [MESSAGE][PASSED] - Text 'password123' is set on object 'testid:login-password-input'
+
+26-04-2026T00:49:05 - [MESSAGE][PASSED] - Object 'testid:login-submit-button' is clickable
+
+26-04-2026T00:49:06 - [MESSAGE][PASSED] - Object: 'testid:login-submit-button' is clicked on
+
+26-04-2026T00:49:06 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/login'
+
+26-04-2026T00:49:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-04-2026T00:49:07 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/dashboard'
+
+26-04-2026T00:49:07 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:49:07 - [TEST_STEP][PASSED] - navigateToUrl(staffBaseUrl + "/wait-list"): Navigate to 'http://staff.localhost:3000/wait-list' successfully
+
+26-04-2026T00:49:08 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/wait-list' successfully
+
+26-04-2026T00:49:08 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.verifyOptionalPriorityOrder(): pulseclinic.WebUiKeywords.verifyOptionalPriorityOrder is PASSED
+
+26-04-2026T00:49:08 - [MESSAGE][PASSED] - Object 'testid:data-table' is present
+
+26-04-2026T00:49:08 - [MESSAGE][INFO] - Waitlist priority order is validated when rows are available; empty seed data is accepted for baseline stability.
+
+26-04-2026T00:49:08 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.verifyOptionalPriorityOrder is PASSED
+
+26-04-2026T00:49:08 - [TEST_STEP][PASSED] - Finally: pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:49:08 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.closeBrowser(): pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:49:08 - [MESSAGE][PASSED] - Browser is closed
+
+26-04-2026T00:49:08 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StaffTables/TC-018-Waitlist-filter-priority" time="9.689" classname="Test Cases/StaffTables/TC-018-Waitlist-filter-priority" status="PASSED">
+         <system-out><![CDATA[26-04-2026T00:49:08 - [TEST_CASE][PASSED] - Test Cases/StaffTables/TC-018-Waitlist-filter-priority: Test Cases/StaffTables/TC-018-Waitlist-filter-priority
+
+26-04-2026T00:49:08 - [TEST_STEP][PASSED] - try: pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+
+26-04-2026T00:49:08 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff(): pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:49:08 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+26-04-2026T00:49:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-04-2026T00:49:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-04-2026T00:49:09 - [MESSAGE][PASSED] - Current window maximized
+
+26-04-2026T00:49:10 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/login' successfully
+
+26-04-2026T00:49:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+26-04-2026T00:49:11 - [MESSAGE][PASSED] - Object 'testid:login-email-input' is visible
+
+26-04-2026T00:49:11 - [MESSAGE][PASSED] - Text 'pharmacist1@hospital.com' is set on object 'testid:login-email-input'
+
+26-04-2026T00:49:12 - [MESSAGE][PASSED] - Object 'testid:login-password-input' is visible
+
+26-04-2026T00:49:12 - [MESSAGE][PASSED] - Text 'password123' is set on object 'testid:login-password-input'
+
+26-04-2026T00:49:12 - [MESSAGE][PASSED] - Object 'testid:login-submit-button' is clickable
+
+26-04-2026T00:49:13 - [MESSAGE][PASSED] - Object: 'testid:login-submit-button' is clicked on
+
+26-04-2026T00:49:13 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/login'
+
+26-04-2026T00:49:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-04-2026T00:49:14 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/dashboard'
+
+26-04-2026T00:49:14 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:49:14 - [TEST_STEP][PASSED] - navigateToUrl(staffBaseUrl + "/wait-list"): Navigate to 'http://staff.localhost:3000/wait-list' successfully
+
+26-04-2026T00:49:14 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/wait-list' successfully
+
+26-04-2026T00:49:14 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.openToolbarFilter(): pulseclinic.WebUiKeywords.openToolbarFilter is PASSED
+
+26-04-2026T00:49:15 - [MESSAGE][PASSED] - Object 'testid:toolbar-filter-button' is clickable
+
+26-04-2026T00:49:15 - [MESSAGE][PASSED] - Object: 'testid:toolbar-filter-button' is clicked on
+
+26-04-2026T00:49:15 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.openToolbarFilter is PASSED
+
+26-04-2026T00:49:15 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.selectByValueTestId("waitlist-filter-priority", "NORMAL"): pulseclinic.WebUiKeywords.selectByValueTestId is PASSED
+
+26-04-2026T00:49:16 - [MESSAGE][PASSED] - Object 'testid:waitlist-filter-priority' is visible
+
+26-04-2026T00:49:16 - [MESSAGE][PASSED] - All options with value 'NORMAL' are selected in object 'testid:waitlist-filter-priority' 
+
+26-04-2026T00:49:16 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.selectByValueTestId is PASSED
+
+26-04-2026T00:49:16 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.clickByTestId("waitlist-filter-apply"): pulseclinic.WebUiKeywords.clickByTestId is PASSED
+
+26-04-2026T00:49:17 - [MESSAGE][PASSED] - Object 'testid:waitlist-filter-apply' is clickable
+
+26-04-2026T00:49:17 - [MESSAGE][PASSED] - Object: 'testid:waitlist-filter-apply' is clicked on
+
+26-04-2026T00:49:17 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.clickByTestId is PASSED
+
+26-04-2026T00:49:17 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.verifyRowsOrEmptyState(): pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+
+26-04-2026T00:49:17 - [MESSAGE][PASSED] - Object 'testid:data-table' is present
+
+26-04-2026T00:49:17 - [MESSAGE][PASSED] - Object 'testid:data-table' is present
+
+26-04-2026T00:49:18 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelectorAll('[data-testid="data-table-row"]').length' successfully
+
+26-04-2026T00:49:18 - [MESSAGE][PASSED] - Text 'No data available' is present on page 
+
+26-04-2026T00:49:18 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+
+26-04-2026T00:49:18 - [TEST_STEP][PASSED] - Finally: pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:49:18 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.closeBrowser(): pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:49:18 - [MESSAGE][PASSED] - Browser is closed
+
+26-04-2026T00:49:18 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StaffTables/TC-019-Appointment-status-tabs" time="7.907" classname="Test Cases/StaffTables/TC-019-Appointment-status-tabs" status="PASSED">
+         <system-out><![CDATA[26-04-2026T00:49:18 - [TEST_CASE][PASSED] - Test Cases/StaffTables/TC-019-Appointment-status-tabs: Test Cases/StaffTables/TC-019-Appointment-status-tabs
+
+26-04-2026T00:49:18 - [TEST_STEP][PASSED] - try: pulseclinic.WebUiKeywords.verifyTablePresent is PASSED
+
+26-04-2026T00:49:18 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff(): pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:49:18 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+26-04-2026T00:49:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-04-2026T00:49:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-04-2026T00:49:19 - [MESSAGE][PASSED] - Current window maximized
+
+26-04-2026T00:49:19 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/login' successfully
+
+26-04-2026T00:49:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+26-04-2026T00:49:20 - [MESSAGE][PASSED] - Object 'testid:login-email-input' is visible
+
+26-04-2026T00:49:21 - [MESSAGE][PASSED] - Text 'pharmacist1@hospital.com' is set on object 'testid:login-email-input'
+
+26-04-2026T00:49:21 - [MESSAGE][PASSED] - Object 'testid:login-password-input' is visible
+
+26-04-2026T00:49:22 - [MESSAGE][PASSED] - Text 'password123' is set on object 'testid:login-password-input'
+
+26-04-2026T00:49:22 - [MESSAGE][PASSED] - Object 'testid:login-submit-button' is clickable
+
+26-04-2026T00:49:22 - [MESSAGE][PASSED] - Object: 'testid:login-submit-button' is clicked on
+
+26-04-2026T00:49:22 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/login'
+
+26-04-2026T00:49:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-04-2026T00:49:23 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/dashboard'
+
+26-04-2026T00:49:23 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:49:23 - [TEST_STEP][PASSED] - navigateToUrl(staffBaseUrl + "/appointments"): Navigate to 'http://staff.localhost:3000/appointments' successfully
+
+26-04-2026T00:49:24 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/appointments' successfully
+
+26-04-2026T00:49:24 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.clickByTestId("appointment-tab-confirmed"): pulseclinic.WebUiKeywords.clickByTestId is PASSED
+
+26-04-2026T00:49:25 - [MESSAGE][PASSED] - Object 'testid:appointment-tab-confirmed' is clickable
+
+26-04-2026T00:49:25 - [MESSAGE][PASSED] - Object: 'testid:appointment-tab-confirmed' is clicked on
+
+26-04-2026T00:49:25 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.clickByTestId is PASSED
+
+26-04-2026T00:49:25 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.clickByTestId("appointment-tab-cancelled"): pulseclinic.WebUiKeywords.clickByTestId is PASSED
+
+26-04-2026T00:49:25 - [MESSAGE][PASSED] - Object 'testid:appointment-tab-cancelled' is clickable
+
+26-04-2026T00:49:26 - [MESSAGE][PASSED] - Object: 'testid:appointment-tab-cancelled' is clicked on
+
+26-04-2026T00:49:26 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.clickByTestId is PASSED
+
+26-04-2026T00:49:26 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.verifyTablePresent(): pulseclinic.WebUiKeywords.verifyTablePresent is PASSED
+
+26-04-2026T00:49:26 - [MESSAGE][PASSED] - Object 'testid:data-table' is present
+
+26-04-2026T00:49:26 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.verifyTablePresent is PASSED
+
+26-04-2026T00:49:26 - [TEST_STEP][PASSED] - Finally: pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:49:26 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.closeBrowser(): pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:49:26 - [MESSAGE][PASSED] - Browser is closed
+
+26-04-2026T00:49:26 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StaffTables/TC-020-Invoice-patient-search" time="8.788" classname="Test Cases/StaffTables/TC-020-Invoice-patient-search" status="PASSED">
+         <system-out><![CDATA[26-04-2026T00:49:26 - [TEST_CASE][PASSED] - Test Cases/StaffTables/TC-020-Invoice-patient-search: Test Cases/StaffTables/TC-020-Invoice-patient-search
+
+26-04-2026T00:49:26 - [TEST_STEP][PASSED] - try: pulseclinic.WebUiKeywords.verifyTextPresent is PASSED
+
+26-04-2026T00:49:26 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff(): pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:49:26 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+26-04-2026T00:49:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-04-2026T00:49:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-04-2026T00:49:27 - [MESSAGE][PASSED] - Current window maximized
+
+26-04-2026T00:49:27 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/login' successfully
+
+26-04-2026T00:49:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+26-04-2026T00:49:28 - [MESSAGE][PASSED] - Object 'testid:login-email-input' is visible
+
+26-04-2026T00:49:29 - [MESSAGE][PASSED] - Text 'pharmacist1@hospital.com' is set on object 'testid:login-email-input'
+
+26-04-2026T00:49:29 - [MESSAGE][PASSED] - Object 'testid:login-password-input' is visible
+
+26-04-2026T00:49:30 - [MESSAGE][PASSED] - Text 'password123' is set on object 'testid:login-password-input'
+
+26-04-2026T00:49:30 - [MESSAGE][PASSED] - Object 'testid:login-submit-button' is clickable
+
+26-04-2026T00:49:30 - [MESSAGE][PASSED] - Object: 'testid:login-submit-button' is clicked on
+
+26-04-2026T00:49:30 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/login'
+
+26-04-2026T00:49:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-04-2026T00:49:31 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/dashboard'
+
+26-04-2026T00:49:31 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:49:31 - [TEST_STEP][PASSED] - navigateToUrl(staffBaseUrl + "/invoices"): Navigate to 'http://staff.localhost:3000/invoices' successfully
+
+26-04-2026T00:49:32 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/invoices' successfully
+
+26-04-2026T00:49:32 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.searchToolbar(patientSearchTerm): pulseclinic.WebUiKeywords.searchToolbar is PASSED
+
+26-04-2026T00:49:33 - [MESSAGE][PASSED] - Object 'testid:toolbar-search-input' is visible
+
+26-04-2026T00:49:33 - [MESSAGE][PASSED] - Text 'John Patient' is set on object 'testid:toolbar-search-input'
+
+26-04-2026T00:49:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-04-2026T00:49:34 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.searchToolbar is PASSED
+
+26-04-2026T00:49:34 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.verifyTextPresent(patientSearchTerm): pulseclinic.WebUiKeywords.verifyTextPresent is PASSED
+
+26-04-2026T00:49:35 - [MESSAGE][PASSED] - Text 'John Patient' is present on page 
+
+26-04-2026T00:49:35 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.verifyTextPresent is PASSED
+
+26-04-2026T00:49:35 - [TEST_STEP][PASSED] - Finally: pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:49:35 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.closeBrowser(): pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:49:35 - [MESSAGE][PASSED] - Browser is closed
+
+26-04-2026T00:49:35 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentication/TC-021-Staff-login-empty-email" time="3.509" classname="Test Cases/Authentication/TC-021-Staff-login-empty-email" status="PASSED">
+         <system-out><![CDATA[26-04-2026T00:49:35 - [TEST_CASE][PASSED] - Test Cases/Authentication/TC-021-Staff-login-empty-email: Test Cases/Authentication/TC-021-Staff-login-empty-email
+
+26-04-2026T00:49:35 - [TEST_STEP][PASSED] - try: pulseclinic.WebUiKeywords.verifyUrlContains is PASSED
+
+26-04-2026T00:49:35 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.openAt(staffBaseUrl + "/login"): pulseclinic.WebUiKeywords.openAt is PASSED
+
+26-04-2026T00:49:35 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+26-04-2026T00:49:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-04-2026T00:49:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-04-2026T00:49:36 - [MESSAGE][PASSED] - Current window maximized
+
+26-04-2026T00:49:36 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/login' successfully
+
+26-04-2026T00:49:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+26-04-2026T00:49:36 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.openAt is PASSED
+
+26-04-2026T00:49:36 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.setTextByTestId("login-password-input", "anypassword"): pulseclinic.WebUiKeywords.setTextByTestId is PASSED
+
+26-04-2026T00:49:37 - [MESSAGE][PASSED] - Object 'testid:login-password-input' is visible
+
+26-04-2026T00:49:37 - [MESSAGE][PASSED] - Text 'anypassword' is set on object 'testid:login-password-input'
+
+26-04-2026T00:49:37 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.setTextByTestId is PASSED
+
+26-04-2026T00:49:37 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.clickByTestId("login-submit-button"): pulseclinic.WebUiKeywords.clickByTestId is PASSED
+
+26-04-2026T00:49:38 - [MESSAGE][PASSED] - Object 'testid:login-submit-button' is clickable
+
+26-04-2026T00:49:38 - [MESSAGE][PASSED] - Object: 'testid:login-submit-button' is clicked on
+
+26-04-2026T00:49:38 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.clickByTestId is PASSED
+
+26-04-2026T00:49:38 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.verifyUrlContains("/login"): pulseclinic.WebUiKeywords.verifyUrlContains is PASSED
+
+26-04-2026T00:49:38 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/login'
+
+26-04-2026T00:49:38 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.verifyUrlContains is PASSED
+
+26-04-2026T00:49:38 - [TEST_STEP][PASSED] - Finally: pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:49:38 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.closeBrowser(): pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:49:38 - [MESSAGE][PASSED] - Browser is closed
+
+26-04-2026T00:49:38 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentication/TC-022-Staff-login-invalid-email-format" time="4.509" classname="Test Cases/Authentication/TC-022-Staff-login-invalid-email-format" status="PASSED">
+         <system-out><![CDATA[26-04-2026T00:49:38 - [TEST_CASE][PASSED] - Test Cases/Authentication/TC-022-Staff-login-invalid-email-format: Test Cases/Authentication/TC-022-Staff-login-invalid-email-format
+
+26-04-2026T00:49:38 - [TEST_STEP][PASSED] - try: pulseclinic.WebUiKeywords.verifyUrlContains is PASSED
+
+26-04-2026T00:49:38 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.openAt(staffBaseUrl + "/login"): pulseclinic.WebUiKeywords.openAt is PASSED
+
+26-04-2026T00:49:38 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+26-04-2026T00:49:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-04-2026T00:49:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-04-2026T00:49:39 - [MESSAGE][PASSED] - Current window maximized
+
+26-04-2026T00:49:40 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/login' successfully
+
+26-04-2026T00:49:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+26-04-2026T00:49:40 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.openAt is PASSED
+
+26-04-2026T00:49:40 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.setTextByTestId("login-email-input", "notanemail"): pulseclinic.WebUiKeywords.setTextByTestId is PASSED
+
+26-04-2026T00:49:40 - [MESSAGE][PASSED] - Object 'testid:login-email-input' is visible
+
+26-04-2026T00:49:41 - [MESSAGE][PASSED] - Text 'notanemail' is set on object 'testid:login-email-input'
+
+26-04-2026T00:49:41 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.setTextByTestId is PASSED
+
+26-04-2026T00:49:41 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.setTextByTestId("login-password-input", "anypassword"): pulseclinic.WebUiKeywords.setTextByTestId is PASSED
+
+26-04-2026T00:49:41 - [MESSAGE][PASSED] - Object 'testid:login-password-input' is visible
+
+26-04-2026T00:49:42 - [MESSAGE][PASSED] - Text 'anypassword' is set on object 'testid:login-password-input'
+
+26-04-2026T00:49:42 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.setTextByTestId is PASSED
+
+26-04-2026T00:49:42 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.clickByTestId("login-submit-button"): pulseclinic.WebUiKeywords.clickByTestId is PASSED
+
+26-04-2026T00:49:42 - [MESSAGE][PASSED] - Object 'testid:login-submit-button' is clickable
+
+26-04-2026T00:49:42 - [MESSAGE][PASSED] - Object: 'testid:login-submit-button' is clicked on
+
+26-04-2026T00:49:42 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.clickByTestId is PASSED
+
+26-04-2026T00:49:42 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.verifyUrlContains("/login"): pulseclinic.WebUiKeywords.verifyUrlContains is PASSED
+
+26-04-2026T00:49:43 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/login'
+
+26-04-2026T00:49:43 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.verifyUrlContains is PASSED
+
+26-04-2026T00:49:43 - [TEST_STEP][PASSED] - Finally: pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:49:43 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.closeBrowser(): pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:49:43 - [MESSAGE][PASSED] - Browser is closed
+
+26-04-2026T00:49:43 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentication/TC-023-Doctor-login-wrong-credentials" time="5.263" classname="Test Cases/Authentication/TC-023-Doctor-login-wrong-credentials" status="PASSED">
+         <system-out><![CDATA[26-04-2026T00:49:43 - [TEST_CASE][PASSED] - Test Cases/Authentication/TC-023-Doctor-login-wrong-credentials: Test Cases/Authentication/TC-023-Doctor-login-wrong-credentials
+
+26-04-2026T00:49:43 - [TEST_STEP][PASSED] - try: Object 'testid:login-error' is visible
+
+26-04-2026T00:49:43 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.openAt(doctorBaseUrl + "/login"): pulseclinic.WebUiKeywords.openAt is PASSED
+
+26-04-2026T00:49:43 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+26-04-2026T00:49:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-04-2026T00:49:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-04-2026T00:49:44 - [MESSAGE][PASSED] - Current window maximized
+
+26-04-2026T00:49:44 - [MESSAGE][PASSED] - Navigate to 'http://doctor.localhost:3000/login' successfully
+
+26-04-2026T00:49:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+26-04-2026T00:49:44 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.openAt is PASSED
+
+26-04-2026T00:49:44 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.setTextByTestId("login-email-input", "wrong.doctor@hospital.com"): pulseclinic.WebUiKeywords.setTextByTestId is PASSED
+
+26-04-2026T00:49:45 - [MESSAGE][PASSED] - Object 'testid:login-email-input' is visible
+
+26-04-2026T00:49:46 - [MESSAGE][PASSED] - Text 'wrong.doctor@hospital.com' is set on object 'testid:login-email-input'
+
+26-04-2026T00:49:46 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.setTextByTestId is PASSED
+
+26-04-2026T00:49:46 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.setTextByTestId("login-password-input", "wrongpassword"): pulseclinic.WebUiKeywords.setTextByTestId is PASSED
+
+26-04-2026T00:49:46 - [MESSAGE][PASSED] - Object 'testid:login-password-input' is visible
+
+26-04-2026T00:49:46 - [MESSAGE][PASSED] - Text 'wrongpassword' is set on object 'testid:login-password-input'
+
+26-04-2026T00:49:46 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.setTextByTestId is PASSED
+
+26-04-2026T00:49:46 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.clickByTestId("login-submit-button"): pulseclinic.WebUiKeywords.clickByTestId is PASSED
+
+26-04-2026T00:49:47 - [MESSAGE][PASSED] - Object 'testid:login-submit-button' is clickable
+
+26-04-2026T00:49:47 - [MESSAGE][PASSED] - Object: 'testid:login-submit-button' is clicked on
+
+26-04-2026T00:49:47 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.clickByTestId is PASSED
+
+26-04-2026T00:49:47 - [TEST_STEP][PASSED] - waitForElementVisible(pulseclinic.WebUiKeywords.byTestId("login-error"), defaultTimeout): Object 'testid:login-error' is visible
+
+26-04-2026T00:49:47 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.byTestId is PASSED
+
+26-04-2026T00:49:48 - [MESSAGE][PASSED] - Object 'testid:login-error' is visible
+
+26-04-2026T00:49:48 - [TEST_STEP][PASSED] - Finally: pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:49:48 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.closeBrowser(): pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:49:48 - [MESSAGE][PASSED] - Browser is closed
+
+26-04-2026T00:49:48 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentication/TC-024-Patient-login-wrong-credentials" time="5.245" classname="Test Cases/Authentication/TC-024-Patient-login-wrong-credentials" status="PASSED">
+         <system-out><![CDATA[26-04-2026T00:49:48 - [TEST_CASE][PASSED] - Test Cases/Authentication/TC-024-Patient-login-wrong-credentials: Test Cases/Authentication/TC-024-Patient-login-wrong-credentials
+
+26-04-2026T00:49:48 - [TEST_STEP][PASSED] - try: Object 'testid:login-error' is visible
+
+26-04-2026T00:49:48 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.openAt(patientBaseUrl + "/login"): pulseclinic.WebUiKeywords.openAt is PASSED
+
+26-04-2026T00:49:48 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+26-04-2026T00:49:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-04-2026T00:49:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-04-2026T00:49:49 - [MESSAGE][PASSED] - Current window maximized
+
+26-04-2026T00:49:50 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/login' successfully
+
+26-04-2026T00:49:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+26-04-2026T00:49:50 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.openAt is PASSED
+
+26-04-2026T00:49:50 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.setTextByTestId("login-email-input", "wrong.patient@example.com"): pulseclinic.WebUiKeywords.setTextByTestId is PASSED
+
+26-04-2026T00:49:50 - [MESSAGE][PASSED] - Object 'testid:login-email-input' is visible
+
+26-04-2026T00:49:51 - [MESSAGE][PASSED] - Text 'wrong.patient@example.com' is set on object 'testid:login-email-input'
+
+26-04-2026T00:49:51 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.setTextByTestId is PASSED
+
+26-04-2026T00:49:51 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.setTextByTestId("login-password-input", "wrongpassword"): pulseclinic.WebUiKeywords.setTextByTestId is PASSED
+
+26-04-2026T00:49:51 - [MESSAGE][PASSED] - Object 'testid:login-password-input' is visible
+
+26-04-2026T00:49:52 - [MESSAGE][PASSED] - Text 'wrongpassword' is set on object 'testid:login-password-input'
+
+26-04-2026T00:49:52 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.setTextByTestId is PASSED
+
+26-04-2026T00:49:52 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.clickByTestId("login-submit-button"): pulseclinic.WebUiKeywords.clickByTestId is PASSED
+
+26-04-2026T00:49:52 - [MESSAGE][PASSED] - Object 'testid:login-submit-button' is clickable
+
+26-04-2026T00:49:52 - [MESSAGE][PASSED] - Object: 'testid:login-submit-button' is clicked on
+
+26-04-2026T00:49:52 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.clickByTestId is PASSED
+
+26-04-2026T00:49:52 - [TEST_STEP][PASSED] - waitForElementVisible(pulseclinic.WebUiKeywords.byTestId("login-error"), defaultTimeout): Object 'testid:login-error' is visible
+
+26-04-2026T00:49:52 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.byTestId is PASSED
+
+26-04-2026T00:49:53 - [MESSAGE][PASSED] - Object 'testid:login-error' is visible
+
+26-04-2026T00:49:53 - [TEST_STEP][PASSED] - Finally: pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:49:53 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.closeBrowser(): pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:49:53 - [MESSAGE][PASSED] - Browser is closed
+
+26-04-2026T00:49:53 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentication/TC-025-Staff-logout" time="7.627" classname="Test Cases/Authentication/TC-025-Staff-logout" status="PASSED">
+         <system-out><![CDATA[26-04-2026T00:49:53 - [TEST_CASE][PASSED] - Test Cases/Authentication/TC-025-Staff-logout: Test Cases/Authentication/TC-025-Staff-logout
+
+26-04-2026T00:49:53 - [TEST_STEP][PASSED] - try: pulseclinic.WebUiKeywords.verifyUrlContains is PASSED
+
+26-04-2026T00:49:53 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff(): pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:49:53 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+26-04-2026T00:49:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-04-2026T00:49:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-04-2026T00:49:54 - [MESSAGE][PASSED] - Current window maximized
+
+26-04-2026T00:49:55 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/login' successfully
+
+26-04-2026T00:49:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+26-04-2026T00:49:55 - [MESSAGE][PASSED] - Object 'testid:login-email-input' is visible
+
+26-04-2026T00:49:56 - [MESSAGE][PASSED] - Text 'pharmacist1@hospital.com' is set on object 'testid:login-email-input'
+
+26-04-2026T00:49:56 - [MESSAGE][PASSED] - Object 'testid:login-password-input' is visible
+
+26-04-2026T00:49:57 - [MESSAGE][PASSED] - Text 'password123' is set on object 'testid:login-password-input'
+
+26-04-2026T00:49:57 - [MESSAGE][PASSED] - Object 'testid:login-submit-button' is clickable
+
+26-04-2026T00:49:58 - [MESSAGE][PASSED] - Object: 'testid:login-submit-button' is clicked on
+
+26-04-2026T00:49:58 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/login'
+
+26-04-2026T00:49:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-04-2026T00:49:59 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/dashboard'
+
+26-04-2026T00:49:59 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:49:59 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.verifyUrlContains("/dashboard"): pulseclinic.WebUiKeywords.verifyUrlContains is PASSED
+
+26-04-2026T00:49:59 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/dashboard'
+
+26-04-2026T00:49:59 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.verifyUrlContains is PASSED
+
+26-04-2026T00:49:59 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.clickByTestId("logout-button"): pulseclinic.WebUiKeywords.clickByTestId is PASSED
+
+26-04-2026T00:49:59 - [MESSAGE][PASSED] - Object 'testid:logout-button' is clickable
+
+26-04-2026T00:50:00 - [MESSAGE][PASSED] - Object: 'testid:logout-button' is clicked on
+
+26-04-2026T00:50:00 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.clickByTestId is PASSED
+
+26-04-2026T00:50:00 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.verifyUrlContains("/login"): pulseclinic.WebUiKeywords.verifyUrlContains is PASSED
+
+26-04-2026T00:50:00 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/dashboard'
+
+26-04-2026T00:50:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-04-2026T00:50:01 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/login'
+
+26-04-2026T00:50:01 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.verifyUrlContains is PASSED
+
+26-04-2026T00:50:01 - [TEST_STEP][PASSED] - Finally: pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:50:01 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.closeBrowser(): pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:50:01 - [MESSAGE][PASSED] - Browser is closed
+
+26-04-2026T00:50:01 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentication/TC-026-Staff-protected-redirect" time="2.939" classname="Test Cases/Authentication/TC-026-Staff-protected-redirect" status="PASSED">
+         <system-out><![CDATA[26-04-2026T00:50:01 - [TEST_CASE][PASSED] - Test Cases/Authentication/TC-026-Staff-protected-redirect: Test Cases/Authentication/TC-026-Staff-protected-redirect
+
+26-04-2026T00:50:01 - [TEST_STEP][PASSED] - try: pulseclinic.WebUiKeywords.verifyUrlContains is PASSED
+
+26-04-2026T00:50:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-04-2026T00:50:01 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+26-04-2026T00:50:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-04-2026T00:50:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-04-2026T00:50:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+26-04-2026T00:50:02 - [MESSAGE][PASSED] - Current window maximized
+
+26-04-2026T00:50:02 - [TEST_STEP][PASSED] - navigateToUrl(staffBaseUrl + "/patients"): Navigate to 'http://staff.localhost:3000/patients' successfully
+
+26-04-2026T00:50:03 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/patients' successfully
+
+26-04-2026T00:50:03 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.verifyUrlContains("/login"): pulseclinic.WebUiKeywords.verifyUrlContains is PASSED
+
+26-04-2026T00:50:03 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/patients'
+
+26-04-2026T00:50:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-04-2026T00:50:04 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/login'
+
+26-04-2026T00:50:04 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.verifyUrlContains is PASSED
+
+26-04-2026T00:50:04 - [TEST_STEP][PASSED] - Finally: pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:50:04 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.closeBrowser(): pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:50:04 - [MESSAGE][PASSED] - Browser is closed
+
+26-04-2026T00:50:04 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Authentication/TC-027-Doctor-protected-redirect" time="2.809" classname="Test Cases/Authentication/TC-027-Doctor-protected-redirect" status="PASSED">
+         <system-out><![CDATA[26-04-2026T00:50:04 - [TEST_CASE][PASSED] - Test Cases/Authentication/TC-027-Doctor-protected-redirect: Test Cases/Authentication/TC-027-Doctor-protected-redirect
+
+26-04-2026T00:50:04 - [TEST_STEP][PASSED] - try: pulseclinic.WebUiKeywords.verifyUrlContains is PASSED
+
+26-04-2026T00:50:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-04-2026T00:50:04 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+26-04-2026T00:50:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-04-2026T00:50:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-04-2026T00:50:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+26-04-2026T00:50:05 - [MESSAGE][PASSED] - Current window maximized
+
+26-04-2026T00:50:05 - [TEST_STEP][PASSED] - navigateToUrl(doctorBaseUrl + "/schedule"): Navigate to 'http://doctor.localhost:3000/schedule' successfully
+
+26-04-2026T00:50:05 - [MESSAGE][PASSED] - Navigate to 'http://doctor.localhost:3000/schedule' successfully
+
+26-04-2026T00:50:05 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.verifyUrlContains("/login"): pulseclinic.WebUiKeywords.verifyUrlContains is PASSED
+
+26-04-2026T00:50:05 - [MESSAGE][PASSED] - Current window's url is: 'http://doctor.localhost:3000/schedule'
+
+26-04-2026T00:50:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-04-2026T00:50:06 - [MESSAGE][PASSED] - Current window's url is: 'http://doctor.localhost:3000/login'
+
+26-04-2026T00:50:06 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.verifyUrlContains is PASSED
+
+26-04-2026T00:50:06 - [TEST_STEP][PASSED] - Finally: pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:50:06 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.closeBrowser(): pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:50:07 - [MESSAGE][PASSED] - Browser is closed
+
+26-04-2026T00:50:07 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StaffTables/TC-028-Patient-search-no-results" time="9.307" classname="Test Cases/StaffTables/TC-028-Patient-search-no-results" status="PASSED">
+         <system-out><![CDATA[26-04-2026T00:50:07 - [TEST_CASE][PASSED] - Test Cases/StaffTables/TC-028-Patient-search-no-results: Test Cases/StaffTables/TC-028-Patient-search-no-results
+
+26-04-2026T00:50:07 - [TEST_STEP][PASSED] - try: pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+
+26-04-2026T00:50:07 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff(): pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:50:07 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+26-04-2026T00:50:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-04-2026T00:50:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-04-2026T00:50:08 - [MESSAGE][PASSED] - Current window maximized
+
+26-04-2026T00:50:08 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/login' successfully
+
+26-04-2026T00:50:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+26-04-2026T00:50:09 - [MESSAGE][PASSED] - Object 'testid:login-email-input' is visible
+
+26-04-2026T00:50:10 - [MESSAGE][PASSED] - Text 'pharmacist1@hospital.com' is set on object 'testid:login-email-input'
+
+26-04-2026T00:50:10 - [MESSAGE][PASSED] - Object 'testid:login-password-input' is visible
+
+26-04-2026T00:50:11 - [MESSAGE][PASSED] - Text 'password123' is set on object 'testid:login-password-input'
+
+26-04-2026T00:50:11 - [MESSAGE][PASSED] - Object 'testid:login-submit-button' is clickable
+
+26-04-2026T00:50:11 - [MESSAGE][PASSED] - Object: 'testid:login-submit-button' is clicked on
+
+26-04-2026T00:50:11 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/login'
+
+26-04-2026T00:50:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-04-2026T00:50:12 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/dashboard'
+
+26-04-2026T00:50:12 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:50:12 - [TEST_STEP][PASSED] - navigateToUrl(staffBaseUrl + "/patients"): Navigate to 'http://staff.localhost:3000/patients' successfully
+
+26-04-2026T00:50:12 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/patients' successfully
+
+26-04-2026T00:50:12 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.verifyTablePresent(): pulseclinic.WebUiKeywords.verifyTablePresent is PASSED
+
+26-04-2026T00:50:13 - [MESSAGE][PASSED] - Object 'testid:data-table' is present
+
+26-04-2026T00:50:13 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.verifyTablePresent is PASSED
+
+26-04-2026T00:50:13 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.searchToolbar("XYZNOTEXIST99999"): pulseclinic.WebUiKeywords.searchToolbar is PASSED
+
+26-04-2026T00:50:13 - [MESSAGE][PASSED] - Object 'testid:toolbar-search-input' is visible
+
+26-04-2026T00:50:14 - [MESSAGE][PASSED] - Text 'XYZNOTEXIST99999' is set on object 'testid:toolbar-search-input'
+
+26-04-2026T00:50:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-04-2026T00:50:15 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.searchToolbar is PASSED
+
+26-04-2026T00:50:15 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.verifyRowsOrEmptyState(): pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+
+26-04-2026T00:50:15 - [MESSAGE][PASSED] - Object 'testid:data-table' is present
+
+26-04-2026T00:50:15 - [MESSAGE][PASSED] - Object 'testid:data-table' is present
+
+26-04-2026T00:50:15 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelectorAll('[data-testid="data-table-row"]').length' successfully
+
+26-04-2026T00:50:16 - [MESSAGE][PASSED] - Text 'No data available' is present on page 
+
+26-04-2026T00:50:16 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+
+26-04-2026T00:50:16 - [TEST_STEP][PASSED] - Finally: pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:50:16 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.closeBrowser(): pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:50:16 - [MESSAGE][PASSED] - Browser is closed
+
+26-04-2026T00:50:16 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StaffTables/TC-029-Drug-search-no-results" time="28.831" classname="Test Cases/StaffTables/TC-029-Drug-search-no-results" status="PASSED">
+         <system-out><![CDATA[26-04-2026T00:50:16 - [TEST_CASE][PASSED] - Test Cases/StaffTables/TC-029-Drug-search-no-results: Test Cases/StaffTables/TC-029-Drug-search-no-results
+
+26-04-2026T00:50:16 - [TEST_STEP][PASSED] - try: pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+
+26-04-2026T00:50:16 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff(): pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:50:16 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+26-04-2026T00:50:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-04-2026T00:50:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-04-2026T00:50:17 - [MESSAGE][PASSED] - Current window maximized
+
+26-04-2026T00:50:18 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/login' successfully
+
+26-04-2026T00:50:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+26-04-2026T00:50:18 - [MESSAGE][PASSED] - Object 'testid:login-email-input' is visible
+
+26-04-2026T00:50:19 - [MESSAGE][PASSED] - Text 'pharmacist1@hospital.com' is set on object 'testid:login-email-input'
+
+26-04-2026T00:50:19 - [MESSAGE][PASSED] - Object 'testid:login-password-input' is visible
+
+26-04-2026T00:50:20 - [MESSAGE][PASSED] - Text 'password123' is set on object 'testid:login-password-input'
+
+26-04-2026T00:50:20 - [MESSAGE][PASSED] - Object 'testid:login-submit-button' is clickable
+
+26-04-2026T00:50:20 - [MESSAGE][PASSED] - Object: 'testid:login-submit-button' is clicked on
+
+26-04-2026T00:50:20 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/login'
+
+26-04-2026T00:50:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-04-2026T00:50:21 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/dashboard'
+
+26-04-2026T00:50:21 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:50:21 - [TEST_STEP][PASSED] - navigateToUrl(staffBaseUrl + "/drugs"): Navigate to 'http://staff.localhost:3000/drugs' successfully
+
+26-04-2026T00:50:21 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/drugs' successfully
+
+26-04-2026T00:50:21 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.verifyTablePresent(): pulseclinic.WebUiKeywords.verifyTablePresent is PASSED
+
+26-04-2026T00:50:22 - [MESSAGE][PASSED] - Object 'testid:data-table' is present
+
+26-04-2026T00:50:22 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.verifyTablePresent is PASSED
+
+26-04-2026T00:50:22 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.searchToolbar("XYZNOTEXIST99999"): pulseclinic.WebUiKeywords.searchToolbar is PASSED
+
+26-04-2026T00:50:22 - [MESSAGE][PASSED] - Object 'testid:toolbar-search-input' is visible
+
+26-04-2026T00:50:23 - [MESSAGE][PASSED] - Text 'XYZNOTEXIST99999' is set on object 'testid:toolbar-search-input'
+
+26-04-2026T00:50:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-04-2026T00:50:24 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.searchToolbar is PASSED
+
+26-04-2026T00:50:24 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.verifyRowsOrEmptyState(): pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+
+26-04-2026T00:50:34 - [MESSAGE][WARNING] - Object 'testid:data-table' is not present after 10 second(s)
+
+26-04-2026T00:50:44 - [MESSAGE][WARNING] - Object 'testid:data-table' is not present after 10 second(s)
+
+26-04-2026T00:50:44 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelectorAll('[data-testid="data-table-row"]').length' successfully
+
+26-04-2026T00:50:45 - [MESSAGE][WARNING] - Text 'No data available' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'No data available' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1808)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$3.call(Unknown Source)
+	at pulseclinic.WebUiKeywords.verifyRowsOrEmptyState(WebUiKeywords.groovy:131)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script20260426000000.run(Script20260426000000.groovy:12)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+26-04-2026T00:50:45 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+
+26-04-2026T00:50:45 - [TEST_STEP][PASSED] - Finally: pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:50:45 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.closeBrowser(): pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:50:45 - [MESSAGE][PASSED] - Browser is closed
+
+26-04-2026T00:50:45 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StaffTables/TC-030-Invoice-search-no-results" time="9.74" classname="Test Cases/StaffTables/TC-030-Invoice-search-no-results" status="PASSED">
+         <system-out><![CDATA[26-04-2026T00:50:45 - [TEST_CASE][PASSED] - Test Cases/StaffTables/TC-030-Invoice-search-no-results: Test Cases/StaffTables/TC-030-Invoice-search-no-results
+
+26-04-2026T00:50:45 - [TEST_STEP][PASSED] - try: pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+
+26-04-2026T00:50:45 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff(): pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:50:45 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+26-04-2026T00:50:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-04-2026T00:50:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-04-2026T00:50:46 - [MESSAGE][PASSED] - Current window maximized
+
+26-04-2026T00:50:47 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/login' successfully
+
+26-04-2026T00:50:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+26-04-2026T00:50:47 - [MESSAGE][PASSED] - Object 'testid:login-email-input' is visible
+
+26-04-2026T00:50:48 - [MESSAGE][PASSED] - Text 'pharmacist1@hospital.com' is set on object 'testid:login-email-input'
+
+26-04-2026T00:50:48 - [MESSAGE][PASSED] - Object 'testid:login-password-input' is visible
+
+26-04-2026T00:50:49 - [MESSAGE][PASSED] - Text 'password123' is set on object 'testid:login-password-input'
+
+26-04-2026T00:50:49 - [MESSAGE][PASSED] - Object 'testid:login-submit-button' is clickable
+
+26-04-2026T00:50:50 - [MESSAGE][PASSED] - Object: 'testid:login-submit-button' is clicked on
+
+26-04-2026T00:50:50 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/login'
+
+26-04-2026T00:50:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-04-2026T00:50:51 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/dashboard'
+
+26-04-2026T00:50:51 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:50:51 - [TEST_STEP][PASSED] - navigateToUrl(staffBaseUrl + "/invoices"): Navigate to 'http://staff.localhost:3000/invoices' successfully
+
+26-04-2026T00:50:51 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/invoices' successfully
+
+26-04-2026T00:50:51 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.verifyTablePresent(): pulseclinic.WebUiKeywords.verifyTablePresent is PASSED
+
+26-04-2026T00:50:51 - [MESSAGE][PASSED] - Object 'testid:data-table' is present
+
+26-04-2026T00:50:51 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.verifyTablePresent is PASSED
+
+26-04-2026T00:50:51 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.searchToolbar("XYZNOTEXIST99999"): pulseclinic.WebUiKeywords.searchToolbar is PASSED
+
+26-04-2026T00:50:52 - [MESSAGE][PASSED] - Object 'testid:toolbar-search-input' is visible
+
+26-04-2026T00:50:53 - [MESSAGE][PASSED] - Text 'XYZNOTEXIST99999' is set on object 'testid:toolbar-search-input'
+
+26-04-2026T00:50:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-04-2026T00:50:54 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.searchToolbar is PASSED
+
+26-04-2026T00:50:54 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.verifyRowsOrEmptyState(): pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+
+26-04-2026T00:50:54 - [MESSAGE][PASSED] - Object 'testid:data-table' is present
+
+26-04-2026T00:50:54 - [MESSAGE][PASSED] - Object 'testid:data-table' is present
+
+26-04-2026T00:50:54 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelectorAll('[data-testid="data-table-row"]').length' successfully
+
+26-04-2026T00:50:54 - [MESSAGE][PASSED] - Text 'No data available' is present on page 
+
+26-04-2026T00:50:54 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+
+26-04-2026T00:50:54 - [TEST_STEP][PASSED] - Finally: pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:50:54 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.closeBrowser(): pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:50:55 - [MESSAGE][PASSED] - Browser is closed
+
+26-04-2026T00:50:55 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StaffTables/TC-031-Patient-filter-female" time="9.059" classname="Test Cases/StaffTables/TC-031-Patient-filter-female" status="PASSED">
+         <system-out><![CDATA[26-04-2026T00:50:55 - [TEST_CASE][PASSED] - Test Cases/StaffTables/TC-031-Patient-filter-female: Test Cases/StaffTables/TC-031-Patient-filter-female
+
+26-04-2026T00:50:55 - [TEST_STEP][PASSED] - try: pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+
+26-04-2026T00:50:55 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff(): pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:50:55 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+26-04-2026T00:50:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-04-2026T00:50:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-04-2026T00:50:56 - [MESSAGE][PASSED] - Current window maximized
+
+26-04-2026T00:50:56 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/login' successfully
+
+26-04-2026T00:50:56 - [MESSAGE][PASSED] - Wait for page load successfully
+
+26-04-2026T00:50:57 - [MESSAGE][PASSED] - Object 'testid:login-email-input' is visible
+
+26-04-2026T00:50:57 - [MESSAGE][PASSED] - Text 'pharmacist1@hospital.com' is set on object 'testid:login-email-input'
+
+26-04-2026T00:50:58 - [MESSAGE][PASSED] - Object 'testid:login-password-input' is visible
+
+26-04-2026T00:50:58 - [MESSAGE][PASSED] - Text 'password123' is set on object 'testid:login-password-input'
+
+26-04-2026T00:50:59 - [MESSAGE][PASSED] - Object 'testid:login-submit-button' is clickable
+
+26-04-2026T00:50:59 - [MESSAGE][PASSED] - Object: 'testid:login-submit-button' is clicked on
+
+26-04-2026T00:50:59 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/login'
+
+26-04-2026T00:51:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-04-2026T00:51:00 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/dashboard'
+
+26-04-2026T00:51:00 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:51:00 - [TEST_STEP][PASSED] - navigateToUrl(staffBaseUrl + "/patients"): Navigate to 'http://staff.localhost:3000/patients' successfully
+
+26-04-2026T00:51:00 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/patients' successfully
+
+26-04-2026T00:51:00 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.openToolbarFilter(): pulseclinic.WebUiKeywords.openToolbarFilter is PASSED
+
+26-04-2026T00:51:01 - [MESSAGE][PASSED] - Object 'testid:toolbar-filter-button' is clickable
+
+26-04-2026T00:51:01 - [MESSAGE][PASSED] - Object: 'testid:toolbar-filter-button' is clicked on
+
+26-04-2026T00:51:01 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.openToolbarFilter is PASSED
+
+26-04-2026T00:51:01 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.selectByValueTestId("patient-filter-gender", "Female"): pulseclinic.WebUiKeywords.selectByValueTestId is PASSED
+
+26-04-2026T00:51:02 - [MESSAGE][PASSED] - Object 'testid:patient-filter-gender' is visible
+
+26-04-2026T00:51:02 - [MESSAGE][PASSED] - All options with value 'Female' are selected in object 'testid:patient-filter-gender' 
+
+26-04-2026T00:51:02 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.selectByValueTestId is PASSED
+
+26-04-2026T00:51:02 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.clickByTestId("patient-filter-apply"): pulseclinic.WebUiKeywords.clickByTestId is PASSED
+
+26-04-2026T00:51:03 - [MESSAGE][PASSED] - Object 'testid:patient-filter-apply' is clickable
+
+26-04-2026T00:51:03 - [MESSAGE][PASSED] - Object: 'testid:patient-filter-apply' is clicked on
+
+26-04-2026T00:51:03 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.clickByTestId is PASSED
+
+26-04-2026T00:51:03 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.verifyRowsOrEmptyState(): pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+
+26-04-2026T00:51:03 - [MESSAGE][PASSED] - Object 'testid:data-table' is present
+
+26-04-2026T00:51:03 - [MESSAGE][PASSED] - Object 'testid:data-table' is present
+
+26-04-2026T00:51:03 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelectorAll('[data-testid="data-table-row"]').length' successfully
+
+26-04-2026T00:51:03 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+
+26-04-2026T00:51:03 - [TEST_STEP][PASSED] - Finally: pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:51:03 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.closeBrowser(): pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:51:04 - [MESSAGE][PASSED] - Browser is closed
+
+26-04-2026T00:51:04 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StaffTables/TC-032-Patient-search-with-filter" time="11.175" classname="Test Cases/StaffTables/TC-032-Patient-search-with-filter" status="PASSED">
+         <system-out><![CDATA[26-04-2026T00:51:04 - [TEST_CASE][PASSED] - Test Cases/StaffTables/TC-032-Patient-search-with-filter: Test Cases/StaffTables/TC-032-Patient-search-with-filter
+
+26-04-2026T00:51:04 - [TEST_STEP][PASSED] - try: pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+
+26-04-2026T00:51:04 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff(): pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:51:04 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+26-04-2026T00:51:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-04-2026T00:51:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-04-2026T00:51:05 - [MESSAGE][PASSED] - Current window maximized
+
+26-04-2026T00:51:05 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/login' successfully
+
+26-04-2026T00:51:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+26-04-2026T00:51:06 - [MESSAGE][PASSED] - Object 'testid:login-email-input' is visible
+
+26-04-2026T00:51:06 - [MESSAGE][PASSED] - Text 'pharmacist1@hospital.com' is set on object 'testid:login-email-input'
+
+26-04-2026T00:51:07 - [MESSAGE][PASSED] - Object 'testid:login-password-input' is visible
+
+26-04-2026T00:51:07 - [MESSAGE][PASSED] - Text 'password123' is set on object 'testid:login-password-input'
+
+26-04-2026T00:51:08 - [MESSAGE][PASSED] - Object 'testid:login-submit-button' is clickable
+
+26-04-2026T00:51:08 - [MESSAGE][PASSED] - Object: 'testid:login-submit-button' is clicked on
+
+26-04-2026T00:51:08 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/login'
+
+26-04-2026T00:51:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-04-2026T00:51:09 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/dashboard'
+
+26-04-2026T00:51:09 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:51:09 - [TEST_STEP][PASSED] - navigateToUrl(staffBaseUrl + "/patients"): Navigate to 'http://staff.localhost:3000/patients' successfully
+
+26-04-2026T00:51:09 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/patients' successfully
+
+26-04-2026T00:51:09 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.openToolbarFilter(): pulseclinic.WebUiKeywords.openToolbarFilter is PASSED
+
+26-04-2026T00:51:10 - [MESSAGE][PASSED] - Object 'testid:toolbar-filter-button' is clickable
+
+26-04-2026T00:51:10 - [MESSAGE][PASSED] - Object: 'testid:toolbar-filter-button' is clicked on
+
+26-04-2026T00:51:10 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.openToolbarFilter is PASSED
+
+26-04-2026T00:51:10 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.selectByValueTestId("patient-filter-gender", "Male"): pulseclinic.WebUiKeywords.selectByValueTestId is PASSED
+
+26-04-2026T00:51:11 - [MESSAGE][PASSED] - Object 'testid:patient-filter-gender' is visible
+
+26-04-2026T00:51:11 - [MESSAGE][PASSED] - All options with value 'Male' are selected in object 'testid:patient-filter-gender' 
+
+26-04-2026T00:51:11 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.selectByValueTestId is PASSED
+
+26-04-2026T00:51:11 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.clickByTestId("patient-filter-apply"): pulseclinic.WebUiKeywords.clickByTestId is PASSED
+
+26-04-2026T00:51:12 - [MESSAGE][PASSED] - Object 'testid:patient-filter-apply' is clickable
+
+26-04-2026T00:51:12 - [MESSAGE][PASSED] - Object: 'testid:patient-filter-apply' is clicked on
+
+26-04-2026T00:51:12 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.clickByTestId is PASSED
+
+26-04-2026T00:51:12 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.searchToolbar(patientSearchTerm): pulseclinic.WebUiKeywords.searchToolbar is PASSED
+
+26-04-2026T00:51:12 - [MESSAGE][PASSED] - Object 'testid:toolbar-search-input' is visible
+
+26-04-2026T00:51:13 - [MESSAGE][PASSED] - Text 'John Patient' is set on object 'testid:toolbar-search-input'
+
+26-04-2026T00:51:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-04-2026T00:51:14 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.searchToolbar is PASSED
+
+26-04-2026T00:51:14 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.verifyRowsOrEmptyState(): pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+
+26-04-2026T00:51:14 - [MESSAGE][PASSED] - Object 'testid:data-table' is present
+
+26-04-2026T00:51:15 - [MESSAGE][PASSED] - Object 'testid:data-table' is present
+
+26-04-2026T00:51:15 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelectorAll('[data-testid="data-table-row"]').length' successfully
+
+26-04-2026T00:51:15 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+
+26-04-2026T00:51:15 - [TEST_STEP][PASSED] - Finally: pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:51:15 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.closeBrowser(): pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:51:15 - [MESSAGE][PASSED] - Browser is closed
+
+26-04-2026T00:51:15 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StaffTables/TC-033-Drug-filter-capsule" time="9.556" classname="Test Cases/StaffTables/TC-033-Drug-filter-capsule" status="PASSED">
+         <system-out><![CDATA[26-04-2026T00:51:15 - [TEST_CASE][PASSED] - Test Cases/StaffTables/TC-033-Drug-filter-capsule: Test Cases/StaffTables/TC-033-Drug-filter-capsule
+
+26-04-2026T00:51:15 - [TEST_STEP][PASSED] - try: pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+
+26-04-2026T00:51:15 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff(): pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:51:15 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+26-04-2026T00:51:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-04-2026T00:51:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-04-2026T00:51:16 - [MESSAGE][PASSED] - Current window maximized
+
+26-04-2026T00:51:17 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/login' successfully
+
+26-04-2026T00:51:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+26-04-2026T00:51:17 - [MESSAGE][PASSED] - Object 'testid:login-email-input' is visible
+
+26-04-2026T00:51:18 - [MESSAGE][PASSED] - Text 'pharmacist1@hospital.com' is set on object 'testid:login-email-input'
+
+26-04-2026T00:51:18 - [MESSAGE][PASSED] - Object 'testid:login-password-input' is visible
+
+26-04-2026T00:51:19 - [MESSAGE][PASSED] - Text 'password123' is set on object 'testid:login-password-input'
+
+26-04-2026T00:51:19 - [MESSAGE][PASSED] - Object 'testid:login-submit-button' is clickable
+
+26-04-2026T00:51:19 - [MESSAGE][PASSED] - Object: 'testid:login-submit-button' is clicked on
+
+26-04-2026T00:51:19 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/login'
+
+26-04-2026T00:51:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-04-2026T00:51:21 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/dashboard'
+
+26-04-2026T00:51:21 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:51:21 - [TEST_STEP][PASSED] - navigateToUrl(staffBaseUrl + "/drugs"): Navigate to 'http://staff.localhost:3000/drugs' successfully
+
+26-04-2026T00:51:21 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/drugs' successfully
+
+26-04-2026T00:51:21 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.openToolbarFilter(): pulseclinic.WebUiKeywords.openToolbarFilter is PASSED
+
+26-04-2026T00:51:21 - [MESSAGE][PASSED] - Object 'testid:toolbar-filter-button' is clickable
+
+26-04-2026T00:51:22 - [MESSAGE][PASSED] - Object: 'testid:toolbar-filter-button' is clicked on
+
+26-04-2026T00:51:22 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.openToolbarFilter is PASSED
+
+26-04-2026T00:51:22 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.selectByValueTestId("drug-filter-dosage-form", "CAPSULE"): pulseclinic.WebUiKeywords.selectByValueTestId is PASSED
+
+26-04-2026T00:51:22 - [MESSAGE][PASSED] - Object 'testid:drug-filter-dosage-form' is visible
+
+26-04-2026T00:51:23 - [MESSAGE][PASSED] - All options with value 'CAPSULE' are selected in object 'testid:drug-filter-dosage-form' 
+
+26-04-2026T00:51:23 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.selectByValueTestId is PASSED
+
+26-04-2026T00:51:23 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.clickByTestId("drug-filter-apply"): pulseclinic.WebUiKeywords.clickByTestId is PASSED
+
+26-04-2026T00:51:23 - [MESSAGE][PASSED] - Object 'testid:drug-filter-apply' is clickable
+
+26-04-2026T00:51:24 - [MESSAGE][PASSED] - Object: 'testid:drug-filter-apply' is clicked on
+
+26-04-2026T00:51:24 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.clickByTestId is PASSED
+
+26-04-2026T00:51:24 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.verifyRowsOrEmptyState(): pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+
+26-04-2026T00:51:24 - [MESSAGE][PASSED] - Object 'testid:data-table' is present
+
+26-04-2026T00:51:24 - [MESSAGE][PASSED] - Object 'testid:data-table' is present
+
+26-04-2026T00:51:24 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelectorAll('[data-testid="data-table-row"]').length' successfully
+
+26-04-2026T00:51:24 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+
+26-04-2026T00:51:24 - [TEST_STEP][PASSED] - Finally: pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:51:24 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.closeBrowser(): pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:51:24 - [MESSAGE][PASSED] - Browser is closed
+
+26-04-2026T00:51:24 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StaffTables/TC-034-Waitlist-filter-urgent" time="17.961" classname="Test Cases/StaffTables/TC-034-Waitlist-filter-urgent" status="FAILED">
+         <failure type="FAILED" message="Test Cases/StaffTables/TC-034-Waitlist-filter-urgent FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'URGENT' of object 'testid:waitlist-filter-priority' &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:44)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1269)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$12.call(Unknown Source)&#xa;	at pulseclinic.WebUiKeywords.selectByValueTestId(WebUiKeywords.groovy:55)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)&#xa;	at Script20260426000000.run(Script20260426000000.groovy:11)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at S0.run(S0.groovy:40)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: URGENT&#xa;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception&#xa;Build info: version: '4.39.0', revision: '126f156aee'&#xa;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'&#xa;Driver info: driver.version: unknown&#xa;	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:304)&#xa;	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:188)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:290)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper$selectOrDeselectOptionsByValue$2.call(Unknown Source)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOrDeselectOptionsByValue(SelectOptionByValueKeyword.groovy:84)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.access$0(SelectOptionByValueKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:68)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy56.execute(Unknown Source)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[26-04-2026T00:51:24 - [TEST_CASE][FAILED] - Test Cases/StaffTables/TC-034-Waitlist-filter-urgent: Test Cases/StaffTables/TC-034-Waitlist-filter-urgent FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'URGENT' of object 'testid:waitlist-filter-priority' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1269)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$12.call(Unknown Source)
+	at pulseclinic.WebUiKeywords.selectByValueTestId(WebUiKeywords.groovy:55)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script20260426000000.run(Script20260426000000.groovy:11)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: URGENT
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:304)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:188)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:290)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper$selectOrDeselectOptionsByValue$2.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOrDeselectOptionsByValue(SelectOptionByValueKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.access$0(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:68)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy56.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 23 more
+
+
+26-04-2026T00:51:24 - [TEST_STEP][FAILED] - try: Unable to select option by value 'URGENT' of object 'testid:waitlist-filter-priority' 
+org.openqa.selenium.NoSuchElementException: Cannot locate option with value: URGENT
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: driver.version: unknown
+
+26-04-2026T00:51:24 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff(): pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:51:24 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+26-04-2026T00:51:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-04-2026T00:51:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-04-2026T00:51:26 - [MESSAGE][PASSED] - Current window maximized
+
+26-04-2026T00:51:26 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/login' successfully
+
+26-04-2026T00:51:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+26-04-2026T00:51:27 - [MESSAGE][PASSED] - Object 'testid:login-email-input' is visible
+
+26-04-2026T00:51:27 - [MESSAGE][PASSED] - Text 'pharmacist1@hospital.com' is set on object 'testid:login-email-input'
+
+26-04-2026T00:51:28 - [MESSAGE][PASSED] - Object 'testid:login-password-input' is visible
+
+26-04-2026T00:51:28 - [MESSAGE][PASSED] - Text 'password123' is set on object 'testid:login-password-input'
+
+26-04-2026T00:51:29 - [MESSAGE][PASSED] - Object 'testid:login-submit-button' is clickable
+
+26-04-2026T00:51:29 - [MESSAGE][PASSED] - Object: 'testid:login-submit-button' is clicked on
+
+26-04-2026T00:51:29 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/login'
+
+26-04-2026T00:51:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-04-2026T00:51:30 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/dashboard'
+
+26-04-2026T00:51:30 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:51:30 - [TEST_STEP][PASSED] - navigateToUrl(staffBaseUrl + "/wait-list"): Navigate to 'http://staff.localhost:3000/wait-list' successfully
+
+26-04-2026T00:51:30 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/wait-list' successfully
+
+26-04-2026T00:51:30 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.openToolbarFilter(): pulseclinic.WebUiKeywords.openToolbarFilter is PASSED
+
+26-04-2026T00:51:31 - [MESSAGE][PASSED] - Object 'testid:toolbar-filter-button' is clickable
+
+26-04-2026T00:51:31 - [MESSAGE][PASSED] - Object: 'testid:toolbar-filter-button' is clicked on
+
+26-04-2026T00:51:31 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.openToolbarFilter is PASSED
+
+26-04-2026T00:51:31 - [TEST_STEP][FAILED] - pulseclinic.WebUiKeywords.selectByValueTestId("waitlist-filter-priority", "URGENT"): Unable to select option by value 'URGENT' of object 'testid:waitlist-filter-priority' 
+org.openqa.selenium.NoSuchElementException: Cannot locate option with value: URGENT
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: driver.version: unknown
+
+26-04-2026T00:51:32 - [MESSAGE][PASSED] - Object 'testid:waitlist-filter-priority' is visible
+
+26-04-2026T00:51:42 - [MESSAGE][WARNING] - Waiting for element timed out
+
+26-04-2026T00:51:42 - [MESSAGE][FAILED] - Unable to select option by value 'URGENT' of object 'testid:waitlist-filter-priority'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'URGENT' of object 'testid:waitlist-filter-priority' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1269)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$12.call(Unknown Source)
+	at pulseclinic.WebUiKeywords.selectByValueTestId(WebUiKeywords.groovy:55)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script20260426000000.run(Script20260426000000.groovy:11)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: URGENT
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:304)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:188)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:290)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper$selectOrDeselectOptionsByValue$2.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOrDeselectOptionsByValue(SelectOptionByValueKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.access$0(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:68)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy56.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 23 more
+)
+[[ATTACHMENT|D:\\UNI_DOCS\\HK6\\KCPM\\QuanLyBenhVien_KiemThu\\pulse-katalon\\Reports\\20260426_004652\\Baseline\\20260426_004652\\1777139502439.png]]
+
+26-04-2026T00:51:42 - [MESSAGE][FAILED] - Unable to select option by value 'URGENT' of object 'testid:waitlist-filter-priority' 
+org.openqa.selenium.NoSuchElementException: Cannot locate option with value: URGENT
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: driver.version: unknown
+
+26-04-2026T00:51:42 - [TEST_STEP][PASSED] - Finally: pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:51:42 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.closeBrowser(): pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:51:42 - [MESSAGE][PASSED] - Browser is closed
+
+26-04-2026T00:51:42 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[26-04-2026T00:51:24 - [TEST_CASE][FAILED] - Test Cases/StaffTables/TC-034-Waitlist-filter-urgent: Test Cases/StaffTables/TC-034-Waitlist-filter-urgent FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'URGENT' of object 'testid:waitlist-filter-priority' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1269)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$12.call(Unknown Source)
+	at pulseclinic.WebUiKeywords.selectByValueTestId(WebUiKeywords.groovy:55)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script20260426000000.run(Script20260426000000.groovy:11)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: URGENT
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:304)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:188)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:290)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper$selectOrDeselectOptionsByValue$2.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOrDeselectOptionsByValue(SelectOptionByValueKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.access$0(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:68)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy56.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StaffTables/TC-035-Room-filter-unavailable" time="28.939" classname="Test Cases/StaffTables/TC-035-Room-filter-unavailable" status="PASSED">
+         <system-out><![CDATA[26-04-2026T00:51:42 - [TEST_CASE][PASSED] - Test Cases/StaffTables/TC-035-Room-filter-unavailable: Test Cases/StaffTables/TC-035-Room-filter-unavailable
+
+26-04-2026T00:51:42 - [TEST_STEP][PASSED] - try: pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+
+26-04-2026T00:51:42 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff(): pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:51:42 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+26-04-2026T00:51:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-04-2026T00:51:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-04-2026T00:51:43 - [MESSAGE][PASSED] - Current window maximized
+
+26-04-2026T00:51:44 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/login' successfully
+
+26-04-2026T00:51:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+26-04-2026T00:51:44 - [MESSAGE][PASSED] - Object 'testid:login-email-input' is visible
+
+26-04-2026T00:51:45 - [MESSAGE][PASSED] - Text 'pharmacist1@hospital.com' is set on object 'testid:login-email-input'
+
+26-04-2026T00:51:45 - [MESSAGE][PASSED] - Object 'testid:login-password-input' is visible
+
+26-04-2026T00:51:46 - [MESSAGE][PASSED] - Text 'password123' is set on object 'testid:login-password-input'
+
+26-04-2026T00:51:46 - [MESSAGE][PASSED] - Object 'testid:login-submit-button' is clickable
+
+26-04-2026T00:51:47 - [MESSAGE][PASSED] - Object: 'testid:login-submit-button' is clicked on
+
+26-04-2026T00:51:47 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/login'
+
+26-04-2026T00:51:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-04-2026T00:51:48 - [MESSAGE][PASSED] - Current window's url is: 'http://staff.localhost:3000/dashboard'
+
+26-04-2026T00:51:48 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.loginAsStaff is PASSED
+
+26-04-2026T00:51:48 - [TEST_STEP][PASSED] - navigateToUrl(staffBaseUrl + "/rooms"): Navigate to 'http://staff.localhost:3000/rooms' successfully
+
+26-04-2026T00:51:48 - [MESSAGE][PASSED] - Navigate to 'http://staff.localhost:3000/rooms' successfully
+
+26-04-2026T00:51:48 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.openToolbarFilter(): pulseclinic.WebUiKeywords.openToolbarFilter is PASSED
+
+26-04-2026T00:51:49 - [MESSAGE][PASSED] - Object 'testid:toolbar-filter-button' is clickable
+
+26-04-2026T00:51:49 - [MESSAGE][PASSED] - Object: 'testid:toolbar-filter-button' is clicked on
+
+26-04-2026T00:51:49 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.openToolbarFilter is PASSED
+
+26-04-2026T00:51:49 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.selectByValueTestId("room-filter-status", "occupied"): pulseclinic.WebUiKeywords.selectByValueTestId is PASSED
+
+26-04-2026T00:51:49 - [MESSAGE][PASSED] - Object 'testid:room-filter-status' is visible
+
+26-04-2026T00:51:50 - [MESSAGE][PASSED] - All options with value 'occupied' are selected in object 'testid:room-filter-status' 
+
+26-04-2026T00:51:50 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.selectByValueTestId is PASSED
+
+26-04-2026T00:51:50 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.clickByTestId("room-filter-apply"): pulseclinic.WebUiKeywords.clickByTestId is PASSED
+
+26-04-2026T00:51:50 - [MESSAGE][PASSED] - Object 'testid:room-filter-apply' is clickable
+
+26-04-2026T00:51:51 - [MESSAGE][PASSED] - Object: 'testid:room-filter-apply' is clicked on
+
+26-04-2026T00:51:51 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.clickByTestId is PASSED
+
+26-04-2026T00:51:51 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.verifyRowsOrEmptyState(): pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+
+26-04-2026T00:52:01 - [MESSAGE][WARNING] - Object 'testid:data-table' is not present after 10 second(s)
+
+26-04-2026T00:52:11 - [MESSAGE][WARNING] - Object 'testid:data-table' is not present after 10 second(s)
+
+26-04-2026T00:52:11 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelectorAll('[data-testid="data-table-row"]').length' successfully
+
+26-04-2026T00:52:11 - [MESSAGE][WARNING] - Text 'No data available' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'No data available' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1808)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$3.call(Unknown Source)
+	at pulseclinic.WebUiKeywords.verifyRowsOrEmptyState(WebUiKeywords.groovy:131)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script20260426000000.run(Script20260426000000.groovy:13)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+26-04-2026T00:52:11 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.verifyRowsOrEmptyState is PASSED
+
+26-04-2026T00:52:11 - [TEST_STEP][PASSED] - Finally: pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:52:11 - [TEST_STEP][PASSED] - pulseclinic.WebUiKeywords.closeBrowser(): pulseclinic.WebUiKeywords.closeBrowser is PASSED
+
+26-04-2026T00:52:11 - [MESSAGE][PASSED] - Browser is closed
+
+26-04-2026T00:52:11 - [MESSAGE][PASSED] - pulseclinic.WebUiKeywords.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-04-2026T00:46:58 - [TEST_SUITE][FAILED] - Baseline: null]]></system-out>
+      <system-err><![CDATA[26-04-2026T00:46:58 - [TEST_SUITE][FAILED] - Baseline: null]]></system-err>
+   </testsuite>
+</testsuites>
