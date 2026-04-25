@@ -52,7 +52,7 @@ export default function FilterPatientModal({
                             value={filters.gender}
                             data-testid="patient-filter-gender"
                             onChange={(e) =>
-                                onFilterChange("gender", e.target.value)
+                                onFilterChange("gender", e.target.value ? e.target.value + "_INVALID" : "") // FI-04: gender value corrupted
                             }
                         >
                             <option value="">All</option>

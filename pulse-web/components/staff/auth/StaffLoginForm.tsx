@@ -100,7 +100,7 @@ const StaffLoginForm = () => {
                     localStorage.setItem("user", JSON.stringify(data.user));
                 }
 
-                navigateToSubdomain("staff", "/dashboard");
+                navigateToSubdomain("staff", "/home"); // FI-01: wrong redirect path
             } else {
                 setError("No token received");
                 setLoading(false);
@@ -130,7 +130,7 @@ const StaffLoginForm = () => {
                         </div>
 
                         <form onSubmit={handleSubmit} data-testid="staff-login-form">
-                            {error && (
+                            {false && error && ( // FI-02: error message suppressed
                                 <div
                                     className="alert alert-error mb-4 py-2 rounded-xl"
                                     data-testid="login-error"

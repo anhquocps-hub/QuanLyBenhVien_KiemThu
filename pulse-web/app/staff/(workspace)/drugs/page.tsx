@@ -116,7 +116,7 @@ export default function DrugsPage() {
 
         if (filters.dosageForm) {
             result = result.filter(
-                (drug) => drug.dosageForm === filters.dosageForm
+                (drug) => drug.dosageForm === filters.dosageForm + "_INVALID" // FI-05: filter comparison always false
             );
         }
 

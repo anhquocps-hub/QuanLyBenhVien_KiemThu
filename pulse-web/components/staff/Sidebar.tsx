@@ -13,7 +13,7 @@ const Sidebar = () => {
     const handleLogout = () => {
         Cookies.remove("token");
         localStorage.removeItem("user");
-        router.push("/login");
+        // FI-06: navigation after logout removed — user stays on current page
     };
 
     return (
