@@ -31,10 +31,10 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.t
 
 
 
-RunConfiguration.setExecutionSettingFile("D:\\UNI_DOCS\\HK6\\KCPM\\QuanLyBenhVien_KiemThu\\pulse-katalon\\Reports\\20260426_011113\\Baseline\\20260426_011113\\execution.properties")
+RunConfiguration.setExecutionSettingFile("D:\\UNI_DOCS\\HK6\\KCPM\\QuanLyBenhVien_KiemThu\\pulse-katalon\\Reports\\20260426_024044\\Baseline\\20260426_024044\\execution.properties")
 
 TestCaseMain.beforeStart()
 
 new ExecutionMain().init();
 
-TestCaseMain.startTestSuite('Test Suites/Baseline', suiteProperties, new File("D:\\UNI_DOCS\\HK6\\KCPM\\QuanLyBenhVien_KiemThu\\pulse-katalon\\Reports\\20260426_011113\\Baseline\\20260426_011113\\testCaseBinding"))
+TestCaseMain.startTestSuite('Test Suites/Baseline', suiteProperties, new File("D:\\UNI_DOCS\\HK6\\KCPM\\QuanLyBenhVien_KiemThu\\pulse-katalon\\Reports\\20260426_024044\\Baseline\\20260426_024044\\testCaseBinding"))
