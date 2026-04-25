@@ -85,9 +85,23 @@ class WebUiKeywords {
         verifyUrlContains(expectedUrlPart)
     }
 
+    // Logs in as staff and verifies redirect away from /login (does NOT check specific destination URL).
+    // Tests that specifically verify the destination URL (e.g. TC-005) must call loginWithCredentials directly.
     @Keyword
     static void loginAsStaff() {
-        loginWithCredentials("${GlobalVariable.staffBaseUrl}/login", GlobalVariable.staffEmail, GlobalVariable.staffPassword, '/dashboard')
+        openAt("${GlobalVariable.staffBaseUrl}/login")
+        setTextByTestId('login-email-input', GlobalVariable.staffEmail)
+        setTextByTestId('login-password-input', GlobalVariable.staffPassword)
+        clickByTestId('login-submit-button')
+        long start = System.currentTimeMillis()
+        long maxMs = timeout() * 1000L
+        while ((System.currentTimeMillis() - start) < maxMs) {
+            try {
+                if (!WebUI.getUrl().contains('/login')) return
+            } catch (Exception ignore) {}
+            WebUI.delay(1)
+        }
+        KeywordUtil.markFailedAndStop("Staff login did not redirect away from /login within ${timeout()}s")
     }
 
     @Keyword
