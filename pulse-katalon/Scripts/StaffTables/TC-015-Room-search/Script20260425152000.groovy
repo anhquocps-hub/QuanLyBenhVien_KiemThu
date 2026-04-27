@@ -5,9 +5,9 @@ import com.kms.katalon.core.util.KeywordUtil
 try {
     CustomKeywords.'pulseclinic.WebUiKeywords.loginAsStaff'()
     WebUI.navigateToUrl(GlobalVariable.staffBaseUrl + '/rooms')
-    CustomKeywords.'pulseclinic.WebUiKeywords.searchToolbar'(GlobalVariable.roomSearchTerm)
-    // verifyTextPresent finds text in search input itself, not the table - use verifyMinimumRows instead
-    // Seed data guarantees at least 1 room matching '101' exists
+    // FI-RUN2-03: simulate corrupted search query
+    CustomKeywords.'pulseclinic.WebUiKeywords.searchToolbar'(GlobalVariable.roomSearchTerm + '##XBROKEN')
+    // Client-side filter returns 0 rooms matching corrupted term
     CustomKeywords.'pulseclinic.WebUiKeywords.verifyMinimumRows'(1)
 } finally {
     CustomKeywords.'pulseclinic.WebUiKeywords.closeBrowser'()

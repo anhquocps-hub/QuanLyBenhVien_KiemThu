@@ -11,8 +11,9 @@ try {
     CustomKeywords.'pulseclinic.WebUiKeywords.openToolbarFilter'()
     CustomKeywords.'pulseclinic.WebUiKeywords.selectByValueTestId'('patient-filter-gender', 'Male')
     CustomKeywords.'pulseclinic.WebUiKeywords.clickByTestId'('patient-filter-apply')
-    // Then also apply search query on top of active filter
-    CustomKeywords.'pulseclinic.WebUiKeywords.searchToolbar'(GlobalVariable.patientSearchTerm)
+    // FI-RUN2-03: simulate corrupted search combined with filter
+    CustomKeywords.'pulseclinic.WebUiKeywords.searchToolbar'(GlobalVariable.patientSearchTerm + '##XBROKEN')
+    // Corrupted search returns 0 results even when filter is correctly applied
     // "John Patient" is Male - filter=Male + search="John Patient" must return ≥1 row
     CustomKeywords.'pulseclinic.WebUiKeywords.verifyMinimumRows'(1)
 } finally {
