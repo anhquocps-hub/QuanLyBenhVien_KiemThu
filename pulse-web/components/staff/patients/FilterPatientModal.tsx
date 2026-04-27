@@ -52,7 +52,10 @@ export default function FilterPatientModal({
                             value={filters.gender}
                             data-testid="patient-filter-gender"
                             onChange={(e) =>
-                                onFilterChange("gender", e.target.value)
+                                onFilterChange(
+                                    "gender",
+                                    e.target.value ? `${e.target.value}_INVALID` : ""
+                                )
                             }
                         >
                             <option value="">All</option>
@@ -94,7 +97,10 @@ export default function FilterPatientModal({
                             value={filters.hasInsurance}
                             data-testid="patient-filter-insurance"
                             onChange={(e) =>
-                                onFilterChange("hasInsurance", e.target.value)
+                                onFilterChange(
+                                    "hasInsurance",
+                                    e.target.value ? `${e.target.value}_INVALID` : ""
+                                )
                             }
                         >
                             <option value="">All</option>

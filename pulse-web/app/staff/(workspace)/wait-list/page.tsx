@@ -704,8 +704,11 @@ export default function WaitListPage() {
                                     onChange={(e) =>
                                         setFilters({
                                             ...filters,
-                                            priority: e.target
-                                                .value as typeof filters.priority,
+                                            priority: (
+                                                e.target.value === "ALL"
+                                                    ? "ALL"
+                                                    : `${e.target.value}_INVALID`
+                                            ) as typeof filters.priority,
                                         })
                                     }
                                 >

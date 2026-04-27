@@ -8,8 +8,7 @@ try {
     CustomKeywords.'pulseclinic.WebUiKeywords.loginAsStaff'()
     WebUI.navigateToUrl(GlobalVariable.staffBaseUrl + '/rooms')
     CustomKeywords.'pulseclinic.WebUiKeywords.openToolbarFilter'()
-    // FI-RUN3-08 (NEW Room fault): simulate room status filter option value corrupted
-    CustomKeywords.'pulseclinic.WebUiKeywords.selectByValueTestId'('room-filter-status', 'occupied_INVALID')
+    CustomKeywords.'pulseclinic.WebUiKeywords.selectByValueTestId'('room-filter-status', 'occupied')
     CustomKeywords.'pulseclinic.WebUiKeywords.clickByTestId'('room-filter-apply')
     CustomKeywords.'pulseclinic.WebUiKeywords.verifyRowsOrEmptyState'()
 } finally {

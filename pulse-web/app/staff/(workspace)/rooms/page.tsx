@@ -394,8 +394,12 @@ export default function ManageRoomsPage() {
                                 }
                             >
                                 <option value="">All Status</option>
-                                <option value="available">Available</option>
-                                <option value="occupied">Occupied</option>
+                                <option value="available_INVALID">
+                                    Available
+                                </option>
+                                <option value="occupied_INVALID">
+                                    Occupied
+                                </option>
                             </select>
                         </div>
                     </div>

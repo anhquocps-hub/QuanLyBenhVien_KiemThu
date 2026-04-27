@@ -8,8 +8,7 @@ try {
     CustomKeywords.'pulseclinic.WebUiKeywords.loginAsStaff'()
     WebUI.navigateToUrl(GlobalVariable.staffBaseUrl + '/patients')
     CustomKeywords.'pulseclinic.WebUiKeywords.openToolbarFilter'()
-    // FI-RUN3-04: simulate gender filter option value corrupted by code fault
-    CustomKeywords.'pulseclinic.WebUiKeywords.selectByValueTestId'('patient-filter-gender', 'Female_INVALID')
+    CustomKeywords.'pulseclinic.WebUiKeywords.selectByValueTestId'('patient-filter-gender', 'Female')
     CustomKeywords.'pulseclinic.WebUiKeywords.clickByTestId'('patient-filter-apply')
     // Seed data guarantees at least 1 female patient (Mary Patient)
     CustomKeywords.'pulseclinic.WebUiKeywords.verifyMinimumRows'(1)
