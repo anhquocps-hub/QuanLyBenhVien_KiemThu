@@ -1,0 +1,72 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Baseline,Edge Chromium 147.0.3912.86,Baseline suite for Pulse Clinic web. Expected result before fault injection: 100% PASS.,,27-04-2026 22:44:09,27-04-2026 22:51:12,7m - 2.989s,FAILED
+,,,,,,,
+Test Cases/Authentication/TC-001-Open-HMS-role-selection,Edge Chromium 147.0.3912.86,Open HMS role selection page.,baseline,27-04-2026 22:44:09,27-04-2026 22:44:14,5.126s,PASSED
+,,,,,,,
+Test Cases/Authentication/TC-002-Open-staff-login,Edge Chromium 147.0.3912.86,Open staff login from HMS role selection.,baseline,27-04-2026 22:44:14,27-04-2026 22:44:21,6.026s,PASSED
+,,,,,,,
+Test Cases/Authentication/TC-003-Staff-login-required-fields,Edge Chromium 147.0.3912.86,Verify staff login required field controls.,baseline,27-04-2026 22:44:21,27-04-2026 22:44:24,3.752s,PASSED
+,,,,,,,
+Test Cases/Authentication/TC-004-Staff-login-invalid-credentials,Edge Chromium 147.0.3912.86,Verify invalid staff login shows an error.,baseline,27-04-2026 22:44:24,27-04-2026 22:44:30,5.568s,PASSED
+,,,,,,,
+Test Cases/Authentication/TC-005-Staff-login-success-dashboard,Edge Chromium 147.0.3912.86,Verify staff can log in and reach dashboard.,baseline,27-04-2026 22:44:30,27-04-2026 22:44:36,5.661s,PASSED
+,,,,,,,
+Test Cases/Authentication/TC-006-Doctor-login-success-schedule,Edge Chromium 147.0.3912.86,Verify doctor can log in and reach schedule.,baseline,27-04-2026 22:44:36,27-04-2026 22:44:41,5.679s,PASSED
+,,,,,,,
+Test Cases/Authentication/TC-007-Patient-login-success-dashboard,Edge Chromium 147.0.3912.86,Verify patient can log in and reach dashboard.,baseline,27-04-2026 22:44:41,27-04-2026 22:44:47,5.612s,PASSED
+,,,,,,,
+Test Cases/StaffTables/TC-008-Patient-profile-table,Edge Chromium 147.0.3912.86,Open patient profile table.,baseline,27-04-2026 22:44:47,27-04-2026 22:44:54,6.882s,PASSED
+,,,,,,,
+Test Cases/StaffTables/TC-009-Patient-search,Edge Chromium 147.0.3912.86,Search patient by seeded name.,baseline,27-04-2026 22:44:54,27-04-2026 22:45:01,7.547s,PASSED
+,,,,,,,
+Test Cases/StaffTables/TC-010-Patient-filter-gender,Edge Chromium 147.0.3912.86,Filter patients by gender.,baseline,27-04-2026 22:45:01,27-04-2026 22:45:19,17.842s,FAILED
+,,,,,,,
+Test Cases/StaffTables/TC-011-Patient-filter-insurance,Edge Chromium 147.0.3912.86,Filter patients by insurance.,baseline,27-04-2026 22:45:19,27-04-2026 22:45:38,19.200s,FAILED
+,,,,,,,
+Test Cases/StaffTables/TC-012-Drug-catalog-table,Edge Chromium 147.0.3912.86,Open drug catalog table.,baseline,27-04-2026 22:45:38,27-04-2026 22:46:05,26.435s,PASSED
+,,,,,,,
+Test Cases/StaffTables/TC-013-Drug-search,Edge Chromium 147.0.3912.86,Search drug by seeded name.,baseline,27-04-2026 22:46:05,27-04-2026 22:46:52,47.106s,PASSED
+,,,,,,,
+Test Cases/StaffTables/TC-014-Drug-filter-dosage-unit,Edge Chromium 147.0.3912.86,Filter drugs by dosage form and unit.,baseline,27-04-2026 22:46:52,27-04-2026 22:47:09,17.299s,FAILED
+,,,,,,,
+Test Cases/StaffTables/TC-015-Room-search,Edge Chromium 147.0.3912.86,Search room by seeded room number.,baseline,27-04-2026 22:47:09,27-04-2026 22:47:18,8.482s,PASSED
+,,,,,,,
+Test Cases/StaffTables/TC-016-Room-filter-status,Edge Chromium 147.0.3912.86,Filter rooms by available status.,baseline,27-04-2026 22:47:18,27-04-2026 22:47:35,17.138s,FAILED
+,,,,,,,
+Test Cases/StaffTables/TC-017-Waitlist-priority-order,Edge Chromium 147.0.3912.86,Open waitlist and validate priority order when data exists.,baseline,27-04-2026 22:47:35,27-04-2026 22:47:42,6.768s,PASSED
+,,,,,,,
+Test Cases/StaffTables/TC-018-Waitlist-filter-priority,Edge Chromium 147.0.3912.86,Filter waitlist by priority.,baseline,27-04-2026 22:47:42,27-04-2026 22:47:59,17.235s,FAILED
+,,,,,,,
+Test Cases/StaffTables/TC-019-Appointment-status-tabs,Edge Chromium 147.0.3912.86,Open appointment page and switch status tabs.,baseline,27-04-2026 22:47:59,27-04-2026 22:48:07,7.722s,PASSED
+,,,,,,,
+Test Cases/StaffTables/TC-020-Invoice-patient-search,Edge Chromium 147.0.3912.86,Search patient on invoice page.,baseline,27-04-2026 22:48:07,27-04-2026 22:48:14,7.309s,PASSED
+,,,,,,,
+Test Cases/Authentication/TC-021-Staff-login-empty-email,Edge Chromium 147.0.3912.86,Staff login with empty email field - browser HTML5 required validation should prevent form submission.,baseline,27-04-2026 22:48:14,27-04-2026 22:48:17,3.381s,PASSED
+,,,,,,,
+Test Cases/Authentication/TC-022-Staff-login-invalid-email-format,Edge Chromium 147.0.3912.86,Staff login with invalid email format (no @) - browser HTML5 email validation should prevent form submission.,baseline,27-04-2026 22:48:17,27-04-2026 22:48:22,4.414s,PASSED
+,,,,,,,
+Test Cases/Authentication/TC-023-Doctor-login-wrong-credentials,Edge Chromium 147.0.3912.86,Doctor login with wrong credentials - error message must appear.,baseline,27-04-2026 22:48:22,27-04-2026 22:48:27,5.176s,PASSED
+,,,,,,,
+Test Cases/Authentication/TC-024-Patient-login-wrong-credentials,Edge Chromium 147.0.3912.86,Patient login with wrong credentials - error message must appear.,baseline,27-04-2026 22:48:27,27-04-2026 22:48:32,5.328s,PASSED
+,,,,,,,
+Test Cases/Authentication/TC-025-Staff-logout,Edge Chromium 147.0.3912.86,"Staff logout - after login, clicking logout must redirect to /login and clear session.",baseline,27-04-2026 22:48:32,27-04-2026 22:48:40,7.860s,PASSED
+,,,,,,,
+Test Cases/Authentication/TC-026-Staff-protected-redirect,Edge Chromium 147.0.3912.86,Staff protected pages redirect to /login when user is not authenticated.,baseline,27-04-2026 22:48:40,27-04-2026 22:48:42,2.268s,PASSED
+,,,,,,,
+Test Cases/Authentication/TC-027-Doctor-protected-redirect,Edge Chromium 147.0.3912.86,Doctor protected pages redirect to /login when user is not authenticated.,baseline,27-04-2026 22:48:42,27-04-2026 22:48:45,2.740s,PASSED
+,,,,,,,
+Test Cases/StaffTables/TC-028-Patient-search-no-results,Edge Chromium 147.0.3912.86,Patient search with a term that matches nothing - table must show empty state gracefully.,baseline,27-04-2026 22:48:45,27-04-2026 22:48:55,10.183s,PASSED
+,,,,,,,
+Test Cases/StaffTables/TC-029-Drug-search-no-results,Edge Chromium 147.0.3912.86,Drug catalog search with a term that matches nothing - table must show empty state gracefully.,baseline,27-04-2026 22:48:55,27-04-2026 22:49:34,38.700s,PASSED
+,,,,,,,
+Test Cases/StaffTables/TC-030-Invoice-search-no-results,Edge Chromium 147.0.3912.86,Invoice billing search with a term that matches nothing - table must show empty state gracefully.,baseline,27-04-2026 22:49:34,27-04-2026 22:49:44,9.699s,PASSED
+,,,,,,,
+Test Cases/StaffTables/TC-031-Patient-filter-female,Edge Chromium 147.0.3912.86,Filter patient list by Female gender - complementary to TC-010 Male filter.,baseline,27-04-2026 22:49:44,27-04-2026 22:50:01,17.679s,FAILED
+,,,,,,,
+Test Cases/StaffTables/TC-032-Patient-search-with-filter,Edge Chromium 147.0.3912.86,Patient search combined with active gender filter - both constraints must apply simultaneously.,baseline,27-04-2026 22:50:01,27-04-2026 22:50:18,17.096s,FAILED
+,,,,,,,
+Test Cases/StaffTables/TC-033-Drug-filter-capsule,Edge Chromium 147.0.3912.86,Drug filter by CAPSULE dosage form - complementary to TC-014 TABLET filter.,baseline,27-04-2026 22:50:18,27-04-2026 22:50:36,17.467s,FAILED
+,,,,,,,
+Test Cases/StaffTables/TC-034-Waitlist-filter-urgent,Edge Chromium 147.0.3912.86,"Waitlist filter by EMERGENCY priority - tests highest-severity triage cases, complementary to TC-018 NORMAL filter.",baseline,27-04-2026 22:50:36,27-04-2026 22:50:55,18.825s,FAILED
+,,,,,,,
+Test Cases/StaffTables/TC-035-Room-filter-unavailable,Edge Chromium 147.0.3912.86,"Room filter by unavailable status - tests room occupancy tracking, complementary to TC-016 available filter.",baseline,27-04-2026 22:50:55,27-04-2026 22:51:12,17.442s,FAILED

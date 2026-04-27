@@ -120,6 +120,8 @@ def static "pulseclinic.WebUiKeywords.verifyRowsOrEmptyState"() {
 }
 
 
-def static "pulseclinic.WebUiKeywords.verifyOptionalPriorityOrder"() {
-    (new pulseclinic.WebUiKeywords()).verifyOptionalPriorityOrder()
+def static "pulseclinic.WebUiKeywords.verifyMinimumRows"(
+    	int expected	) {
+    (new pulseclinic.WebUiKeywords()).verifyMinimumRows(
+        	expected)
 }
