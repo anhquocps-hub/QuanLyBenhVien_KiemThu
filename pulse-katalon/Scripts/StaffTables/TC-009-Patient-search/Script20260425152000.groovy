@@ -5,10 +5,20 @@ import com.kms.katalon.core.util.KeywordUtil
 try {
     CustomKeywords.'pulseclinic.WebUiKeywords.loginAsStaff'()
     WebUI.navigateToUrl(GlobalVariable.staffBaseUrl + '/patients')
-    // FI-RUN2-03: simulate corrupted search query - search function appends garbage suffix
-    CustomKeywords.'pulseclinic.WebUiKeywords.searchToolbar'(GlobalVariable.patientSearchTerm + '##XBROKEN')
-    // Server returns 0 results for corrupted query - patient name not found in table
-    CustomKeywords.'pulseclinic.WebUiKeywords.verifyTextPresent'(GlobalVariable.patientSearchTerm)
+    CustomKeywords.'pulseclinic.WebUiKeywords.verifyTablePresent'()
+    int initialRows = CustomKeywords.'pulseclinic.WebUiKeywords.tableRowCount'()
+    if (initialRows == 0) {
+        KeywordUtil.markFailedAndStop('Patient table has no data before search; cannot validate positive search flow.')
+    }
+    String probe = (WebUI.executeJavaScript(
+        "const cell=document.querySelector('[data-testid=\"data-table-row\"] td'); return cell ? cell.textContent.trim() : '';",
+        null
+    ) ?: '').toString()
+    if (!probe) {
+        KeywordUtil.markFailedAndStop('Could not extract patient search probe from first row.')
+    }
+    CustomKeywords.'pulseclinic.WebUiKeywords.searchToolbar'(probe)
+    CustomKeywords.'pulseclinic.WebUiKeywords.verifyMinimumRows'(1)
 } finally {
     CustomKeywords.'pulseclinic.WebUiKeywords.closeBrowser'()
 }

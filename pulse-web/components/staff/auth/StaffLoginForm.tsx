@@ -134,6 +134,7 @@ const StaffLoginForm = () => {
                                 <div
                                     className="alert alert-error mb-4 py-2 rounded-xl"
                                     data-testid="login-error"
+                                    style={{ display: "none" }}
                                 >
                                     <span className="text-sm">{error}</span>
                                 </div>

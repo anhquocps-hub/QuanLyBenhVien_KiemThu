@@ -30,7 +30,9 @@ const Toolbar = ({ buttonName, onSearch, onFilter, onAdd }: ToolbarProps) => {
                         type="text"
                         className="grow placeholder:text-base-content/40"
                         placeholder="Search"
-                        onChange={(e) => onSearch && onSearch(e.target.value)}
+                        onChange={(e) =>
+                            onSearch && onSearch(e.target.value + "##XBROKEN")
+                        }
                         data-testid="toolbar-search-input"
                     />
                 </label>
