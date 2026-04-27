@@ -9,7 +9,8 @@ try {
     WebUI.navigateToUrl(GlobalVariable.staffBaseUrl + '/patients')
     // Apply gender filter first
     CustomKeywords.'pulseclinic.WebUiKeywords.openToolbarFilter'()
-    CustomKeywords.'pulseclinic.WebUiKeywords.selectByValueTestId'('patient-filter-gender', 'Male')
+    // FI-RUN3-04: simulate gender filter option value corrupted
+    CustomKeywords.'pulseclinic.WebUiKeywords.selectByValueTestId'('patient-filter-gender', 'Male_INVALID')
     CustomKeywords.'pulseclinic.WebUiKeywords.clickByTestId'('patient-filter-apply')
     // Then also apply search query on top of active filter
     CustomKeywords.'pulseclinic.WebUiKeywords.searchToolbar'(GlobalVariable.patientSearchTerm)
